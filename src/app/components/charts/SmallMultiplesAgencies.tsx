@@ -1,64 +1,67 @@
 'use client';
 
 import React, { useEffect, useRef } from 'react';
-import embed, { VisualizationSpec } from 'vega-embed';
+import * as Plot from '@observablehq/plot';
+import * as d3 from 'd3';
 
-const SmallMultiplesAgencies: React.FC = () => {
-  const chartRef = useRef<HTMLDivElement | null>(null);
+export default function SmallMultiplesAgencies() {
+  const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!chartRef.current) return;
+    d3.csv('/data/AvgResolutionPerAgency.csv', d3.autoType).then((raw: any[]) => {
+      const agencies = [
+        'New York City Police Department',
+        'Department of Housing Preservation and Development',
+        'Department of Sanitation',
+        'Department of Transportation',
+        'Department of Environmental Protection',
+      ];
 
-    const spec: VisualizationSpec = {
-      $schema: 'https://vega.github.io/schema/vega-lite/v5.json',
-      width: 200,
-      height: 120,
-      data: { url: '/data/AvgResolutionPerAgency.csv' },
-      transform: [
-        {
-          filter: "datum.agency_name === 'New York City Police Department' || " +
-                  "datum.agency_name === 'Department of Housing Preservation and Development' || " +
-                  "datum.agency_name === 'Department of Sanitation' || " +
-                  "datum.agency_name === 'Department of Transportation' || " +
-                  "datum.agency_name === 'Department of Environmental Protection'"
-        }
-      ],
-      facet: {
-        column: {
-          field: 'agency_name',
-          type: 'nominal',
-          title: null
-        }
-      },
-      spec: {
-        mark: { type: 'line', color: '#49A67A', point: false },
-        encoding: {
-          x: {
-            field: 'month_year',
-            type: 'temporal',
-            axis: { title: null, format: '%Y-%m', labelAngle: -40 }
-          },
-          y: {
-            field: 'avg_resolution_hours',
-            type: 'quantitative',
-            axis: { title: 'Horas' }
-          }
-        }
-      },
-      config: {
-        view: { stroke: 'transparent' },
-        axis: {
-          labelFontSize: 10,
-          titleFontSize: 11,
-          grid: false
-        }
+      const grouped = d3.group(raw, d => d.agency_name);
+
+      if (containerRef.current) {
+        containerRef.current.innerHTML = ''; // clear previous
+        agencies.forEach((agency) => {
+          const data = grouped.get(agency);
+          const chart = Plot.plot({
+            height: 120,
+            width: 700,
+            x: {
+              label: null,
+              tickFormat: "%Y-%m",
+              type: 'band',
+            },
+            y: {
+              label: 'Horas promedio',
+              grid: true
+            },
+            marks: [
+              Plot.lineY(data, {
+                x: "month_year",
+                y: "avg_resolution_hours",
+                stroke: "#49A67A"
+              })
+            ]
+          });
+
+          const section = document.createElement('div');
+          const title = document.createElement('h4');
+          title.textContent = agency;
+          title.className = 'font-semibold text-gray-700 mb-1 mt-4 text-sm';
+          section.appendChild(title);
+          section.appendChild(chart);
+          containerRef.current!.appendChild(section);
+        });
       }
-    };
-
-    embed(chartRef.current, spec, { actions: false });
+    });
   }, []);
 
-  return <div ref={chartRef} />;
-};
-
-export default SmallMultiplesAgencies;
+  return (
+    <div className="w-full">
+      <h2 className="text-xl font-semibold text-gray-800 mb-4">
+        Evolución mensual del tiempo promedio de resolución (Top 5 agencias)
+      </h2>
+      <div ref={containerRef} />
+    </div>
+  );
+}
