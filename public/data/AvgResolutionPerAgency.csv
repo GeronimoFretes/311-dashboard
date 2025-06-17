@@ -1,0 +1,1019 @@
+"month_year","agency","agency_name","complaint_count","avg_resolution_hours"
+"2010-01",DEP,Department of Environmental Protection,11265,297.88
+"2010-01",DOT,Department of Transportation,25184,167.46
+"2010-01",DSNY,Department of Sanitation,16989,519.94
+"2010-01",HPD,Department of Housing Preservation and Development,81673,314.14
+"2010-01",HPD,HPD,1,0.11
+"2010-01",NYPD,Investigation Review Section,1,5.76
+"2010-01",NYPD,New York City Police Department,20782,3.15
+"2010-02",DEP,Department of Environmental Protection,8947,346.97
+"2010-02",DOT,Department of Transportation,23808,185.14
+"2010-02",DSNY,Department of Sanitation,20986,264.90
+"2010-02",HPD,Department of Housing Preservation and Development,59772,284.45
+"2010-02",NYPD,Investigation Review Section,1,0.65
+"2010-02",NYPD,New York City Police Department,20001,2.92
+"2010-03",DEP,Department of Environmental Protection,13616,394.69
+"2010-03",DOT,Department of Transportation,41636,209.46
+"2010-03",DSNY,Department of Sanitation,17940,364.57
+"2010-03",HPD,Department of Housing Preservation and Development,64467,322.24
+"2010-03",HPD,HPD,1,0.08
+"2010-03",NYPD,New York City Police Department,21645,3.01
+"2010-04",DEP,Department of Environmental Protection,12420,422.55
+"2010-04",DOT,Department of Transportation,28725,250.01
+"2010-04",DSNY,Department of Sanitation,17459,707.71
+"2010-04",HPD,Department of Housing Preservation and Development,45915,318.38
+"2010-04",NYPD,Investigation Review Section,2,0.87
+"2010-04",NYPD,New York City Police Department,24492,3.09
+"2010-05",DEP,Department of Environmental Protection,13124,367.04
+"2010-05",DOT,Department of Transportation,24292,227.20
+"2010-05",DSNY,Department of Sanitation,17607,535.56
+"2010-05",HPD,Department of Housing Preservation and Development,38417,354.93
+"2010-05",NYPD,Investigation Review Section,2,0.58
+"2010-05",NYPD,New York City Police Department,28593,2.79
+"2010-06",DEP,Department of Environmental Protection,17751,341.49
+"2010-06",DOT,Department of Transportation,22127,191.39
+"2010-06",DSNY,Department of Sanitation,17286,625.21
+"2010-06",HPD,Department of Housing Preservation and Development,37748,355.95
+"2010-06",NYPD,New York City Police Department,24779,2.84
+"2010-07",DEP,Department of Environmental Protection,24648,190.08
+"2010-07",DOT,Department of Transportation,20967,225.70
+"2010-07",DOT,DOT,1,733.57
+"2010-07",DSNY,Department of Sanitation,16623,1257.20
+"2010-07",HPD,Department of Housing Preservation and Development,39847,365.25
+"2010-07",NYPD,New York City Police Department,23599,3.10
+"2010-08",DEP,Department of Environmental Protection,14571,297.46
+"2010-08",DOT,Department of Transportation,21593,234.58
+"2010-08",DSNY,Department of Sanitation,16158,459.47
+"2010-08",HPD,Department of Housing Preservation and Development,41072,352.06
+"2010-08",NYPD,Investigation Review Section,3,0.53
+"2010-08",NYPD,New York City Police Department,26033,2.93
+"2010-09",DEP,Department of Environmental Protection,12895,341.88
+"2010-09",DOT,Department of Transportation,21835,228.80
+"2010-09",DSNY,Department of Sanitation,14678,406.23
+"2010-09",HPD,Department of Housing Preservation and Development,39723,315.27
+"2010-09",NYPD,Investigation Review Section,1,1.45
+"2010-09",NYPD,New York City Police Department,26516,2.87
+"2010-10",DEP,Department of Environmental Protection,12224,315.11
+"2010-10",DOT,Department of Transportation,23464,216.58
+"2010-10",DSNY,Department of Sanitation,13567,421.95
+"2010-10",HPD,Department of Housing Preservation and Development,61494,324.57
+"2010-10",NYPD,Investigation Review Section,6,1.11
+"2010-10",NYPD,New York City Police Department,26584,3.04
+"2010-11",DEP,Department of Environmental Protection,18395,220.44
+"2010-11",DOT,Department of Transportation,20198,219.74
+"2010-11",DSNY,Department of Sanitation,12655,599.29
+"2010-11",HPD,Department of Housing Preservation and Development,76063,331.13
+"2010-11",NYPD,New York City Police Department,22138,2.87
+"2010-12",DEP,Department of Environmental Protection,11409,285.20
+"2010-12",DOT,Department of Transportation,21256,188.43
+"2010-12",DSNY,Department of Sanitation,12149,412.17
+"2010-12",HPD,Department of Housing Preservation and Development,90122,339.75
+"2010-12",NYPD,New York City Police Department,20944,2.95
+"2011-01",DEP,Department of Environmental Protection,10625,286.50
+"2011-01",DOT,Department of Transportation,22385,225.28
+"2011-01",DSNY,Department of Sanitation,16989,696.05
+"2011-01",HPD,Department of Housing Preservation and Development,77918,292.57
+"2011-01",HPD,HPD,1,0.15
+"2011-01",NYPD,New York City Police Department,23611,2.95
+"2011-02",DEP,Department of Environmental Protection,10802,267.51
+"2011-02",DOT,Department of Transportation,32173,240.86
+"2011-02",DSNY,Department of Sanitation,17332,471.03
+"2011-02",HPD,Department of Housing Preservation and Development,48840,206.67
+"2011-02",NYPD,New York City Police Department,21791,2.96
+"2011-03",DEP,Department of Environmental Protection,12505,328.07
+"2011-03",DOT,Department of Transportation,33776,258.00
+"2011-03",DSNY,Department of Sanitation,15126,684.15
+"2011-03",HPD,Department of Housing Preservation and Development,31413,147.60
+"2011-03",NYPD,New York City Police Department,22194,3.06
+"2011-04",DEP,Department of Environmental Protection,11778,296.94
+"2011-04",DOT,Department of Transportation,26774,296.46
+"2011-04",DSNY,Department of Sanitation,14758,911.64
+"2011-04",HPD,Department of Housing Preservation and Development,22953,99.89
+"2011-04",NYPD,New York City Police Department,22213,3.01
+"2011-05",DEP,Department of Environmental Protection,13547,313.55
+"2011-05",DOT,Department of Transportation,24647,313.11
+"2011-05",DSNY,Department of Sanitation,15696,618.78
+"2011-05",HPD,Department of Housing Preservation and Development,16749,126.86
+"2011-05",NYPD,New York City Police Department,26359,3.07
+"2011-06",DEP,Department of Environmental Protection,16175,251.23
+"2011-06",DOT,Department of Transportation,21677,221.73
+"2011-06",DOT,DOT,1,986.58
+"2011-06",DSNY,Department of Sanitation,19802,469.74
+"2011-06",HPD,Department of Housing Preservation and Development,27297,301.53
+"2011-06",NYPD,New York City Police Department,25608,3.07
+"2011-07",DEP,Department of Environmental Protection,22650,195.57
+"2011-07",DOT,Department of Transportation,19863,216.18
+"2011-07",DSNY,Department of Sanitation,15747,943.43
+"2011-07",HPD,Department of Housing Preservation and Development,38481,329.66
+"2011-07",HPD,HPD,1,0.12
+"2011-07",NYPD,New York City Police Department,23447,3.13
+"2011-08",DEP,Department of Environmental Protection,17875,231.25
+"2011-08",DOT,Department of Transportation,23051,214.57
+"2011-08",DSNY,Department of Sanitation,14323,815.71
+"2011-08",HPD,Department of Housing Preservation and Development,44863,363.16
+"2011-08",NYPD,New York City Police Department,21849,3.07
+"2011-09",DEP,Department of Environmental Protection,13100,252.74
+"2011-09",DOT,Department of Transportation,22326,207.05
+"2011-09",DOT,DOT,2,0.10
+"2011-09",DSNY,Department of Sanitation,15294,851.48
+"2011-09",HPD,Department of Housing Preservation and Development,50253,333.83
+"2011-09",HPD,HPD,1,0.15
+"2011-09",NYPD,New York City Police Department,25507,3.01
+"2011-10",DEP,Department of Environmental Protection,10920,268.74
+"2011-10",DOT,Department of Transportation,22406,255.31
+"2011-10",DSNY,Department of Sanitation,13086,688.45
+"2011-10",HPD,Department of Housing Preservation and Development,69176,268.78
+"2011-10",NYPD,New York City Police Department,23434,3.11
+"2011-11",DEP,Department of Environmental Protection,10787,238.58
+"2011-11",DOT,Department of Transportation,19501,242.21
+"2011-11",DSNY,Department of Sanitation,10955,981.70
+"2011-11",HPD,Department of Housing Preservation and Development,67032,261.95
+"2011-11",NYPD,New York City Police Department,21658,3.45
+"2011-12",DEP,Department of Environmental Protection,8980,252.55
+"2011-12",DOT,Department of Transportation,19778,216.02
+"2011-12",DSNY,Department of Sanitation,11342,1047.18
+"2011-12",HPD,Department of Housing Preservation and Development,71524,232.87
+"2011-12",NYPD,New York City Police Department,22057,5.55
+"2012-01",DEP,Department of Environmental Protection,9204,207.62
+"2012-01",DOT,Department of Transportation,20524,194.19
+"2012-01",DSNY,Department of Sanitation,12342,553.89
+"2012-01",HPD,Department of Housing Preservation and Development,78121,203.08
+"2012-01",NYPD,New York City Police Department,20502,3.46
+"2012-02",DEP,Department of Environmental Protection,8844,263.91
+"2012-02",DOT,Department of Transportation,18658,225.63
+"2012-02",DSNY,Department of Sanitation,10501,598.58
+"2012-02",HPD,Department of Housing Preservation and Development,53169,191.31
+"2012-02",NYPD,New York City Police Department,19223,3.26
+"2012-03",DEP,Department of Environmental Protection,10801,248.07
+"2012-03",DOT,Department of Transportation,21375,203.80
+"2012-03",DSNY,Department of Sanitation,12526,770.67
+"2012-03",HPD,Department of Housing Preservation and Development,47199,181.72
+"2012-03",NYPD,New York City Police Department,23468,3.28
+"2012-04",DEP,Department of Environmental Protection,10141,214.64
+"2012-04",DOT,Department of Transportation,18607,189.75
+"2012-04",DSNY,Department of Sanitation,13481,1349.76
+"2012-04",HPD,Department of Housing Preservation and Development,38882,182.03
+"2012-04",NYPD,New York City Police Department,23684,3.29
+"2012-05",DEP,Department of Environmental Protection,13855,185.09
+"2012-05",DOT,Department of Transportation,20510,216.64
+"2012-05",DSNY,Department of Sanitation,13224,1476.26
+"2012-05",HPD,Department of Housing Preservation and Development,33618,262.37
+"2012-05",NYPD,New York City Police Department,27569,3.07
+"2012-06",DEP,Department of Environmental Protection,18324,171.57
+"2012-06",DOT,Department of Transportation,20333,235.64
+"2012-06",DSNY,Department of Sanitation,14142,1128.05
+"2012-06",HPD,Department of Housing Preservation and Development,32128,294.67
+"2012-06",NYPD,New York City Police Department,27285,3.23
+"2012-07",DEP,Department of Environmental Protection,20566,132.47
+"2012-07",DOT,Department of Transportation,19192,229.64
+"2012-07",DSNY,Department of Sanitation,16213,1668.05
+"2012-07",HPD,Department of Housing Preservation and Development,35124,283.95
+"2012-07",HPD,Division of Alternative Management,2,21792.00
+"2012-07",NYPD,New York City Police Department,25871,3.32
+"2012-08",DEP,Department of Environmental Protection,13707,177.25
+"2012-08",DOT,Department of Transportation,20355,260.49
+"2012-08",DSNY,Department of Sanitation,15919,1758.68
+"2012-08",HPD,Department of Housing Preservation and Development,36760,271.20
+"2012-08",NYPD,New York City Police Department,27034,3.34
+"2012-09",DEP,Department of Environmental Protection,11821,172.09
+"2012-09",DOT,Department of Transportation,19597,337.96
+"2012-09",DSNY,Department of Sanitation,13540,1690.08
+"2012-09",HPD,Department of Housing Preservation and Development,33463,261.90
+"2012-09",NYPD,New York City Police Department,30592,3.21
+"2012-10",DEP,Department of Environmental Protection,11371,196.28
+"2012-10",DOT,Department of Transportation,21545,346.76
+"2012-10",DSNY,Department of Sanitation,12275,1570.05
+"2012-10",HPD,Department of Housing Preservation and Development,44556,297.60
+"2012-10",HPD,Division of Alternative Management,1,20040.00
+"2012-10",NYPD,New York City Police Department,24814,3.45
+"2012-11",DEP,Department of Environmental Protection,8973,137.45
+"2012-11",DOT,Department of Transportation,21629,302.89
+"2012-11",DSNY,Department of Sanitation,7701,835.64
+"2012-11",HPD,Department of Housing Preservation and Development,71920,260.81
+"2012-11",HPD,Division of Alternative Management,7,19830.86
+"2012-11",NYPD,New York City Police Department,19680,16.66
+"2012-12",DEP,Department of Environmental Protection,9682,170.95
+"2012-12",DOT,Department of Transportation,22755,659.13
+"2012-12",DSNY,Department of Sanitation,10036,2199.53
+"2012-12",HPD,Department of Housing Preservation and Development,62420,327.60
+"2012-12",HPD,Division of Alternative Management,10,10082.40
+"2012-12",NYPD,New York City Police Department,24987,12.45
+"2013-01",DEP,Department of Environmental Protection,12880,176.25
+"2013-01",DOT,Department of Transportation,24567,303.58
+"2013-01",DSNY,Department of Sanitation,13164,1312.90
+"2013-01",HPD,Department of Housing Preservation and Development,79910,266.60
+"2013-01",HPD,Division of Alternative Management,18,5426.67
+"2013-01",HPD,HPD,1,0.92
+"2013-01",NYPD,New York City Police Department,23354,8.28
+"2013-02",DEP,Department of Environmental Protection,10321,187.27
+"2013-02",DOT,Department of Transportation,24144,364.35
+"2013-02",DSNY,Department of Sanitation,12010,1474.37
+"2013-02",HPD,Department of Housing Preservation and Development,59967,238.50
+"2013-02",HPD,Division of Alternative Management,11,6615.27
+"2013-02",NYPD,New York City Police Department,22062,7.68
+"2013-03",DEP,Department of Environmental Protection,10294,206.29
+"2013-03",DOT,Department of Transportation,25603,265.19
+"2013-03",DSNY,Department of Sanitation,13933,2050.00
+"2013-03",HPD,Department of Housing Preservation and Development,51256,212.84
+"2013-03",HPD,Division of Alternative Management,15,3355.20
+"2013-03",NYPD,New York City Police Department,25959,5.42
+"2013-04",DEP,Department of Environmental Protection,11598,241.12
+"2013-04",DOT,Department of Transportation,23251,299.76
+"2013-04",DSNY,Department of Sanitation,13539,1151.43
+"2013-04",HPD,Department of Housing Preservation and Development,42290,214.35
+"2013-04",HPD,Division of Alternative Management,2,26760.00
+"2013-04",NYPD,New York City Police Department,27458,3.91
+"2013-05",DEP,Department of Environmental Protection,13530,203.19
+"2013-05",DOT,Department of Transportation,22711,297.06
+"2013-05",DSNY,Department of Sanitation,12795,752.64
+"2013-05",HPD,Department of Housing Preservation and Development,36802,249.77
+"2013-05",HPD,Division of Alternative Management,1,47232.00
+"2013-05",NYPD,New York City Police Department,33667,3.20
+"2013-06",DEP,Department of Environmental Protection,14763,214.77
+"2013-06",DOT,Department of Transportation,22230,310.26
+"2013-06",DSNY,Department of Sanitation,17627,494.67
+"2013-06",HPD,Department of Housing Preservation and Development,33291,283.26
+"2013-06",HPD,Division of Alternative Management,2,11160.00
+"2013-06",NYPD,New York City Police Department,34412,3.23
+"2013-07",DEP,Department of Environmental Protection,20326,142.28
+"2013-07",DOT,Department of Transportation,21028,314.24
+"2013-07",DSNY,Department of Sanitation,18523,728.35
+"2013-07",HPD,Department of Housing Preservation and Development,38042,320.54
+"2013-07",HPD,Division of Alternative Management,2,17616.00
+"2013-07",NYPD,New York City Police Department,28649,3.16
+"2013-08",DEP,Department of Environmental Protection,10506,247.46
+"2013-08",DOT,Department of Transportation,19460,361.10
+"2013-08",DSNY,Department of Sanitation,14079,942.62
+"2013-08",HPD,Department of Housing Preservation and Development,33539,330.66
+"2013-08",HPD,Division of Alternative Management,1,3000.00
+"2013-08",NYPD,New York City Police Department,34567,3.02
+"2013-09",DEP,Department of Environmental Protection,9897,185.76
+"2013-09",DOT,Department of Transportation,19815,357.69
+"2013-09",DSNY,Department of Sanitation,12984,575.31
+"2013-09",HPD,Department of Housing Preservation and Development,30601,279.91
+"2013-09",HPD,Division of Alternative Management,4,2460.00
+"2013-09",NYPD,New York City Police Department,33529,3.03
+"2013-10",DEP,Department of Environmental Protection,11825,179.64
+"2013-10",DOT,Department of Transportation,20624,340.54
+"2013-10",DSNY,Department of Sanitation,13520,1012.32
+"2013-10",HPD,Department of Housing Preservation and Development,45786,377.49
+"2013-10",HPD,Division of Alternative Management,4,12864.00
+"2013-10",NYPD,New York City Police Department,30834,2.89
+"2013-11",DEP,Department of Environmental Protection,8958,183.01
+"2013-11",DOT,Department of Transportation,20207,317.24
+"2013-11",DSNY,Department of Sanitation,11127,1394.76
+"2013-11",HPD,Department of Housing Preservation and Development,64519,428.74
+"2013-11",HPD,Division of Alternative Management,18,974.67
+"2013-11",NYPD,New York City Police Department,27812,2.84
+"2013-12",DEP,Department of Environmental Protection,8918,222.30
+"2013-12",DOT,Department of Transportation,20698,359.33
+"2013-12",DSNY,Department of Sanitation,11100,1289.39
+"2013-12",HPD,Department of Housing Preservation and Development,64308,401.99
+"2013-12",HPD,Division of Alternative Management,10,4298.40
+"2013-12",NYPD,New York City Police Department,27590,2.74
+"2014-01",DEP,Department of Environmental Protection,13923,179.09
+"2014-01",DOT,Department of Transportation,26324,326.52
+"2014-01",DSNY,Department of Sanitation,18243,924.75
+"2014-01",HPD,Department of Housing Preservation and Development,99917,293.61
+"2014-01",HPD,Division of Alternative Management,14,7378.29
+"2014-01",NYPD,New York City Police Department,27733,2.95
+"2014-02",DEP,Department of Environmental Protection,11398,208.68
+"2014-02",DOT,Department of Transportation,33695,313.05
+"2014-02",DOT,DOT,1,316.33
+"2014-02",DSNY,Department of Sanitation,18699,714.75
+"2014-02",HPD,Department of Housing Preservation and Development,62264,285.82
+"2014-02",HPD,Division of Alternative Management,18,16574.67
+"2014-02",NYPD,New York City Police Department,30312,3.06
+"2014-03",DEP,Department of Environmental Protection,12879,236.22
+"2014-03",DOT,Department of Transportation,31351,325.05
+"2014-03",DSNY,Department of Sanitation,14697,1075.13
+"2014-03",HPD,Department of Housing Preservation and Development,54733,299.31
+"2014-03",HPD,Division of Alternative Management,39,1976.62
+"2014-03",NYPD,New York City Police Department,32655,3.09
+"2014-04",DEP,Department of Environmental Protection,13692,226.94
+"2014-04",DOT,Department of Transportation,28529,374.12
+"2014-04",DSNY,Department of Sanitation,13502,805.62
+"2014-04",HPD,Department of Housing Preservation and Development,42021,329.64
+"2014-04",HPD,Division of Alternative Management,29,535.45
+"2014-04",NYPD,New York City Police Department,33144,2.89
+"2014-05",DEP,Department of Environmental Protection,16274,258.31
+"2014-05",DOT,Department of Transportation,30525,422.14
+"2014-05",DSNY,Department of Sanitation,14765,1138.42
+"2014-05",HPD,Department of Housing Preservation and Development,35133,403.02
+"2014-05",HPD,Division of Alternative Management,26,431.08
+"2014-05",NYPD,New York City Police Department,45031,3.06
+"2014-06",DEP,Department of Environmental Protection,16089,251.31
+"2014-06",DOT,Department of Transportation,27720,384.98
+"2014-06",DSNY,Department of Sanitation,16239,1048.44
+"2014-06",HPD,Department of Housing Preservation and Development,31325,416.05
+"2014-06",NYPD,New York City Police Department,48624,3.27
+"2014-07",DEP,Department of Environmental Protection,17792,176.69
+"2014-07",DOT,Department of Transportation,24658,347.62
+"2014-07",DSNY,Department of Sanitation,16474,618.69
+"2014-07",HPD,Department of Housing Preservation and Development,36440,459.10
+"2014-07",HPD,Division of Alternative Management,1,3528.00
+"2014-07",NYPD,New York City Police Department,43434,3.19
+"2014-08",DEP,Department of Environmental Protection,12740,225.99
+"2014-08",DOT,Department of Transportation,21419,456.07
+"2014-08",DSNY,Department of Sanitation,15017,604.81
+"2014-08",HPD,Department of Housing Preservation and Development,32443,549.87
+"2014-08",HPD,Division of Alternative Management,1,240.00
+"2014-08",NYPD,New York City Police Department,47745,3.04
+"2014-09",DEP,Department of Environmental Protection,12567,228.88
+"2014-09",DOT,Department of Transportation,21101,456.29
+"2014-09",DSNY,Department of Sanitation,15166,634.69
+"2014-09",HPD,Department of Housing Preservation and Development,32801,483.50
+"2014-09",NYPD,New York City Police Department,44519,3.26
+"2014-10",DEP,Department of Environmental Protection,13368,198.07
+"2014-10",DOT,Department of Transportation,21506,405.37
+"2014-10",DSNY,Department of Sanitation,14586,933.29
+"2014-10",HPD,Department of Housing Preservation and Development,49165,604.84
+"2014-10",NYPD,New York City Police Department,42805,3.13
+"2014-11",DEP,Department of Environmental Protection,11535,183.84
+"2014-11",DOT,Department of Transportation,19258,453.90
+"2014-11",DSNY,Department of Sanitation,11665,637.37
+"2014-11",HPD,Department of Housing Preservation and Development,72719,539.14
+"2014-11",HPD,Division of Alternative Management,8,387.00
+"2014-11",NYPD,New York City Police Department,38231,3.51
+"2014-12",DEP,Department of Environmental Protection,11742,187.89
+"2014-12",DOT,Department of Transportation,21671,372.52
+"2014-12",DSNY,Department of Sanitation,13596,1008.06
+"2014-12",HPD,Department of Housing Preservation and Development,63634,501.64
+"2014-12",HPD,Division of Alternative Management,8,111.00
+"2014-12",NYPD,New York City Police Department,37838,3.97
+"2015-01",DEP,Department of Environmental Protection,13009,233.42
+"2015-01",DOT,Department of Transportation,21508,316.30
+"2015-01",DSNY,Department of Sanitation,15268,634.96
+"2015-01",HPD,Department of Housing Preservation and Development,82159,372.71
+"2015-01",HPD,Division of Alternative Management,4,9546.00
+"2015-01",NYPD,New York City Police Department,35761,3.59
+"2015-02",DEP,Department of Environmental Protection,15176,209.22
+"2015-02",DOT,Department of Transportation,24960,291.93
+"2015-02",DSNY,Department of Sanitation,16369,476.83
+"2015-02",HPD,Department of Housing Preservation and Development,83547,343.90
+"2015-02",NYPD,New York City Police Department,34320,3.49
+"2015-03",DEP,Department of Environmental Protection,15390,245.95
+"2015-03",DOT,Department of Transportation,46331,303.65
+"2015-03",DSNY,Department of Sanitation,16726,918.47
+"2015-03",HPD,Department of Housing Preservation and Development,57075,331.74
+"2015-03",NYPD,New York City Police Department,40902,3.60
+"2015-04",DEP,Department of Environmental Protection,15183,275.50
+"2015-04",DOT,Department of Transportation,33373,402.15
+"2015-04",DSNY,Department of Sanitation,12969,1441.31
+"2015-04",HPD,Department of Housing Preservation and Development,45711,321.03
+"2015-04",HPD,Division of Alternative Management,1,120.00
+"2015-04",NYPD,New York City Police Department,43848,3.59
+"2015-05",DEP,Department of Environmental Protection,15878,248.30
+"2015-05",DOT,Department of Transportation,26885,416.59
+"2015-05",DSNY,Department of Sanitation,13254,1285.18
+"2015-05",HPD,Department of Housing Preservation and Development,34264,349.60
+"2015-05",NYPD,New York City Police Department,59371,3.81
+"2015-06",DEP,Department of Environmental Protection,18081,235.02
+"2015-06",DOT,Department of Transportation,29668,445.33
+"2015-06",DSNY,Department of Sanitation,14558,851.51
+"2015-06",HPD,Department of Housing Preservation and Development,37227,427.18
+"2015-06",NYPD,New York City Police Department,54394,3.98
+"2015-07",DEP,Department of Environmental Protection,19684,227.61
+"2015-07",DOT,Department of Transportation,24789,459.06
+"2015-07",DSNY,Department of Sanitation,16387,376.89
+"2015-07",HPD,Department of Housing Preservation and Development,37990,373.27
+"2015-07",NYPD,New York City Police Department,52696,4.08
+"2015-08",DEP,Department of Environmental Protection,15924,230.84
+"2015-08",DOT,Department of Transportation,24015,377.29
+"2015-08",DSNY,Department of Sanitation,15118,349.08
+"2015-08",HPD,Department of Housing Preservation and Development,37389,361.35
+"2015-08",NYPD,New York City Police Department,55071,4.21
+"2015-09",DEP,Department of Environmental Protection,14992,254.68
+"2015-09",DOT,Department of Transportation,23464,1014.49
+"2015-09",DSNY,Department of Sanitation,14511,299.67
+"2015-09",HPD,Department of Housing Preservation and Development,37286,351.63
+"2015-09",NYPD,New York City Police Department,54853,4.35
+"2015-10",DEP,Department of Environmental Protection,15228,214.72
+"2015-10",DOT,Department of Transportation,21890,408.29
+"2015-10",DSNY,Department of Sanitation,13154,510.95
+"2015-10",HPD,Department of Housing Preservation and Development,63481,309.81
+"2015-10",HPD,Division of Alternative Management,2,0.00
+"2015-10",NYPD,New York City Police Department,49761,4.67
+"2015-11",DEP,Department of Environmental Protection,13464,187.91
+"2015-11",DOT,Department of Transportation,18788,318.62
+"2015-11",DSNY,Department of Sanitation,13157,537.48
+"2015-11",HPD,Department of Housing Preservation and Development,61204,359.70
+"2015-11",NYPD,New York City Police Department,47267,4.52
+"2015-12",DEP,Department of Environmental Protection,12725,198.15
+"2015-12",DOT,Department of Transportation,21361,313.79
+"2015-12",DSNY,Department of Sanitation,12336,962.05
+"2015-12",HPD,Department of Housing Preservation and Development,52869,367.69
+"2015-12",HPD,Division of Alternative Management,2,0.00
+"2015-12",NYPD,New York City Police Department,48236,4.92
+"2016-01",DEP,Department of Environmental Protection,14878,182.70
+"2016-01",DOT,Department of Transportation,22270,316.09
+"2016-01",DSNY,Department of Sanitation,16054,732.75
+"2016-01",HPD,Department of Housing Preservation and Development,83040,331.24
+"2016-01",NYPD,New York City Police Department,45312,4.77
+"2016-02",DEP,Department of Environmental Protection,16730,212.62
+"2016-02",DOT,Department of Transportation,26584,408.79
+"2016-02",DSNY,Department of Sanitation,13089,1051.22
+"2016-02",HPD,Department of Housing Preservation and Development,70468,263.25
+"2016-02",HPD,Division of Alternative Management,2,0.00
+"2016-02",NYPD,New York City Police Department,40702,4.76
+"2016-03",DEP,Department of Environmental Protection,18921,382.61
+"2016-03",DOT,Department of Transportation,29464,332.86
+"2016-03",DSNY,Department of Sanitation,14265,960.95
+"2016-03",HPD,Department of Housing Preservation and Development,47871,230.89
+"2016-03",HPD,Division of Alternative Management,1,0.00
+"2016-03",NYPD,New York City Police Department,49054,4.95
+"2016-04",DEP,Department of Environmental Protection,15836,244.69
+"2016-04",DOT,Department of Transportation,25536,371.62
+"2016-04",DSNY,Department of Sanitation,13575,842.66
+"2016-04",HPD,Department of Housing Preservation and Development,38260,221.24
+"2016-04",HPD,Division of Alternative Management,1,0.00
+"2016-04",NYPD,New York City Police Department,54802,4.75
+"2016-05",DEP,Department of Environmental Protection,16624,306.44
+"2016-05",DOT,Department of Transportation,27582,364.15
+"2016-05",DSNY,Department of Sanitation,15020,1086.64
+"2016-05",HPD,Department of Housing Preservation and Development,34657,248.40
+"2016-05",NYPD,New York City Police Department,65064,5.63
+"2016-06",DEP,Department of Environmental Protection,16048,268.02
+"2016-06",DOT,Department of Transportation,23904,348.98
+"2016-06",DSNY,Department of Sanitation,17366,744.01
+"2016-06",HPD,Department of Housing Preservation and Development,31814,290.10
+"2016-06",NYPD,New York City Police Department,67610,5.88
+"2016-07",DEP,Department of Environmental Protection,21125,204.00
+"2016-07",DOT,Department of Transportation,21517,357.31
+"2016-07",DSNY,Department of Sanitation,16900,448.21
+"2016-07",HPD,Department of Housing Preservation and Development,33692,333.59
+"2016-07",NYPD,New York City Police Department,62060,9.42
+"2016-08",DEP,Department of Environmental Protection,20441,197.61
+"2016-08",DOT,Department of Transportation,21783,343.01
+"2016-08",DSNY,Department of Sanitation,17402,405.27
+"2016-08",HPD,Department of Housing Preservation and Development,37720,331.12
+"2016-08",NYPD,New York City Police Department,56772,7.28
+"2016-09",DEP,Department of Environmental Protection,14835,254.00
+"2016-09",DOT,Department of Transportation,19976,344.63
+"2016-09",DSNY,Department of Sanitation,15732,305.04
+"2016-09",HPD,Department of Housing Preservation and Development,31424,341.34
+"2016-09",NYPD,New York City Police Department,64855,5.06
+"2016-10",DEP,Department of Environmental Protection,14287,264.59
+"2016-10",DOT,Department of Transportation,19552,318.82
+"2016-10",DSNY,Department of Sanitation,14210,374.67
+"2016-10",HPD,Department of Housing Preservation and Development,54682,341.40
+"2016-10",HPD,Division of Alternative Management,5,4435.20
+"2016-10",NYPD,New York City Police Department,58600,4.54
+"2016-11",DEP,Department of Environmental Protection,13855,230.72
+"2016-11",DOT,Department of Transportation,19079,318.20
+"2016-11",DOT,DOT,1,241.88
+"2016-11",DSNY,Department of Sanitation,14063,429.44
+"2016-11",HPD,Department of Housing Preservation and Development,59339,468.10
+"2016-11",NYPD,New York City Police Department,51409,5.51
+"2016-12",DEP,Department of Environmental Protection,11983,207.91
+"2016-12",DOT,Department of Transportation,20045,282.63
+"2016-12",DSNY,Department of Sanitation,14405,450.48
+"2016-12",HPD,Department of Housing Preservation and Development,74681,417.09
+"2016-12",HPD,Division of Alternative Management,4,0.00
+"2016-12",NYPD,New York City Police Department,51952,5.09
+"2017-01",DEP,Department of Environmental Protection,14592,221.53
+"2017-01",DOT,Department of Transportation,23174,307.62
+"2017-01",DSNY,Department of Sanitation,17448,833.64
+"2017-01",HPD,Department of Housing Preservation and Development,68119,374.81
+"2017-01",HPD,Division of Alternative Management,1,0.00
+"2017-01",NYPD,New York City Police Department,51746,4.70
+"2017-02",DEP,Department of Environmental Protection,13796,228.90
+"2017-02",DOT,Department of Transportation,21477,304.54
+"2017-02",DSNY,Department of Sanitation,15635,379.15
+"2017-02",HPD,Department of Housing Preservation and Development,52062,357.00
+"2017-02",HPD,Division of Alternative Management,2,9348.00
+"2017-02",NYPD,New York City Police Department,45946,5.11
+"2017-03",DEP,Department of Environmental Protection,13239,248.39
+"2017-03",DOT,Department of Transportation,25601,312.80
+"2017-03",DSNY,Department of Sanitation,20595,354.08
+"2017-03",HPD,Department of Housing Preservation and Development,60959,284.49
+"2017-03",NYPD,New York City Police Department,51920,5.24
+"2017-04",DEP,Department of Environmental Protection,16910,281.36
+"2017-04",DOT,Department of Transportation,27026,313.61
+"2017-04",DSNY,Department of Sanitation,16610,531.54
+"2017-04",HPD,Department of Housing Preservation and Development,37428,259.70
+"2017-04",NYPD,New York City Police Department,61353,5.30
+"2017-05",DEP,Department of Environmental Protection,18338,260.99
+"2017-05",DOT,Department of Transportation,26005,336.53
+"2017-05",DSNY,Department of Sanitation,17354,941.08
+"2017-05",HPD,Department of Housing Preservation and Development,36883,290.54
+"2017-05",NYPD,New York City Police Department,68101,5.84
+"2017-06",DEP,Department of Environmental Protection,19017,252.79
+"2017-06",DOT,Department of Transportation,23904,262.39
+"2017-06",DSNY,Department of Sanitation,19893,575.58
+"2017-06",HPD,Department of Housing Preservation and Development,31082,333.84
+"2017-06",HPD,Division of Alternative Management,1,0.00
+"2017-06",NYPD,New York City Police Department,75857,5.74
+"2017-07",DEP,Department of Environmental Protection,17789,282.13
+"2017-07",DOT,Department of Transportation,20244,298.25
+"2017-07",DSNY,Department of Sanitation,23513,634.71
+"2017-07",HPD,Department of Housing Preservation and Development,32416,330.05
+"2017-07",NYPD,New York City Police Department,71944,5.37
+"2017-08",DEP,Department of Environmental Protection,15067,372.74
+"2017-08",DOT,Department of Transportation,21211,327.44
+"2017-08",DSNY,Department of Sanitation,21667,698.31
+"2017-08",HPD,Department of Housing Preservation and Development,34308,336.26
+"2017-08",NYPD,New York City Police Department,66909,6.71
+"2017-09",DEP,Department of Environmental Protection,14058,258.97
+"2017-09",DOT,Department of Transportation,19976,339.02
+"2017-09",DSNY,Department of Sanitation,30201,320.71
+"2017-09",HPD,Department of Housing Preservation and Development,29655,328.72
+"2017-09",NYPD,New York City Police Department,72138,8.76
+"2017-10",DEP,Department of Environmental Protection,15045,210.24
+"2017-10",DOT,Department of Transportation,20286,356.43
+"2017-10",DSNY,Department of Sanitation,31730,656.83
+"2017-10",HPD,Department of Housing Preservation and Development,40523,329.13
+"2017-10",HPD,Division of Alternative Management,1,13320.00
+"2017-10",NYPD,New York City Police Department,68374,5.13
+"2017-10",NYPD,Traffic Management Center,67,2.42
+"2017-11",DEP,Department of Environmental Protection,12638,242.40
+"2017-11",DOT,Department of Transportation,17977,305.52
+"2017-11",DSNY,Department of Sanitation,29156,498.74
+"2017-11",HPD,Department of Housing Preservation and Development,67125,372.58
+"2017-11",HPD,Division of Alternative Management,1,8952.00
+"2017-11",NYPD,New York City Police Department,54641,4.75
+"2017-11",NYPD,Traffic Management Center,90,1.96
+"2017-12",DEP,Department of Environmental Protection,11926,250.20
+"2017-12",DOT,Department of Transportation,18115,299.96
+"2017-12",DSNY,Department of Sanitation,27390,898.04
+"2017-12",HPD,Department of Housing Preservation and Development,77413,324.18
+"2017-12",HPD,Division of Alternative Management,3,5744.00
+"2017-12",NYPD,New York City Police Department,53563,5.10
+"2017-12",NYPD,Traffic Management Center,60,4.71
+"2018-01",DEP,Department of Environmental Protection,22503,230.61
+"2018-01",DOT,Department of Transportation,23016,343.36
+"2018-01",DSNY,Department of Sanitation,29224,573.68
+"2018-01",HPD,Department of Housing Preservation and Development,94698,277.18
+"2018-01",HPD,Division of Alternative Management,8,936.00
+"2018-01",NYPD,New York City Police Department,51537,5.82
+"2018-01",NYPD,Traffic Management Center,87,1.88
+"2018-02",DEP,Department of Environmental Protection,13743,266.39
+"2018-02",DOT,Department of Transportation,27101,254.09
+"2018-02",DSNY,Department of Sanitation,26704,353.85
+"2018-02",HPD,Department of Housing Preservation and Development,46926,264.83
+"2018-02",HPD,Division of Alternative Management,13,112.62
+"2018-02",NYPD,New York City Police Department,47545,7.38
+"2018-02",NYPD,Traffic Management Center,60,2.14
+"2018-03",DEP,Department of Environmental Protection,14757,346.39
+"2018-03",DOT,Department of Transportation,28380,295.70
+"2018-03",DSNY,Department of Sanitation,28029,315.33
+"2018-03",HPD,Department of Housing Preservation and Development,54046,261.56
+"2018-03",HPD,Division of Alternative Management,3,10344.00
+"2018-03",NYPD,New York City Police Department,54466,8.18
+"2018-03",NYPD,Traffic Management Center,64,2.58
+"2018-04",DEP,Department of Environmental Protection,16158,377.74
+"2018-04",DOT,Department of Transportation,25353,318.65
+"2018-04",DSNY,Department of Sanitation,32691,427.33
+"2018-04",HPD,Department of Housing Preservation and Development,42948,246.26
+"2018-04",HPD,Division of Alternative Management,3,0.00
+"2018-04",NYPD,New York City Police Department,58156,6.69
+"2018-04",NYPD,Traffic Management Center,69,3.04
+"2018-05",DEP,Department of Environmental Protection,17424,336.52
+"2018-05",DOT,Department of Transportation,26526,294.96
+"2018-05",DSNY,Department of Sanitation,36908,255.74
+"2018-05",HPD,Department of Housing Preservation and Development,31926,287.66
+"2018-05",NYPD,New York City Police Department,74184,5.73
+"2018-05",NYPD,Traffic Management Center,114,2.82
+"2018-06",DEP,Department of Environmental Protection,17783,394.23
+"2018-06",DOT,Department of Transportation,23033,257.83
+"2018-06",DSNY,Department of Sanitation,38740,204.57
+"2018-06",HPD,Department of Housing Preservation and Development,29837,326.23
+"2018-06",NYPD,New York City Police Department,77973,16.19
+"2018-06",NYPD,Traffic Management Center,82,3.27
+"2018-07",DEP,Department of Environmental Protection,20858,314.32
+"2018-07",DOT,Department of Transportation,21284,260.64
+"2018-07",DSNY,Department of Sanitation,40537,300.27
+"2018-07",HPD,Department of Housing Preservation and Development,35134,377.37
+"2018-07",HPD,Division of Alternative Management,5,0.00
+"2018-07",NYPD,New York City Police Department,70665,14.41
+"2018-07",NYPD,Traffic Management Center,72,3.35
+"2018-08",DEP,Department of Environmental Protection,18404,258.83
+"2018-08",DOT,Department of Transportation,24862,1620.76
+"2018-08",DSNY,Department of Sanitation,42364,408.15
+"2018-08",HPD,Department of Housing Preservation and Development,40223,379.83
+"2018-08",NYPD,New York City Police Department,64602,13.65
+"2018-08",NYPD,Traffic Management Center,77,2.84
+"2018-09",DEP,Department of Environmental Protection,16363,224.36
+"2018-09",DOT,Department of Transportation,19933,296.19
+"2018-09",DSNY,Department of Sanitation,39120,902.88
+"2018-09",HPD,Department of Housing Preservation and Development,37440,309.22
+"2018-09",HPD,Division of Alternative Management,2,0.00
+"2018-09",NYPD,New York City Police Department,73107,12.55
+"2018-09",NYPD,Traffic Management Center,75,3.79
+"2018-10",DEP,Department of Environmental Protection,16123,257.63
+"2018-10",DOT,Department of Transportation,22339,326.97
+"2018-10",DSNY,Department of Sanitation,37467,261.70
+"2018-10",HPD,Department of Housing Preservation and Development,66576,393.95
+"2018-10",HPD,Division of Alternative Management,7,1467.43
+"2018-10",NYPD,New York City Police Department,65668,10.24
+"2018-10",NYPD,Traffic Management Center,98,3.69
+"2018-11",DEP,Department of Environmental Protection,14551,196.60
+"2018-11",DOT,Department of Transportation,17956,349.38
+"2018-11",DSNY,Department of Sanitation,33897,522.64
+"2018-11",HPD,Department of Housing Preservation and Development,68976,375.75
+"2018-11",HPD,Division of Alternative Management,9,936.00
+"2018-11",NYPD,New York City Police Department,55576,8.69
+"2018-11",NYPD,Traffic Management Center,98,2.65
+"2018-12",DEP,Department of Environmental Protection,13952,191.64
+"2018-12",DOT,Department of Transportation,19035,285.65
+"2018-12",DSNY,Department of Sanitation,33420,560.08
+"2018-12",HPD,Department of Housing Preservation and Development,59575,295.87
+"2018-12",NYPD,New York City Police Department,57456,6.36
+"2018-12",NYPD,Traffic Management Center,81,2.51
+"2019-01",DEP,Department of Environmental Protection,16098,192.80
+"2019-01",DOT,Department of Transportation,21158,355.11
+"2019-01",DSNY,Department of Sanitation,35508,653.19
+"2019-01",HPD,Department of Housing Preservation and Development,82791,258.08
+"2019-01",NYPD,New York City Police Department,53101,7.12
+"2019-01",NYPD,Traffic Management Center,46,3.74
+"2019-02",DEP,Department of Environmental Protection,14007,249.06
+"2019-02",DOT,Department of Transportation,20175,382.22
+"2019-02",DSNY,Department of Sanitation,29251,507.64
+"2019-02",HPD,Department of Housing Preservation and Development,59135,283.24
+"2019-02",HPD,Division of Alternative Management,6,0.00
+"2019-02",NYPD,New York City Police Department,48879,6.07
+"2019-02",NYPD,Traffic Management Center,82,2.60
+"2019-03",DEP,Department of Environmental Protection,14250,247.42
+"2019-03",DOT,Department of Transportation,24468,326.06
+"2019-03",DSNY,Department of Sanitation,35386,440.35
+"2019-03",HPD,Department of Housing Preservation and Development,51886,234.57
+"2019-03",HPD,Division of Alternative Management,5,0.00
+"2019-03",NYPD,New York City Police Department,60432,6.50
+"2019-03",NYPD,Traffic Management Center,113,2.54
+"2019-04",DEP,Department of Environmental Protection,15096,253.47
+"2019-04",DOT,Department of Transportation,22566,347.64
+"2019-04",DSNY,Department of Sanitation,37176,500.18
+"2019-04",HPD,Department of Housing Preservation and Development,40042,255.36
+"2019-04",HPD,Division of Alternative Management,19,121.26
+"2019-04",NYPD,New York City Police Department,64838,5.66
+"2019-04",NYPD,Traffic Management Center,155,2.26
+"2019-05",DEP,Department of Environmental Protection,16408,245.42
+"2019-05",DOT,Department of Transportation,24687,336.97
+"2019-05",DSNY,Department of Sanitation,40270,578.41
+"2019-05",HPD,Department of Housing Preservation and Development,36410,223.06
+"2019-05",NYPD,New York City Police Department,83308,4.50
+"2019-05",NYPD,Traffic Management Center,102,2.55
+"2019-06",DEP,Department of Environmental Protection,16269,197.54
+"2019-06",DOT,Department of Transportation,22680,394.70
+"2019-06",DSNY,Department of Sanitation,42677,701.30
+"2019-06",HPD,Department of Housing Preservation and Development,32901,300.47
+"2019-06",HPD,Division of Alternative Management,1,0.00
+"2019-06",NYPD,New York City Police Department,90227,10.45
+"2019-06",NYPD,Traffic Management Center,31,1.82
+"2019-07",DEP,Department of Environmental Protection,22252,107.36
+"2019-07",DOT,Department of Transportation,22717,412.81
+"2019-07",DSNY,Department of Sanitation,44053,435.13
+"2019-07",HPD,Department of Housing Preservation and Development,15890,333.41
+"2019-07",HPD,Division of Alternative Management,2,0.00
+"2019-07",NYPD,New York City Police Department,76192,23.02
+"2019-08",DEP,Department of Environmental Protection,14811,161.16
+"2019-08",DOT,Department of Transportation,26128,824.21
+"2019-08",DSNY,Department of Sanitation,41801,420.59
+"2019-08",HPD,Department of Housing Preservation and Development,14521,407.20
+"2019-08",HPD,Division of Alternative Management,3,0.00
+"2019-08",NYPD,New York City Police Department,78076,52.21
+"2019-09",DEP,Department of Environmental Protection,13258,147.37
+"2019-09",DOT,Department of Transportation,22818,814.10
+"2019-09",DSNY,Department of Sanitation,38116,229.43
+"2019-09",HPD,Department of Housing Preservation and Development,13892,373.10
+"2019-09",NYPD,New York City Police Department,87721,49.72
+"2019-10",DEP,Department of Environmental Protection,13643,140.78
+"2019-10",DOT,Department of Transportation,20950,537.08
+"2019-10",DSNY,Department of Sanitation,37535,340.90
+"2019-10",HPD,Department of Housing Preservation and Development,27394,311.43
+"2019-10",NYPD,New York City Police Department,74320,23.10
+"2019-11",DEP,Department of Environmental Protection,11469,134.53
+"2019-11",DOT,Department of Transportation,17371,435.72
+"2019-11",DSNY,Department of Sanitation,33455,195.20
+"2019-11",HPD,Department of Housing Preservation and Development,48329,208.89
+"2019-11",NYPD,New York City Police Department,62588,16.83
+"2019-12",DEP,Department of Environmental Protection,11492,133.70
+"2019-12",DOT,Department of Transportation,18889,379.02
+"2019-12",DSNY,Department of Sanitation,33715,1056.58
+"2019-12",HPD,Department of Housing Preservation and Development,42712,209.74
+"2019-12",NYPD,New York City Police Department,60656,15.89
+"2020-01",DEP,Department of Environmental Protection,11663,153.53
+"2020-01",DOT,Department of Transportation,20856,387.33
+"2020-01",DSNY,Department of Sanitation,37984,1314.43
+"2020-01",HPD,Department of Housing Preservation and Development,37089,215.46
+"2020-01",NYPD,New York City Police Department,62968,13.58
+"2020-02",DEP,Department of Environmental Protection,10401,151.48
+"2020-02",DOT,Department of Transportation,18975,451.46
+"2020-02",DSNY,Department of Sanitation,32562,608.84
+"2020-02",HPD,Department of Housing Preservation and Development,30021,226.07
+"2020-02",NYPD,New York City Police Department,57933,15.88
+"2020-03",DEP,Department of Environmental Protection,10480,112.91
+"2020-03",DOT,Department of Transportation,16882,453.11
+"2020-03",DSNY,Department of Sanitation,29264,459.89
+"2020-03",HPD,Department of Housing Preservation and Development,33080,541.41
+"2020-03",NYPD,New York City Police Department,59864,6.73
+"2020-04",DEP,Department of Environmental Protection,5977,126.44
+"2020-04",DOT,Department of Transportation,9494,501.19
+"2020-04",DSNY,Department of Sanitation,20104,518.20
+"2020-04",HPD,Department of Housing Preservation and Development,23133,531.64
+"2020-04",NYPD,New York City Police Department,72586,1.63
+"2020-05",DEP,Department of Environmental Protection,9705,135.16
+"2020-05",DOT,Department of Transportation,11844,422.11
+"2020-05",DSNY,Department of Sanitation,33143,320.73
+"2020-05",HPD,Department of Housing Preservation and Development,21477,569.26
+"2020-05",NYPD,New York City Police Department,128420,0.40
+"2020-06",DEP,Department of Environmental Protection,12563,124.39
+"2020-06",DOT,Department of Transportation,14782,402.04
+"2020-06",DSNY,Department of Sanitation,45259,289.46
+"2020-06",HPD,Department of Housing Preservation and Development,22984,554.04
+"2020-06",NYPD,New York City Police Department,176450,2.71
+"2020-07",DEP,Department of Environmental Protection,19993,76.67
+"2020-07",DOT,Department of Transportation,16380,449.10
+"2020-07",DSNY,Department of Sanitation,50630,236.16
+"2020-07",HPD,Department of Housing Preservation and Development,30908,507.89
+"2020-07",NYPD,New York City Police Department,145453,2.57
+"2020-08",DEP,Department of Environmental Protection,14255,106.77
+"2020-08",DOT,Department of Transportation,19825,469.05
+"2020-08",DSNY,Department of Sanitation,51337,140.89
+"2020-08",HPD,Department of Housing Preservation and Development,30519,376.81
+"2020-08",NYPD,New York City Police Department,140948,4.62
+"2020-09",DEP,Department of Environmental Protection,12665,136.22
+"2020-09",DOT,Department of Transportation,18453,434.40
+"2020-09",DSNY,Department of Sanitation,45112,115.55
+"2020-09",HPD,Department of Housing Preservation and Development,28309,393.12
+"2020-09",NYPD,New York City Police Department,140154,3.26
+"2020-10",DEP,Department of Environmental Protection,11621,129.51
+"2020-10",DOT,Department of Transportation,15533,476.60
+"2020-10",DSNY,Department of Sanitation,41162,100.11
+"2020-10",HPD,Department of Housing Preservation and Development,43425,458.72
+"2020-10",NYPD,New York City Police Department,117017,3.92
+"2020-11",DEP,Department of Environmental Protection,11031,106.00
+"2020-11",DOT,Department of Transportation,13465,461.03
+"2020-11",DSNY,Department of Sanitation,36085,93.97
+"2020-11",HPD,Department of Housing Preservation and Development,48641,416.73
+"2020-11",NYPD,New York City Police Department,91406,3.34
+"2020-12",DEP,Department of Environmental Protection,10348,127.23
+"2020-12",DOT,Department of Transportation,14665,431.48
+"2020-12",DSNY,Department of Sanitation,35785,102.66
+"2020-12",HPD,Department of Housing Preservation and Development,65119,347.09
+"2020-12",NYPD,New York City Police Department,76014,4.98
+"2021-01",DEP,Department of Environmental Protection,11171,127.63
+"2021-01",DOT,Department of Transportation,15564,413.13
+"2021-01",DSNY,Department of Sanitation,38005,94.34
+"2021-01",HPD,Department of Housing Preservation and Development,61969,342.50
+"2021-01",NYPD,New York City Police Department,73880,4.33
+"2021-02",DEP,Department of Environmental Protection,8799,153.78
+"2021-02",DOT,Department of Transportation,15432,454.96
+"2021-02",DSNY,Department of Sanitation,28782,113.56
+"2021-02",HPD,Department of Housing Preservation and Development,55231,316.91
+"2021-02",NYPD,New York City Police Department,65287,1.73
+"2021-03",DEP,Department of Environmental Protection,12510,143.21
+"2021-03",DOT,Department of Transportation,21588,437.72
+"2021-03",DSNY,Department of Sanitation,51044,100.84
+"2021-03",HPD,Department of Housing Preservation and Development,46335,297.50
+"2021-03",NYPD,New York City Police Department,86427,1.59
+"2021-04",DEP,Department of Environmental Protection,11218,126.15
+"2021-04",DOT,Department of Transportation,20057,432.73
+"2021-04",DSNY,Department of Sanitation,42857,95.01
+"2021-04",HPD,Department of Housing Preservation and Development,36164,328.47
+"2021-04",NYPD,New York City Police Department,99502,2.18
+"2021-05",DEP,Department of Environmental Protection,11393,153.59
+"2021-05",DOT,Department of Transportation,17443,522.11
+"2021-05",DSNY,Department of Sanitation,44650,107.63
+"2021-05",HPD,Department of Housing Preservation and Development,31099,361.61
+"2021-05",NYPD,New York City Police Department,132975,3.87
+"2021-06",DEP,Department of Environmental Protection,16245,94.73
+"2021-06",DOT,Department of Transportation,18688,469.59
+"2021-06",DSNY,Department of Sanitation,49064,168.06
+"2021-06",HPD,Department of Housing Preservation and Development,30999,414.13
+"2021-06",NYPD,New York City Police Department,144919,3.69
+"2021-07",DEP,Department of Environmental Protection,17076,102.09
+"2021-07",DOT,Department of Transportation,18107,405.48
+"2021-07",DSNY,Department of Sanitation,49725,175.47
+"2021-07",HPD,Department of Housing Preservation and Development,34725,402.47
+"2021-07",NYPD,New York City Police Department,139677,14.50
+"2021-08",DEP,Department of Environmental Protection,17069,114.79
+"2021-08",DOT,Department of Transportation,19111,395.35
+"2021-08",DSNY,Department of Sanitation,50129,311.28
+"2021-08",HPD,Department of Housing Preservation and Development,36948,383.76
+"2021-08",NYPD,New York City Police Department,119680,6.74
+"2021-09",DEP,Department of Environmental Protection,21104,107.00
+"2021-09",DOT,Department of Transportation,18832,394.91
+"2021-09",DSNY,Department of Sanitation,52826,296.28
+"2021-09",HPD,Department of Housing Preservation and Development,47851,405.16
+"2021-09",NYPD,New York City Police Department,134610,2.13
+"2021-10",DEP,Department of Environmental Protection,13418,134.03
+"2021-10",DOT,Department of Transportation,17477,462.56
+"2021-10",DSNY,Department of Sanitation,61194,284.93
+"2021-10",HPD,Department of Housing Preservation and Development,50017,536.53
+"2021-10",NYPD,New York City Police Department,125862,1.30
+"2021-11",DEP,Department of Environmental Protection,10943,131.79
+"2021-11",DOT,Department of Transportation,15094,446.98
+"2021-11",DSNY,Department of Sanitation,38285,336.70
+"2021-11",HPD,Department of Housing Preservation and Development,76780,508.73
+"2021-11",NYPD,New York City Police Department,95966,1.77
+"2021-12",DEP,Department of Environmental Protection,10257,116.14
+"2021-12",DOT,Department of Transportation,15248,332.79
+"2021-12",DSNY,Department of Sanitation,38892,346.44
+"2021-12",HPD,Department of Housing Preservation and Development,60948,458.37
+"2021-12",NYPD,New York City Police Department,94163,1.70
+"2022-01",DEP,Department of Environmental Protection,12687,115.50
+"2022-01",DOT,Department of Transportation,16624,297.47
+"2022-01",DSNY,Department of Sanitation,39620,291.15
+"2022-01",HPD,Department of Housing Preservation and Development,100677,373.68
+"2022-01",NYPD,New York City Police Department,84089,2.21
+"2022-02",DEP,Department of Environmental Protection,11567,110.82
+"2022-02",DOT,Department of Transportation,20156,300.32
+"2022-02",DSNY,Department of Sanitation,37808,917.61
+"2022-02",HPD,Department of Housing Preservation and Development,61755,408.47
+"2022-02",NYPD,New York City Police Department,89108,68.07
+"2022-03",DEP,Department of Environmental Protection,12626,106.63
+"2022-03",DOT,Department of Transportation,22150,289.49
+"2022-03",DSNY,Department of Sanitation,27130,662.50
+"2022-03",HPD,Department of Housing Preservation and Development,56795,398.41
+"2022-03",NYPD,New York City Police Department,102225,3.13
+"2022-04",DEP,Department of Environmental Protection,12162,130.16
+"2022-04",DOT,Department of Transportation,20779,293.66
+"2022-04",DSNY,Department of Sanitation,18726,475.63
+"2022-04",HPD,Department of Housing Preservation and Development,45287,381.93
+"2022-04",NYPD,New York City Police Department,105829,1.81
+"2022-05",DEP,Department of Environmental Protection,15027,115.26
+"2022-05",DOT,Department of Transportation,20654,279.93
+"2022-05",DSNY,Department of Sanitation,21311,711.65
+"2022-05",HPD,Department of Housing Preservation and Development,35487,428.47
+"2022-05",NYPD,New York City Police Department,144906,12.68
+"2022-06",DEP,Department of Environmental Protection,13931,116.91
+"2022-06",DOT,Department of Transportation,20715,263.07
+"2022-06",DSNY,Department of Sanitation,24025,493.38
+"2022-06",HPD,Department of Housing Preservation and Development,32946,467.54
+"2022-06",NYPD,New York City Police Department,135250,1.94
+"2022-07",DEP,Department of Environmental Protection,19990,88.81
+"2022-07",DOT,Department of Transportation,17889,266.69
+"2022-07",DSNY,Department of Sanitation,24898,338.43
+"2022-07",HPD,Department of Housing Preservation and Development,36020,546.05
+"2022-07",NYPD,New York City Police Department,153544,2.96
+"2022-08",DEP,Department of Environmental Protection,17287,97.82
+"2022-08",DOT,Department of Transportation,21355,700.18
+"2022-08",DSNY,Department of Sanitation,25199,373.25
+"2022-08",HPD,Department of Housing Preservation and Development,36584,607.82
+"2022-08",NYPD,New York City Police Department,124585,1.73
+"2022-09",DEP,Department of Environmental Protection,14806,119.48
+"2022-09",DOT,Department of Transportation,18122,302.90
+"2022-09",DSNY,Department of Sanitation,22926,296.00
+"2022-09",HPD,Department of Housing Preservation and Development,35494,599.79
+"2022-09",NYPD,New York City Police Department,138511,2.10
+"2022-10",DEP,Department of Environmental Protection,12045,109.94
+"2022-10",DOT,Department of Transportation,17498,309.47
+"2022-10",DSNY,Department of Sanitation,21942,409.09
+"2022-10",HPD,Department of Housing Preservation and Development,61402,471.71
+"2022-10",NYPD,New York City Police Department,115891,1.66
+"2022-11",DEP,Department of Environmental Protection,11931,108.03
+"2022-11",DOT,Department of Transportation,15737,314.80
+"2022-11",DSNY,Department of Sanitation,20653,339.09
+"2022-11",HPD,Department of Housing Preservation and Development,67786,515.42
+"2022-11",NYPD,New York City Police Department,98260,1.88
+"2022-12",DEP,Department of Environmental Protection,12946,107.00
+"2022-12",DOT,Department of Transportation,16625,262.75
+"2022-12",DSNY,Department of Sanitation,20046,543.23
+"2022-12",HPD,Department of Housing Preservation and Development,90578,410.06
+"2022-12",NYPD,New York City Police Department,90596,2.44
+"2023-01",DEP,Department of Environmental Protection,12516,95.37
+"2023-01",DOT,Department of Transportation,18442,267.18
+"2023-01",DSNY,Department of Sanitation,20245,258.45
+"2023-01",HPD,Department of Housing Preservation and Development,64540,469.22
+"2023-01",NYPD,New York City Police Department,96875,2.12
+"2023-02",DEP,Department of Environmental Protection,10900,101.28
+"2023-02",DOT,Department of Transportation,16542,245.72
+"2023-02",DSNY,Department of Sanitation,17250,374.74
+"2023-02",HPD,Department of Housing Preservation and Development,65055,389.16
+"2023-02",NYPD,New York City Police Department,87253,2.92
+"2023-03",DEP,Department of Environmental Protection,12363,94.75
+"2023-03",DOT,Department of Transportation,19592,243.68
+"2023-03",DSNY,Department of Sanitation,20205,204.70
+"2023-03",HPD,Department of Housing Preservation and Development,60780,402.50
+"2023-03",NYPD,New York City Police Department,101275,2.64
+"2023-04",DEP,Department of Environmental Protection,12949,92.35
+"2023-04",DOT,Department of Transportation,15391,271.49
+"2023-04",DSNY,Department of Sanitation,23015,201.25
+"2023-04",HPD,Department of Housing Preservation and Development,45146,492.14
+"2023-04",NYPD,New York City Police Department,111196,2.79
+"2023-05",DEP,Department of Environmental Protection,14581,101.95
+"2023-05",DOT,Department of Transportation,15760,276.04
+"2023-05",DSNY,Department of Sanitation,26898,142.46
+"2023-05",HPD,Department of Housing Preservation and Development,40437,522.78
+"2023-05",NYPD,New York City Police Department,133681,1.77
+"2023-06",DEP,Department of Environmental Protection,12859,110.89
+"2023-06",DOT,Department of Transportation,14775,254.45
+"2023-06",DSNY,Department of Sanitation,27933,164.29
+"2023-06",HPD,Department of Housing Preservation and Development,35722,511.42
+"2023-06",NYPD,New York City Police Department,129292,1.21
+"2023-07",DEP,Department of Environmental Protection,21197,73.79
+"2023-07",DOT,Department of Transportation,14451,283.74
+"2023-07",DSNY,Department of Sanitation,30880,168.10
+"2023-07",HPD,Department of Housing Preservation and Development,42907,498.48
+"2023-07",NYPD,New York City Police Department,130495,1.24
+"2023-08",DEP,Department of Environmental Protection,14417,92.88
+"2023-08",DOT,Department of Transportation,15766,347.06
+"2023-08",DSNY,Department of Sanitation,31531,162.59
+"2023-08",HPD,Department of Housing Preservation and Development,43513,528.29
+"2023-08",NYPD,New York City Police Department,127453,1.53
+"2023-09",DEP,Department of Environmental Protection,18411,81.86
+"2023-09",DOT,Department of Transportation,14590,311.66
+"2023-09",DSNY,Department of Sanitation,28974,170.16
+"2023-09",HPD,Department of Housing Preservation and Development,49769,530.44
+"2023-09",NYPD,New York City Police Department,126839,1.46
+"2023-10",DEP,Department of Environmental Protection,15386,107.02
+"2023-10",DOT,Department of Transportation,15290,290.37
+"2023-10",DSNY,Department of Sanitation,28434,152.34
+"2023-10",HPD,Department of Housing Preservation and Development,73722,514.88
+"2023-10",NYPD,New York City Police Department,126302,1.56
+"2023-11",DEP,Department of Environmental Protection,11531,113.00
+"2023-11",DOT,Department of Transportation,13398,301.46
+"2023-11",DSNY,Department of Sanitation,23430,123.83
+"2023-11",HPD,Department of Housing Preservation and Development,86678,418.53
+"2023-11",NYPD,New York City Police Department,109598,1.83
+"2023-12",DEP,Department of Environmental Protection,11554,101.69
+"2023-12",DOT,Department of Transportation,14268,257.39
+"2023-12",DSNY,Department of Sanitation,21268,122.23
+"2023-12",HPD,Department of Housing Preservation and Development,74795,443.35
+"2023-12",NYPD,New York City Police Department,112156,2.16
+"2024-01",DEP,Department of Environmental Protection,13176,88.52
+"2024-01",DOT,Department of Transportation,17096,259.50
+"2024-01",DSNY,Department of Sanitation,23335,133.47
+"2024-01",HPD,Department of Housing Preservation and Development,98867,361.55
+"2024-01",NYPD,New York City Police Department,103952,2.02
+"2024-02",DEP,Department of Environmental Protection,11603,110.97
+"2024-02",DOT,Department of Transportation,15743,251.76
+"2024-02",DSNY,Department of Sanitation,20170,124.36
+"2024-02",HPD,Department of Housing Preservation and Development,65847,350.31
+"2024-02",NYPD,New York City Police Department,98779,1.97
+"2024-03",DEP,Department of Environmental Protection,13353,99.16
+"2024-03",DOT,Department of Transportation,19423,212.59
+"2024-03",DSNY,Department of Sanitation,21916,116.08
+"2024-03",HPD,Department of Housing Preservation and Development,63125,352.15
+"2024-03",NYPD,New York City Police Department,114153,2.00
+"2024-04",DEP,Department of Environmental Protection,13514,114.04
+"2024-04",DOT,Department of Transportation,19112,219.50
+"2024-04",DSNY,Department of Sanitation,23078,128.43
+"2024-04",HPD,Department of Housing Preservation and Development,52805,340.47
+"2024-04",NYPD,New York City Police Department,117585,1.93
+"2024-05",DEP,Department of Environmental Protection,13880,116.77
+"2024-05",DOT,Department of Transportation,17013,231.12
+"2024-05",DSNY,Department of Sanitation,26502,120.65
+"2024-05",HPD,Department of Housing Preservation and Development,42644,319.14
+"2024-05",NYPD,New York City Police Department,136507,1.81
+"2024-06",DEP,Department of Environmental Protection,19097,87.63
+"2024-06",DOT,Department of Transportation,16705,245.68
+"2024-06",DSNY,Department of Sanitation,27697,125.18
+"2024-06",HPD,Department of Housing Preservation and Development,39964,327.34
+"2024-06",NYPD,New York City Police Department,148964,2.19
+"2024-07",DEP,Department of Environmental Protection,19729,71.62
+"2024-07",DOT,Department of Transportation,16503,233.52
+"2024-07",DSNY,Department of Sanitation,29300,118.90
+"2024-07",HPD,Department of Housing Preservation and Development,44972,332.21
+"2024-07",NYPD,New York City Police Department,138648,2.50
+"2024-08",DEP,Department of Environmental Protection,16463,84.10
+"2024-08",DOT,Department of Transportation,16791,243.03
+"2024-08",DSNY,Department of Sanitation,29368,112.63
+"2024-08",HPD,Department of Housing Preservation and Development,46827,297.54
+"2024-08",NYPD,New York City Police Department,127897,2.69
+"2024-09",DEP,Department of Environmental Protection,14025,86.60
+"2024-09",DOT,Department of Transportation,15622,229.09
+"2024-09",DSNY,Department of Sanitation,29713,102.77
+"2024-09",HPD,Department of Housing Preservation and Development,42385,222.84
+"2024-09",NYPD,New York City Police Department,161304,3.16
+"2024-10",DEP,Department of Environmental Protection,18615,105.00
+"2024-10",DOT,Department of Transportation,15199,226.38
+"2024-10",DSNY,Department of Sanitation,28092,85.29
+"2024-10",HPD,Department of Housing Preservation and Development,56793,243.71
+"2024-10",NYPD,New York City Police Department,144300,3.25
+"2024-11",DEP,Department of Environmental Protection,21109,255.18
+"2024-11",DOT,Department of Transportation,13945,223.72
+"2024-11",DSNY,Department of Sanitation,23074,89.55
+"2024-11",HPD,Department of Housing Preservation and Development,72731,305.92
+"2024-11",NYPD,New York City Police Department,126283,3.63
+"2024-12",DEP,Department of Environmental Protection,14551,122.24
+"2024-12",DOT,Department of Transportation,15585,167.49
+"2024-12",DSNY,Department of Sanitation,22320,143.41
+"2024-12",HPD,Department of Housing Preservation and Development,99986,292.40
+"2024-12",NYPD,New York City Police Department,129639,4.70
+"2025-01",DEP,Department of Environmental Protection,15099,95.00
+"2025-01",DOT,Department of Transportation,16004,142.87
+"2025-01",DSNY,Department of Sanitation,26217,88.85
+"2025-01",HPD,Department of Housing Preservation and Development,107284,260.49
+"2025-01",NYPD,New York City Police Department,153175,4.93
+"2025-02",DEP,Department of Environmental Protection,12822,97.21
+"2025-02",DOT,Department of Transportation,17155,127.48
+"2025-02",DSNY,Department of Sanitation,21569,89.09
+"2025-02",HPD,Department of Housing Preservation and Development,72112,233.90
+"2025-02",NYPD,New York City Police Department,104278,4.17
+"2025-03",DEP,Department of Environmental Protection,13318,92.19
+"2025-03",DOT,Department of Transportation,18292,121.06
+"2025-03",DSNY,Department of Sanitation,25021,91.87
+"2025-03",HPD,Department of Housing Preservation and Development,58235,223.47
+"2025-03",NYPD,New York City Police Department,130118,4.26
+"2025-04",DEP,Department of Environmental Protection,12330,73.09
+"2025-04",DOT,Department of Transportation,16875,107.38
+"2025-04",DSNY,Department of Sanitation,28969,82.55
+"2025-04",HPD,Department of Housing Preservation and Development,45883,181.47
+"2025-04",NYPD,New York City Police Department,127716,3.15
+"2025-05",DEP,Department of Environmental Protection,9630,47.12
+"2025-05",DOT,Department of Transportation,12426,67.42
+"2025-05",DSNY,Department of Sanitation,21321,44.80
+"2025-05",HPD,Department of Housing Preservation and Development,23125,115.81
+"2025-05",NYPD,New York City Police Department,132889,2.64

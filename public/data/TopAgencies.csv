@@ -1,0 +1,1801 @@
+"month_year","agency","agency_name","complaint_count"
+"2024-12",NYPD,New York City Police Department,122283
+"2024-12",HPD,Department of Housing Preservation and Development,100967
+"2024-12",DSNY,Department of Sanitation,21628
+"2024-12",DOT,Department of Transportation,15687
+"2024-12",DEP,Department of Environmental Protection,14351
+"2024-12",DOB,Department of Buildings,8204
+"2024-12",DOHMH,Department of Health and Mental Hygiene,5711
+"2024-12",DPR,Department of Parks and Recreation,3749
+"2024-12",TLC,Taxi and Limousine Commission,3147
+"2024-12",EDC,Economic Development Corporation,2633
+"2024-11",NYPD,New York City Police Department,126349
+"2024-11",HPD,Department of Housing Preservation and Development,74911
+"2024-11",DSNY,Department of Sanitation,23156
+"2024-11",DEP,Department of Environmental Protection,21583
+"2024-11",DOT,Department of Transportation,14363
+"2024-11",DOB,Department of Buildings,8335
+"2024-11",DPR,Department of Parks and Recreation,6873
+"2024-11",DOHMH,Department of Health and Mental Hygiene,6331
+"2024-11",DHS,Department of Homeless Services,4360
+"2024-11",TLC,Taxi and Limousine Commission,3069
+"2024-10",NYPD,New York City Police Department,144300
+"2024-10",HPD,Department of Housing Preservation and Development,58220
+"2024-10",DSNY,Department of Sanitation,28194
+"2024-10",DEP,Department of Environmental Protection,18820
+"2024-10",DOT,Department of Transportation,15700
+"2024-10",DPR,Department of Parks and Recreation,10826
+"2024-10",DOB,Department of Buildings,8907
+"2024-10",DOHMH,Department of Health and Mental Hygiene,7624
+"2024-10",DHS,Department of Homeless Services,6100
+"2024-10",TLC,Taxi and Limousine Commission,3974
+"2024-09",NYPD,New York City Police Department,161304
+"2024-09",HPD,Department of Housing Preservation and Development,42445
+"2024-09",DSNY,Department of Sanitation,29907
+"2024-09",DOT,Department of Transportation,16237
+"2024-09",DEP,Department of Environmental Protection,14210
+"2024-09",DPR,Department of Parks and Recreation,12401
+"2024-09",DOB,Department of Buildings,8645
+"2024-09",DOHMH,Department of Health and Mental Hygiene,8356
+"2024-09",DHS,Department of Homeless Services,6323
+"2024-09",TLC,Taxi and Limousine Commission,3516
+"2024-08",NYPD,New York City Police Department,127897
+"2024-08",HPD,Department of Housing Preservation and Development,47016
+"2024-08",DSNY,Department of Sanitation,29584
+"2024-08",DOT,Department of Transportation,17527
+"2024-08",DPR,Department of Parks and Recreation,17141
+"2024-08",DEP,Department of Environmental Protection,16716
+"2024-08",DOB,Department of Buildings,9250
+"2024-08",DOHMH,Department of Health and Mental Hygiene,8872
+"2024-08",DHS,Department of Homeless Services,5416
+"2024-08",TLC,Taxi and Limousine Commission,2421
+"2024-07",NYPD,New York City Police Department,138648
+"2024-07",HPD,Department of Housing Preservation and Development,45119
+"2024-07",DSNY,Department of Sanitation,29499
+"2024-07",DEP,Department of Environmental Protection,19927
+"2024-07",DPR,Department of Parks and Recreation,18282
+"2024-07",DOT,Department of Transportation,17189
+"2024-07",DOHMH,Department of Health and Mental Hygiene,9162
+"2024-07",DOB,Department of Buildings,8787
+"2024-07",DHS,Department of Homeless Services,5819
+"2024-07",TLC,Taxi and Limousine Commission,2418
+"2024-06",NYPD,New York City Police Department,148964
+"2024-06",HPD,Department of Housing Preservation and Development,40000
+"2024-06",DSNY,Department of Sanitation,27849
+"2024-06",DPR,Department of Parks and Recreation,21863
+"2024-06",DEP,Department of Environmental Protection,19266
+"2024-06",DOT,Department of Transportation,17502
+"2024-06",DOHMH,Department of Health and Mental Hygiene,8627
+"2024-06",DOB,Department of Buildings,8394
+"2024-06",DHS,Department of Homeless Services,5248
+"2024-06",TLC,Taxi and Limousine Commission,3559
+"2024-05",NYPD,New York City Police Department,136507
+"2024-05",HPD,Department of Housing Preservation and Development,42716
+"2024-05",DSNY,Department of Sanitation,26658
+"2024-05",DOT,Department of Transportation,17764
+"2024-05",DPR,Department of Parks and Recreation,15236
+"2024-05",DEP,Department of Environmental Protection,14072
+"2024-05",DOHMH,Department of Health and Mental Hygiene,9022
+"2024-05",DOB,Department of Buildings,8417
+"2024-05",DHS,Department of Homeless Services,4829
+"2024-05",TLC,Taxi and Limousine Commission,3877
+"2024-04",NYPD,New York City Police Department,117585
+"2024-04",HPD,Department of Housing Preservation and Development,52864
+"2024-04",DSNY,Department of Sanitation,23188
+"2024-04",DOT,Department of Transportation,20045
+"2024-04",DEP,Department of Environmental Protection,13693
+"2024-04",DPR,Department of Parks and Recreation,12240
+"2024-04",DOB,Department of Buildings,8793
+"2024-04",DOHMH,Department of Health and Mental Hygiene,7552
+"2024-04",DHS,Department of Homeless Services,4096
+"2024-04",TLC,Taxi and Limousine Commission,2868
+"2024-03",NYPD,New York City Police Department,114153
+"2024-03",HPD,Department of Housing Preservation and Development,63247
+"2024-03",DSNY,Department of Sanitation,22008
+"2024-03",DOT,Department of Transportation,20002
+"2024-03",DEP,Department of Environmental Protection,13531
+"2024-03",DOB,Department of Buildings,8684
+"2024-03",DPR,Department of Parks and Recreation,8162
+"2024-03",DOHMH,Department of Health and Mental Hygiene,6565
+"2024-03",TLC,Taxi and Limousine Commission,3113
+"2024-03",EDC,Economic Development Corporation,2780
+"2024-02",NYPD,New York City Police Department,98779
+"2024-02",HPD,Department of Housing Preservation and Development,65914
+"2024-02",DSNY,Department of Sanitation,20235
+"2024-02",DOT,Department of Transportation,16243
+"2024-02",DEP,Department of Environmental Protection,11714
+"2024-02",DOB,Department of Buildings,7512
+"2024-02",DOHMH,Department of Health and Mental Hygiene,6130
+"2024-02",DPR,Department of Parks and Recreation,5374
+"2024-02",TLC,Taxi and Limousine Commission,2731
+"2024-02",EDC,Economic Development Corporation,2281
+"2024-01",NYPD,New York City Police Department,103952
+"2024-01",HPD,Department of Housing Preservation and Development,99003
+"2024-01",DSNY,Department of Sanitation,23419
+"2024-01",DOT,Department of Transportation,17433
+"2024-01",DEP,Department of Environmental Protection,13327
+"2024-01",DOB,Department of Buildings,8617
+"2024-01",DOHMH,Department of Health and Mental Hygiene,6472
+"2024-01",DPR,Department of Parks and Recreation,6148
+"2024-01",TLC,Taxi and Limousine Commission,3025
+"2024-01",DHS,Department of Homeless Services,2363
+"2023-12",NYPD,New York City Police Department,112156
+"2023-12",HPD,Department of Housing Preservation and Development,74880
+"2023-12",DSNY,Department of Sanitation,21392
+"2023-12",DOT,Department of Transportation,14633
+"2023-12",DEP,Department of Environmental Protection,11673
+"2023-12",EDC,Economic Development Corporation,8724
+"2023-12",DOB,Department of Buildings,8575
+"2023-12",DPR,Department of Parks and Recreation,6353
+"2023-12",DOHMH,Department of Health and Mental Hygiene,5868
+"2023-12",TLC,Taxi and Limousine Commission,3192
+"2023-11",NYPD,New York City Police Department,109702
+"2023-11",HPD,Department of Housing Preservation and Development,86767
+"2023-11",DSNY,Department of Sanitation,23597
+"2023-11",DOT,Department of Transportation,13771
+"2023-11",DEP,Department of Environmental Protection,11603
+"2023-11",DOB,Department of Buildings,8050
+"2023-11",DPR,Department of Parks and Recreation,6363
+"2023-11",DOHMH,Department of Health and Mental Hygiene,6152
+"2023-11",EDC,Economic Development Corporation,4896
+"2023-11",DHS,Department of Homeless Services,4265
+"2023-10",NYPD,New York City Police Department,126302
+"2023-10",HPD,Department of Housing Preservation and Development,75797
+"2023-10",DSNY,Department of Sanitation,28643
+"2023-10",DOT,Department of Transportation,15668
+"2023-10",DEP,Department of Environmental Protection,15512
+"2023-10",DPR,Department of Parks and Recreation,10379
+"2023-10",DOB,Department of Buildings,9299
+"2023-10",DOHMH,Department of Health and Mental Hygiene,7147
+"2023-10",DHS,Department of Homeless Services,5683
+"2023-10",TLC,Taxi and Limousine Commission,3983
+"2023-09",NYPD,New York City Police Department,126839
+"2023-09",HPD,Department of Housing Preservation and Development,51024
+"2023-09",DSNY,Department of Sanitation,29253
+"2023-09",DEP,Department of Environmental Protection,18561
+"2023-09",DOT,Department of Transportation,14958
+"2023-09",DPR,Department of Parks and Recreation,13475
+"2023-09",DOB,Department of Buildings,9266
+"2023-09",DOHMH,Department of Health and Mental Hygiene,7844
+"2023-09",DHS,Department of Homeless Services,5804
+"2023-09",TLC,Taxi and Limousine Commission,3028
+"2023-08",NYPD,New York City Police Department,127453
+"2023-08",HPD,Department of Housing Preservation and Development,43579
+"2023-08",DSNY,Department of Sanitation,31793
+"2023-08",DPR,Department of Parks and Recreation,16960
+"2023-08",DOT,Department of Transportation,16136
+"2023-08",DEP,Department of Environmental Protection,14542
+"2023-08",DOB,Department of Buildings,9191
+"2023-08",DOHMH,Department of Health and Mental Hygiene,8896
+"2023-08",DHS,Department of Homeless Services,5875
+"2023-08",EDC,Economic Development Corporation,4369
+"2023-07",NYPD,New York City Police Department,130495
+"2023-07",HPD,Department of Housing Preservation and Development,42951
+"2023-07",DSNY,Department of Sanitation,31066
+"2023-07",DEP,Department of Environmental Protection,21317
+"2023-07",DPR,Department of Parks and Recreation,18558
+"2023-07",DOT,Department of Transportation,14852
+"2023-07",DOB,Department of Buildings,9283
+"2023-07",DOHMH,Department of Health and Mental Hygiene,8708
+"2023-07",DHS,Department of Homeless Services,5006
+"2023-07",EDC,Economic Development Corporation,2643
+"2023-06",NYPD,New York City Police Department,129292
+"2023-06",HPD,Department of Housing Preservation and Development,35740
+"2023-06",DSNY,Department of Sanitation,28078
+"2023-06",DOT,Department of Transportation,15127
+"2023-06",DPR,Department of Parks and Recreation,14267
+"2023-06",DEP,Department of Environmental Protection,13000
+"2023-06",DOB,Department of Buildings,8833
+"2023-06",DOHMH,Department of Health and Mental Hygiene,7498
+"2023-06",EDC,Economic Development Corporation,5269
+"2023-06",DHS,Department of Homeless Services,4809
+"2023-05",NYPD,New York City Police Department,133681
+"2023-05",HPD,Department of Housing Preservation and Development,40463
+"2023-05",DSNY,Department of Sanitation,27033
+"2023-05",DOT,Department of Transportation,16195
+"2023-05",DPR,Department of Parks and Recreation,14827
+"2023-05",DEP,Department of Environmental Protection,14730
+"2023-05",DOB,Department of Buildings,9236
+"2023-05",DOHMH,Department of Health and Mental Hygiene,7564
+"2023-05",EDC,Economic Development Corporation,7461
+"2023-05",DHS,Department of Homeless Services,4338
+"2023-04",NYPD,New York City Police Department,111196
+"2023-04",HPD,Department of Housing Preservation and Development,45180
+"2023-04",DSNY,Department of Sanitation,23114
+"2023-04",DOT,Department of Transportation,16512
+"2023-04",DEP,Department of Environmental Protection,13097
+"2023-04",DPR,Department of Parks and Recreation,9518
+"2023-04",DOB,Department of Buildings,7350
+"2023-04",EDC,Economic Development Corporation,7194
+"2023-04",DOHMH,Department of Health and Mental Hygiene,6876
+"2023-04",DHS,Department of Homeless Services,3179
+"2023-03",NYPD,New York City Police Department,101275
+"2023-03",HPD,Department of Housing Preservation and Development,60849
+"2023-03",DOT,Department of Transportation,20404
+"2023-03",DSNY,Department of Sanitation,20320
+"2023-03",DEP,Department of Environmental Protection,12443
+"2023-03",DOB,Department of Buildings,8045
+"2023-03",DPR,Department of Parks and Recreation,7826
+"2023-03",DOHMH,Department of Health and Mental Hygiene,6586
+"2023-03",EDC,Economic Development Corporation,6517
+"2023-03",TLC,Taxi and Limousine Commission,3017
+"2023-02",NYPD,New York City Police Department,87253
+"2023-02",HPD,Department of Housing Preservation and Development,65106
+"2023-02",DOT,Department of Transportation,17537
+"2023-02",DSNY,Department of Sanitation,17388
+"2023-02",DEP,Department of Environmental Protection,11009
+"2023-02",DOB,Department of Buildings,6547
+"2023-02",DOHMH,Department of Health and Mental Hygiene,5884
+"2023-02",EDC,Economic Development Corporation,4324
+"2023-02",DPR,Department of Parks and Recreation,4071
+"2023-02",TLC,Taxi and Limousine Commission,2376
+"2023-01",NYPD,New York City Police Department,96875
+"2023-01",HPD,Department of Housing Preservation and Development,64620
+"2023-01",DSNY,Department of Sanitation,20353
+"2023-01",DOT,Department of Transportation,19155
+"2023-01",DEP,Department of Environmental Protection,12609
+"2023-01",DOB,Department of Buildings,7277
+"2023-01",DOHMH,Department of Health and Mental Hygiene,6168
+"2023-01",DPR,Department of Parks and Recreation,5199
+"2023-01",EDC,Economic Development Corporation,3536
+"2023-01",TLC,Taxi and Limousine Commission,2449
+"2022-12",HPD,Department of Housing Preservation and Development,90694
+"2022-12",NYPD,New York City Police Department,90596
+"2022-12",DSNY,Department of Sanitation,20095
+"2022-12",DOT,Department of Transportation,17604
+"2022-12",DEP,Department of Environmental Protection,13069
+"2022-12",DOB,Department of Buildings,7170
+"2022-12",DPR,Department of Parks and Recreation,5566
+"2022-12",DOHMH,Department of Health and Mental Hygiene,5393
+"2022-12",EDC,Economic Development Corporation,3416
+"2022-12",TLC,Taxi and Limousine Commission,2708
+"2022-11",NYPD,New York City Police Department,98340
+"2022-11",HPD,Department of Housing Preservation and Development,67906
+"2022-11",DSNY,Department of Sanitation,20749
+"2022-11",DOT,Department of Transportation,16409
+"2022-11",DEP,Department of Environmental Protection,12041
+"2022-11",DOB,Department of Buildings,7329
+"2022-11",DPR,Department of Parks and Recreation,6517
+"2022-11",DOHMH,Department of Health and Mental Hygiene,5549
+"2022-11",DHS,Department of Homeless Services,3749
+"2022-11",EDC,Economic Development Corporation,3004
+"2022-10",NYPD,New York City Police Department,115891
+"2022-10",HPD,Department of Housing Preservation and Development,61491
+"2022-10",DSNY,Department of Sanitation,22035
+"2022-10",DOT,Department of Transportation,18336
+"2022-10",DEP,Department of Environmental Protection,12157
+"2022-10",DPR,Department of Parks and Recreation,10567
+"2022-10",DOB,Department of Buildings,7545
+"2022-10",DOHMH,Department of Health and Mental Hygiene,6742
+"2022-10",DHS,Department of Homeless Services,5233
+"2022-10",TLC,Taxi and Limousine Commission,2887
+"2022-09",NYPD,New York City Police Department,138511
+"2022-09",HPD,Department of Housing Preservation and Development,35555
+"2022-09",DSNY,Department of Sanitation,23118
+"2022-09",DOT,Department of Transportation,18940
+"2022-09",DEP,Department of Environmental Protection,14964
+"2022-09",DPR,Department of Parks and Recreation,12163
+"2022-09",DOB,Department of Buildings,8385
+"2022-09",DOHMH,Department of Health and Mental Hygiene,7227
+"2022-09",DHS,Department of Homeless Services,5618
+"2022-09",TLC,Taxi and Limousine Commission,2809
+"2022-08",NYPD,New York City Police Department,124585
+"2022-08",HPD,Department of Housing Preservation and Development,36655
+"2022-08",DSNY,Department of Sanitation,25498
+"2022-08",DOT,Department of Transportation,22237
+"2022-08",DEP,Department of Environmental Protection,17387
+"2022-08",DPR,Department of Parks and Recreation,13062
+"2022-08",DOB,Department of Buildings,9136
+"2022-08",DOHMH,Department of Health and Mental Hygiene,8351
+"2022-08",DHS,Department of Homeless Services,5319
+"2022-08",TLC,Taxi and Limousine Commission,2533
+"2022-07",NYPD,New York City Police Department,153544
+"2022-07",HPD,Department of Housing Preservation and Development,36080
+"2022-07",DSNY,Department of Sanitation,25001
+"2022-07",DEP,Department of Environmental Protection,20094
+"2022-07",DOT,Department of Transportation,18386
+"2022-07",DPR,Department of Parks and Recreation,13798
+"2022-07",DOB,Department of Buildings,8545
+"2022-07",DOHMH,Department of Health and Mental Hygiene,8294
+"2022-07",DHS,Department of Homeless Services,4788
+"2022-07",TLC,Taxi and Limousine Commission,2311
+"2022-06",NYPD,New York City Police Department,135250
+"2022-06",HPD,Department of Housing Preservation and Development,33001
+"2022-06",DSNY,Department of Sanitation,24052
+"2022-06",DOT,Department of Transportation,21430
+"2022-06",DPR,Department of Parks and Recreation,15376
+"2022-06",DEP,Department of Environmental Protection,14021
+"2022-06",DOB,Department of Buildings,8755
+"2022-06",DOHMH,Department of Health and Mental Hygiene,8281
+"2022-06",DHS,Department of Homeless Services,4239
+"2022-06",TLC,Taxi and Limousine Commission,2827
+"2022-05",NYPD,New York City Police Department,144906
+"2022-05",HPD,Department of Housing Preservation and Development,35529
+"2022-05",DOT,Department of Transportation,21620
+"2022-05",DSNY,Department of Sanitation,21325
+"2022-05",DEP,Department of Environmental Protection,15147
+"2022-05",DPR,Department of Parks and Recreation,11440
+"2022-05",DOHMH,Department of Health and Mental Hygiene,8073
+"2022-05",DOB,Department of Buildings,7779
+"2022-05",DHS,Department of Homeless Services,3534
+"2022-05",TLC,Taxi and Limousine Commission,2810
+"2022-04",NYPD,New York City Police Department,105829
+"2022-04",HPD,Department of Housing Preservation and Development,45344
+"2022-04",DOT,Department of Transportation,21674
+"2022-04",DSNY,Department of Sanitation,18735
+"2022-04",DEP,Department of Environmental Protection,12279
+"2022-04",DPR,Department of Parks and Recreation,7845
+"2022-04",DOB,Department of Buildings,7423
+"2022-04",DOHMH,Department of Health and Mental Hygiene,6447
+"2022-04",DHS,Department of Homeless Services,3258
+"2022-04",TLC,Taxi and Limousine Commission,2632
+"2022-03",NYPD,New York City Police Department,102225
+"2022-03",HPD,Department of Housing Preservation and Development,56916
+"2022-03",DSNY,Department of Sanitation,27145
+"2022-03",DOT,Department of Transportation,23039
+"2022-03",DEP,Department of Environmental Protection,12733
+"2022-03",DOB,Department of Buildings,7709
+"2022-03",DPR,Department of Parks and Recreation,6941
+"2022-03",DOHMH,Department of Health and Mental Hygiene,6346
+"2022-03",DHS,Department of Homeless Services,2695
+"2022-03",TLC,Taxi and Limousine Commission,2472
+"2022-02",NYPD,New York City Police Department,89108
+"2022-02",HPD,Department of Housing Preservation and Development,61842
+"2022-02",DSNY,Department of Sanitation,37860
+"2022-02",DOT,Department of Transportation,20829
+"2022-02",DEP,Department of Environmental Protection,11648
+"2022-02",DOB,Department of Buildings,6176
+"2022-02",DOHMH,Department of Health and Mental Hygiene,5498
+"2022-02",DPR,Department of Parks and Recreation,4048
+"2022-02",DHS,Department of Homeless Services,2005
+"2022-02",TLC,Taxi and Limousine Commission,1966
+"2022-01",HPD,Department of Housing Preservation and Development,100840
+"2022-01",NYPD,New York City Police Department,84205
+"2022-01",DSNY,Department of Sanitation,39636
+"2022-01",DOT,Department of Transportation,17720
+"2022-01",DEP,Department of Environmental Protection,12746
+"2022-01",DOHMH,Department of Health and Mental Hygiene,7056
+"2022-01",DOB,Department of Buildings,6110
+"2022-01",DPR,Department of Parks and Recreation,3767
+"2022-01",DHS,Department of Homeless Services,2518
+"2022-01",EDC,Economic Development Corporation,1677
+"2021-12",NYPD,New York City Police Department,94163
+"2021-12",HPD,Department of Housing Preservation and Development,61020
+"2021-12",DSNY,Department of Sanitation,39095
+"2021-12",DOT,Department of Transportation,16088
+"2021-12",DEP,Department of Environmental Protection,10383
+"2021-12",DOHMH,Department of Health and Mental Hygiene,7982
+"2021-12",DOB,Department of Buildings,6382
+"2021-12",DPR,Department of Parks and Recreation,4190
+"2021-12",DHS,Department of Homeless Services,3154
+"2021-12",TLC,Taxi and Limousine Commission,2102
+"2021-11",NYPD,New York City Police Department,96052
+"2021-11",HPD,Department of Housing Preservation and Development,76863
+"2021-11",DSNY,Department of Sanitation,38315
+"2021-11",DOT,Department of Transportation,15996
+"2021-11",DEP,Department of Environmental Protection,11012
+"2021-11",DOB,Department of Buildings,7113
+"2021-11",DOHMH,Department of Health and Mental Hygiene,6921
+"2021-11",DPR,Department of Parks and Recreation,5872
+"2021-11",DHS,Department of Homeless Services,4192
+"2021-11",EDC,Economic Development Corporation,3271
+"2021-10",NYPD,New York City Police Department,125862
+"2021-10",DSNY,Department of Sanitation,61221
+"2021-10",HPD,Department of Housing Preservation and Development,50054
+"2021-10",DOT,Department of Transportation,18260
+"2021-10",DEP,Department of Environmental Protection,13539
+"2021-10",DPR,Department of Parks and Recreation,9581
+"2021-10",DOHMH,Department of Health and Mental Hygiene,8739
+"2021-10",DOB,Department of Buildings,7949
+"2021-10",DHS,Department of Homeless Services,6065
+"2021-10",EDC,Economic Development Corporation,2857
+"2021-09",NYPD,New York City Police Department,134610
+"2021-09",DSNY,Department of Sanitation,52950
+"2021-09",HPD,Department of Housing Preservation and Development,47929
+"2021-09",DEP,Department of Environmental Protection,21204
+"2021-09",DOT,Department of Transportation,19704
+"2021-09",DPR,Department of Parks and Recreation,11644
+"2021-09",DOB,Department of Buildings,9155
+"2021-09",DOHMH,Department of Health and Mental Hygiene,8780
+"2021-09",DHS,Department of Homeless Services,5404
+"2021-09",TLC,Taxi and Limousine Commission,1948
+"2021-08",NYPD,New York City Police Department,119680
+"2021-08",DSNY,Department of Sanitation,50276
+"2021-08",HPD,Department of Housing Preservation and Development,37015
+"2021-08",DOT,Department of Transportation,20185
+"2021-08",DEP,Department of Environmental Protection,17207
+"2021-08",DPR,Department of Parks and Recreation,12167
+"2021-08",DOHMH,Department of Health and Mental Hygiene,7977
+"2021-08",DOB,Department of Buildings,7572
+"2021-08",DHS,Department of Homeless Services,4547
+"2021-08",DCWP,Department of Consumer and Worker Protection,2163
+"2021-07",NYPD,New York City Police Department,139677
+"2021-07",DSNY,Department of Sanitation,49877
+"2021-07",HPD,Department of Housing Preservation and Development,34763
+"2021-07",DOT,Department of Transportation,19306
+"2021-07",DEP,Department of Environmental Protection,17154
+"2021-07",DPR,Department of Parks and Recreation,16744
+"2021-07",DOB,Department of Buildings,8298
+"2021-07",DOHMH,Department of Health and Mental Hygiene,7827
+"2021-07",DHS,Department of Homeless Services,4373
+"2021-07",DCWP,Department of Consumer and Worker Protection,2015
+"2021-06",NYPD,New York City Police Department,144919
+"2021-06",DSNY,Department of Sanitation,49409
+"2021-06",HPD,Department of Housing Preservation and Development,31040
+"2021-06",DOT,Department of Transportation,20312
+"2021-06",DEP,Department of Environmental Protection,16343
+"2021-06",DPR,Department of Parks and Recreation,14046
+"2021-06",DOB,Department of Buildings,7969
+"2021-06",DOHMH,Department of Health and Mental Hygiene,7431
+"2021-06",DHS,Department of Homeless Services,3144
+"2021-06",EDC,Economic Development Corporation,2415
+"2021-05",NYPD,New York City Police Department,132975
+"2021-05",DSNY,Department of Sanitation,44694
+"2021-05",HPD,Department of Housing Preservation and Development,31151
+"2021-05",DOT,Department of Transportation,18817
+"2021-05",DPR,Department of Parks and Recreation,11660
+"2021-05",DEP,Department of Environmental Protection,11494
+"2021-05",DOB,Department of Buildings,7438
+"2021-05",DOHMH,Department of Health and Mental Hygiene,6579
+"2021-05",DHS,Department of Homeless Services,2698
+"2021-05",EDC,Economic Development Corporation,2166
+"2021-04",NYPD,New York City Police Department,99505
+"2021-04",DSNY,Department of Sanitation,42911
+"2021-04",HPD,Department of Housing Preservation and Development,36198
+"2021-04",DOT,Department of Transportation,21280
+"2021-04",DEP,Department of Environmental Protection,11329
+"2021-04",DPR,Department of Parks and Recreation,8851
+"2021-04",DOB,Department of Buildings,6898
+"2021-04",DOHMH,Department of Health and Mental Hygiene,5859
+"2021-04",OSE,Mayor's Office of Special Enforcement,2196
+"2021-04",DHS,Department of Homeless Services,2184
+"2021-03",NYPD,New York City Police Department,86427
+"2021-03",DSNY,Department of Sanitation,51107
+"2021-03",HPD,Department of Housing Preservation and Development,46398
+"2021-03",DOT,Department of Transportation,22903
+"2021-03",DEP,Department of Environmental Protection,12616
+"2021-03",DOB,Department of Buildings,7275
+"2021-03",DPR,Department of Parks and Recreation,6595
+"2021-03",DOHMH,Department of Health and Mental Hygiene,5598
+"2021-03",EDC,Economic Development Corporation,3292
+"2021-03",OSE,Mayor's Office of Special Enforcement,3078
+"2021-02",NYPD,New York City Police Department,65287
+"2021-02",HPD,Department of Housing Preservation and Development,55299
+"2021-02",DSNY,Department of Sanitation,30758
+"2021-02",DOT,Department of Transportation,16744
+"2021-02",DEP,Department of Environmental Protection,8900
+"2021-02",DOB,Department of Buildings,4989
+"2021-02",DOHMH,Department of Health and Mental Hygiene,3597
+"2021-02",OSE,Mayor's Office of Special Enforcement,3396
+"2021-02",DPR,Department of Parks and Recreation,2501
+"2021-02",EDC,Economic Development Corporation,1480
+"2021-01",NYPD,New York City Police Department,73880
+"2021-01",HPD,Department of Housing Preservation and Development,62074
+"2021-01",DSNY,Department of Sanitation,38047
+"2021-01",DOT,Department of Transportation,16634
+"2021-01",DEP,Department of Environmental Protection,11294
+"2021-01",DOB,Department of Buildings,6334
+"2021-01",OSE,Mayor's Office of Special Enforcement,5405
+"2021-01",DOHMH,Department of Health and Mental Hygiene,4381
+"2021-01",DPR,Department of Parks and Recreation,3858
+"2021-01",EDC,Economic Development Corporation,2615
+"2020-12",NYPD,New York City Police Department,76014
+"2020-12",HPD,Department of Housing Preservation and Development,65179
+"2020-12",DSNY,Department of Sanitation,36479
+"2020-12",DOT,Department of Transportation,16989
+"2020-12",DEP,Department of Environmental Protection,10485
+"2020-12",OSE,Mayor's Office of Special Enforcement,6557
+"2020-12",DOB,Department of Buildings,6341
+"2020-12",DPR,Department of Parks and Recreation,3885
+"2020-12",DOHMH,Department of Health and Mental Hygiene,3701
+"2020-12",EDC,Economic Development Corporation,1739
+"2020-11",NYPD,New York City Police Department,91501
+"2020-11",HPD,Department of Housing Preservation and Development,48703
+"2020-11",DSNY,Department of Sanitation,36119
+"2020-11",DOT,Department of Transportation,14893
+"2020-11",DEP,Department of Environmental Protection,11246
+"2020-11",OSE,Mayor's Office of Special Enforcement,7911
+"2020-11",DPR,Department of Parks and Recreation,6573
+"2020-11",DOB,Department of Buildings,6561
+"2020-11",DOHMH,Department of Health and Mental Hygiene,3899
+"2020-11",DHS,Department of Homeless Services,2273
+"2020-10",NYPD,New York City Police Department,117017
+"2020-10",HPD,Department of Housing Preservation and Development,43499
+"2020-10",DSNY,Department of Sanitation,41201
+"2020-10",DOT,Department of Transportation,16822
+"2020-10",DEP,Department of Environmental Protection,11736
+"2020-10",DPR,Department of Parks and Recreation,10034
+"2020-10",OSE,Mayor's Office of Special Enforcement,9481
+"2020-10",DOB,Department of Buildings,7652
+"2020-10",DOHMH,Department of Health and Mental Hygiene,4963
+"2020-10",DHS,Department of Homeless Services,2952
+"2020-09",NYPD,New York City Police Department,140154
+"2020-09",DSNY,Department of Sanitation,46816
+"2020-09",HPD,Department of Housing Preservation and Development,28339
+"2020-09",DOT,Department of Transportation,19705
+"2020-09",DEP,Department of Environmental Protection,12763
+"2020-09",DPR,Department of Parks and Recreation,12427
+"2020-09",DOB,Department of Buildings,7754
+"2020-09",OSE,Mayor's Office of Special Enforcement,7365
+"2020-09",DOHMH,Department of Health and Mental Hygiene,5754
+"2020-09",DHS,Department of Homeless Services,3047
+"2020-08",NYPD,New York City Police Department,140949
+"2020-08",DPR,Department of Parks and Recreation,59110
+"2020-08",DSNY,Department of Sanitation,51478
+"2020-08",HPD,Department of Housing Preservation and Development,30538
+"2020-08",DOT,Department of Transportation,21257
+"2020-08",DEP,Department of Environmental Protection,14375
+"2020-08",OSE,Mayor's Office of Special Enforcement,9205
+"2020-08",DOB,Department of Buildings,8706
+"2020-08",DOHMH,Department of Health and Mental Hygiene,6312
+"2020-08",DHS,Department of Homeless Services,3294
+"2020-07",NYPD,New York City Police Department,145466
+"2020-07",DSNY,Department of Sanitation,50688
+"2020-07",HPD,Department of Housing Preservation and Development,30942
+"2020-07",DEP,Department of Environmental Protection,20079
+"2020-07",DPR,Department of Parks and Recreation,18761
+"2020-07",DOT,Department of Transportation,18251
+"2020-07",OSE,Mayor's Office of Special Enforcement,10923
+"2020-07",DOB,Department of Buildings,8557
+"2020-07",DOHMH,Department of Health and Mental Hygiene,6097
+"2020-07",DHS,Department of Homeless Services,2843
+"2020-06",NYPD,New York City Police Department,176450
+"2020-06",DSNY,Department of Sanitation,45424
+"2020-06",HPD,Department of Housing Preservation and Development,23008
+"2020-06",DOT,Department of Transportation,17433
+"2020-06",DPR,Department of Parks and Recreation,15196
+"2020-06",DEP,Department of Environmental Protection,12692
+"2020-06",DOB,Department of Buildings,7670
+"2020-06",DOHMH,Department of Health and Mental Hygiene,5410
+"2020-06",OSE,Mayor's Office of Special Enforcement,2945
+"2020-06",DCWP,Department of Consumer and Worker Protection,2892
+"2020-05",NYPD,New York City Police Department,128420
+"2020-05",DSNY,Department of Sanitation,33157
+"2020-05",HPD,Department of Housing Preservation and Development,21503
+"2020-05",DOT,Department of Transportation,14695
+"2020-05",DEP,Department of Environmental Protection,9811
+"2020-05",DPR,Department of Parks and Recreation,8197
+"2020-05",DOB,Department of Buildings,6816
+"2020-05",DOHMH,Department of Health and Mental Hygiene,4744
+"2020-05",DCWP,Department of Consumer and Worker Protection,3219
+"2020-05",DHS,Department of Homeless Services,2577
+"2020-04",NYPD,New York City Police Department,72586
+"2020-04",HPD,Department of Housing Preservation and Development,23168
+"2020-04",DSNY,Department of Sanitation,20115
+"2020-04",DOT,Department of Transportation,11759
+"2020-04",DCWP,Department of Consumer and Worker Protection,7763
+"2020-04",DEP,Department of Environmental Protection,6034
+"2020-04",DOB,Department of Buildings,5853
+"2020-04",DPR,Department of Parks and Recreation,4721
+"2020-04",DOHMH,Department of Health and Mental Hygiene,3291
+"2020-04",DFTA,Department for the Aging,1774
+"2020-03",NYPD,New York City Police Department,59864
+"2020-03",HPD,Department of Housing Preservation and Development,33170
+"2020-03",DSNY,Department of Sanitation,29288
+"2020-03",DOT,Department of Transportation,18627
+"2020-03",DEP,Department of Environmental Protection,10570
+"2020-03",DCWP,Department of Consumer and Worker Protection,9564
+"2020-03",DOB,Department of Buildings,6488
+"2020-03",DOHMH,Department of Health and Mental Hygiene,4308
+"2020-03",DPR,Department of Parks and Recreation,4016
+"2020-03",TLC,Taxi and Limousine Commission,1731
+"2020-02",NYPD,New York City Police Department,57933
+"2020-02",DSNY,Department of Sanitation,32587
+"2020-02",HPD,Department of Housing Preservation and Development,30043
+"2020-02",DOT,Department of Transportation,20118
+"2020-02",DEP,Department of Environmental Protection,10493
+"2020-02",DOB,Department of Buildings,7190
+"2020-02",DOHMH,Department of Health and Mental Hygiene,4334
+"2020-02",DPR,Department of Parks and Recreation,4197
+"2020-02",TLC,Taxi and Limousine Commission,3189
+"2020-02",DHS,Department of Homeless Services,1366
+"2020-01",NYPD,New York City Police Department,62968
+"2020-01",DSNY,Department of Sanitation,38040
+"2020-01",HPD,Department of Housing Preservation and Development,37121
+"2020-01",DOT,Department of Transportation,22270
+"2020-01",DEP,Department of Environmental Protection,11777
+"2020-01",DOB,Department of Buildings,7733
+"2020-01",DOHMH,Department of Health and Mental Hygiene,4467
+"2020-01",DPR,Department of Parks and Recreation,4181
+"2020-01",TLC,Taxi and Limousine Commission,3187
+"2020-01",DHS,Department of Homeless Services,1455
+"2019-12",NYPD,New York City Police Department,60656
+"2019-12",HPD,Department of Housing Preservation and Development,42752
+"2019-12",DSNY,Department of Sanitation,35743
+"2019-12",DOT,Department of Transportation,19941
+"2019-12",DEP,Department of Environmental Protection,11617
+"2019-12",DOB,Department of Buildings,7125
+"2019-12",DOHMH,Department of Health and Mental Hygiene,3899
+"2019-12",TLC,Taxi and Limousine Commission,3437
+"2019-12",DPR,Department of Parks and Recreation,3153
+"2019-12",DHS,Department of Homeless Services,1208
+"2019-11",NYPD,New York City Police Department,62606
+"2019-11",HPD,Department of Housing Preservation and Development,48369
+"2019-11",DSNY,Department of Sanitation,33787
+"2019-11",DOT,Department of Transportation,18577
+"2019-11",DEP,Department of Environmental Protection,11632
+"2019-11",DOB,Department of Buildings,7489
+"2019-11",DPR,Department of Parks and Recreation,5931
+"2019-11",TLC,Taxi and Limousine Commission,4953
+"2019-11",DOHMH,Department of Health and Mental Hygiene,4016
+"2019-11",DHS,Department of Homeless Services,2186
+"2019-10",NYPD,New York City Police Department,74321
+"2019-10",DSNY,Department of Sanitation,38090
+"2019-10",HPD,Department of Housing Preservation and Development,27537
+"2019-10",DOT,Department of Transportation,22290
+"2019-10",DEP,Department of Environmental Protection,13785
+"2019-10",DPR,Department of Parks and Recreation,9273
+"2019-10",DOB,Department of Buildings,8574
+"2019-10",DOHMH,Department of Health and Mental Hygiene,5063
+"2019-10",TLC,Taxi and Limousine Commission,3796
+"2019-10",DHS,Department of Homeless Services,2661
+"2019-09",NYPD,New York City Police Department,87721
+"2019-09",DSNY,Department of Sanitation,38161
+"2019-09",DOT,Department of Transportation,24227
+"2019-09",HPD,Department of Housing Preservation and Development,13949
+"2019-09",DEP,Department of Environmental Protection,13395
+"2019-09",DPR,Department of Parks and Recreation,11174
+"2019-09",DOB,Department of Buildings,8752
+"2019-09",DOHMH,Department of Health and Mental Hygiene,5738
+"2019-09",TLC,Taxi and Limousine Commission,4103
+"2019-09",DHS,Department of Homeless Services,2626
+"2019-08",NYPD,New York City Police Department,78076
+"2019-08",DSNY,Department of Sanitation,41914
+"2019-08",DOT,Department of Transportation,27379
+"2019-08",DEP,Department of Environmental Protection,14930
+"2019-08",HPD,Department of Housing Preservation and Development,14548
+"2019-08",DPR,Department of Parks and Recreation,12658
+"2019-08",DOB,Department of Buildings,9873
+"2019-08",DOHMH,Department of Health and Mental Hygiene,6302
+"2019-08",TLC,Taxi and Limousine Commission,3252
+"2019-08",DHS,Department of Homeless Services,2380
+"2019-07",NYPD,New York City Police Department,76192
+"2019-07",DSNY,Department of Sanitation,44083
+"2019-07",DOT,Department of Transportation,24423
+"2019-07",DEP,Department of Environmental Protection,22400
+"2019-07",HPD,Department of Housing Preservation and Development,15911
+"2019-07",DPR,Department of Parks and Recreation,12635
+"2019-07",DOB,Department of Buildings,9402
+"2019-07",DOHMH,Department of Health and Mental Hygiene,6636
+"2019-07",TLC,Taxi and Limousine Commission,3671
+"2019-07",DHS,Department of Homeless Services,2322
+"2019-06",NYPD,New York City Police Department,90227
+"2019-06",DSNY,Department of Sanitation,43743
+"2019-06",HPD,Department of Housing Preservation and Development,33018
+"2019-06",DOT,Department of Transportation,24457
+"2019-06",DEP,Department of Environmental Protection,16417
+"2019-06",DPR,Department of Parks and Recreation,13967
+"2019-06",DOB,Department of Buildings,12756
+"2019-06",DOHMH,Department of Health and Mental Hygiene,6618
+"2019-06",TLC,Taxi and Limousine Commission,3477
+"2019-06",DHS,Department of Homeless Services,2058
+"2019-05",NYPD,New York City Police Department,83308
+"2019-05",DSNY,Department of Sanitation,41465
+"2019-05",HPD,Department of Housing Preservation and Development,36410
+"2019-05",DOT,Department of Transportation,26690
+"2019-05",DEP,Department of Environmental Protection,16556
+"2019-05",DOB,Department of Buildings,13274
+"2019-05",DPR,Department of Parks and Recreation,12113
+"2019-05",DOHMH,Department of Health and Mental Hygiene,6546
+"2019-05",TLC,Taxi and Limousine Commission,2639
+"2019-05",DHS,Department of Homeless Services,1730
+"2019-04",NYPD,New York City Police Department,64838
+"2019-04",HPD,Department of Housing Preservation and Development,40107
+"2019-04",DSNY,Department of Sanitation,38389
+"2019-04",DOT,Department of Transportation,24923
+"2019-04",DEP,Department of Environmental Protection,15333
+"2019-04",DOB,Department of Buildings,15223
+"2019-04",DPR,Department of Parks and Recreation,8240
+"2019-04",DOHMH,Department of Health and Mental Hygiene,5554
+"2019-04",TLC,Taxi and Limousine Commission,2344
+"2019-04",DHS,Department of Homeless Services,1393
+"2019-03",NYPD,New York City Police Department,60432
+"2019-03",HPD,Department of Housing Preservation and Development,51955
+"2019-03",DSNY,Department of Sanitation,36393
+"2019-03",DOT,Department of Transportation,25313
+"2019-03",DEP,Department of Environmental Protection,14416
+"2019-03",DOB,Department of Buildings,12421
+"2019-03",DPR,Department of Parks and Recreation,5524
+"2019-03",DOHMH,Department of Health and Mental Hygiene,4999
+"2019-03",TLC,Taxi and Limousine Commission,2819
+"2019-03",DCWP,Department of Consumer and Worker Protection,1337
+"2019-02",HPD,Department of Housing Preservation and Development,59183
+"2019-02",NYPD,New York City Police Department,48879
+"2019-02",DSNY,Department of Sanitation,30053
+"2019-02",DOT,Department of Transportation,21097
+"2019-02",DEP,Department of Environmental Protection,14133
+"2019-02",DOB,Department of Buildings,10192
+"2019-02",DPR,Department of Parks and Recreation,4522
+"2019-02",DOHMH,Department of Health and Mental Hygiene,4308
+"2019-02",TLC,Taxi and Limousine Commission,2480
+"2019-02",DCWP,Department of Consumer and Worker Protection,1124
+"2019-01",HPD,Department of Housing Preservation and Development,82791
+"2019-01",NYPD,New York City Police Department,53101
+"2019-01",DSNY,Department of Sanitation,36361
+"2019-01",DOT,Department of Transportation,22698
+"2019-01",DEP,Department of Environmental Protection,16253
+"2019-01",DOB,Department of Buildings,10742
+"2019-01",DOHMH,Department of Health and Mental Hygiene,4739
+"2019-01",DPR,Department of Parks and Recreation,3693
+"2019-01",TLC,Taxi and Limousine Commission,2208
+"2019-01",DCWP,Department of Consumer and Worker Protection,1221
+"2018-12",HPD,Department of Housing Preservation and Development,59575
+"2018-12",NYPD,New York City Police Department,57456
+"2018-12",DSNY,Department of Sanitation,33925
+"2018-12",DOT,Department of Transportation,20740
+"2018-12",DEP,Department of Environmental Protection,14089
+"2018-12",DOB,Department of Buildings,9714
+"2018-12",DOHMH,Department of Health and Mental Hygiene,4229
+"2018-12",DPR,Department of Parks and Recreation,4227
+"2018-12",TLC,Taxi and Limousine Commission,2529
+"2018-12",DCWP,Department of Consumer and Worker Protection,1161
+"2018-11",HPD,Department of Housing Preservation and Development,69113
+"2018-11",NYPD,New York City Police Department,55576
+"2018-11",DSNY,Department of Sanitation,34100
+"2018-11",DOT,Department of Transportation,19346
+"2018-11",DEP,Department of Environmental Protection,14729
+"2018-11",DPR,Department of Parks and Recreation,10819
+"2018-11",DOB,Department of Buildings,10582
+"2018-11",DOHMH,Department of Health and Mental Hygiene,4403
+"2018-11",TLC,Taxi and Limousine Commission,2679
+"2018-11",DHS,Department of Homeless Services,1238
+"2018-10",HPD,Department of Housing Preservation and Development,66791
+"2018-10",NYPD,New York City Police Department,65668
+"2018-10",DSNY,Department of Sanitation,37620
+"2018-10",DOT,Department of Transportation,24188
+"2018-10",DEP,Department of Environmental Protection,16357
+"2018-10",DOB,Department of Buildings,12275
+"2018-10",DPR,Department of Parks and Recreation,10602
+"2018-10",DOHMH,Department of Health and Mental Hygiene,5964
+"2018-10",TLC,Taxi and Limousine Commission,2954
+"2018-10",DHS,Department of Homeless Services,2269
+"2018-09",NYPD,New York City Police Department,73107
+"2018-09",DSNY,Department of Sanitation,39482
+"2018-09",HPD,Department of Housing Preservation and Development,37543
+"2018-09",DOT,Department of Transportation,21424
+"2018-09",DEP,Department of Environmental Protection,16616
+"2018-09",DOB,Department of Buildings,11644
+"2018-09",DPR,Department of Parks and Recreation,10803
+"2018-09",DOHMH,Department of Health and Mental Hygiene,6045
+"2018-09",TLC,Taxi and Limousine Commission,2691
+"2018-09",DHS,Department of Homeless Services,2276
+"2018-08",NYPD,New York City Police Department,64602
+"2018-08",DSNY,Department of Sanitation,42571
+"2018-08",HPD,Department of Housing Preservation and Development,40290
+"2018-08",DOT,Department of Transportation,26098
+"2018-08",DEP,Department of Environmental Protection,18611
+"2018-08",DOB,Department of Buildings,14334
+"2018-08",DPR,Department of Parks and Recreation,13042
+"2018-08",DOHMH,Department of Health and Mental Hygiene,7565
+"2018-08",DHS,Department of Homeless Services,2550
+"2018-08",TLC,Taxi and Limousine Commission,2535
+"2018-07",NYPD,New York City Police Department,70665
+"2018-07",DSNY,Department of Sanitation,40663
+"2018-07",HPD,Department of Housing Preservation and Development,35250
+"2018-07",DOT,Department of Transportation,22926
+"2018-07",DEP,Department of Environmental Protection,21056
+"2018-07",DPR,Department of Parks and Recreation,16617
+"2018-07",DOB,Department of Buildings,12277
+"2018-07",DOHMH,Department of Health and Mental Hygiene,7019
+"2018-07",DHS,Department of Homeless Services,2231
+"2018-07",TLC,Taxi and Limousine Commission,2224
+"2018-06",NYPD,New York City Police Department,78034
+"2018-06",DSNY,Department of Sanitation,38789
+"2018-06",HPD,Department of Housing Preservation and Development,29956
+"2018-06",DOT,Department of Transportation,24277
+"2018-06",DEP,Department of Environmental Protection,17961
+"2018-06",DPR,Department of Parks and Recreation,13364
+"2018-06",DOB,Department of Buildings,12038
+"2018-06",DOHMH,Department of Health and Mental Hygiene,6484
+"2018-06",TLC,Taxi and Limousine Commission,2569
+"2018-06",DHS,Department of Homeless Services,1989
+"2018-05",NYPD,New York City Police Department,74308
+"2018-05",DSNY,Department of Sanitation,36970
+"2018-05",HPD,Department of Housing Preservation and Development,32090
+"2018-05",DOT,Department of Transportation,27496
+"2018-05",DEP,Department of Environmental Protection,17646
+"2018-05",DPR,Department of Parks and Recreation,13395
+"2018-05",DOB,Department of Buildings,12163
+"2018-05",DOHMH,Department of Health and Mental Hygiene,6280
+"2018-05",TLC,Taxi and Limousine Commission,2625
+"2018-05",DHS,Department of Homeless Services,1936
+"2018-04",NYPD,New York City Police Department,58318
+"2018-04",HPD,Department of Housing Preservation and Development,43100
+"2018-04",DSNY,Department of Sanitation,32814
+"2018-04",DOT,Department of Transportation,26634
+"2018-04",DEP,Department of Environmental Protection,16383
+"2018-04",DOB,Department of Buildings,11212
+"2018-04",DPR,Department of Parks and Recreation,7557
+"2018-04",DOHMH,Department of Health and Mental Hygiene,5118
+"2018-04",TLC,Taxi and Limousine Commission,2450
+"2018-04",DCWP,Department of Consumer and Worker Protection,1517
+"2018-03",NYPD,New York City Police Department,54531
+"2018-03",HPD,Department of Housing Preservation and Development,54221
+"2018-03",DOT,Department of Transportation,29363
+"2018-03",DSNY,Department of Sanitation,28091
+"2018-03",DEP,Department of Environmental Protection,14922
+"2018-03",DPR,Department of Parks and Recreation,12646
+"2018-03",DOB,Department of Buildings,10828
+"2018-03",DOHMH,Department of Health and Mental Hygiene,4672
+"2018-03",TLC,Taxi and Limousine Commission,2871
+"2018-03",DOF,Personal Exemption Unit,1464
+"2018-02",NYPD,New York City Police Department,47588
+"2018-02",HPD,Department of Housing Preservation and Development,47067
+"2018-02",DOT,Department of Transportation,28426
+"2018-02",DSNY,Department of Sanitation,26735
+"2018-02",DEP,Department of Environmental Protection,13808
+"2018-02",DOB,Department of Buildings,10264
+"2018-02",DOHMH,Department of Health and Mental Hygiene,4142
+"2018-02",DPR,Department of Parks and Recreation,3870
+"2018-02",TLC,Taxi and Limousine Commission,2126
+"2018-02",DCWP,Department of Consumer and Worker Protection,1275
+"2018-01",HPD,Department of Housing Preservation and Development,94881
+"2018-01",NYPD,New York City Police Department,51604
+"2018-01",DSNY,Department of Sanitation,29314
+"2018-01",DOT,Department of Transportation,24394
+"2018-01",DEP,Department of Environmental Protection,22558
+"2018-01",DOB,Department of Buildings,10558
+"2018-01",DOHMH,Department of Health and Mental Hygiene,4913
+"2018-01",DPR,Department of Parks and Recreation,3375
+"2018-01",TLC,Taxi and Limousine Commission,2130
+"2018-01",DHS,Operations Unit - Department of Homeless Services,1501
+"2017-12",HPD,Department of Housing Preservation and Development,77630
+"2017-12",NYPD,New York City Police Department,53625
+"2017-12",DSNY,Department of Sanitation,27444
+"2017-12",DOT,Department of Transportation,19310
+"2017-12",DEP,Department of Environmental Protection,12032
+"2017-12",DOB,Department of Buildings,10357
+"2017-12",DOHMH,Department of Health and Mental Hygiene,4285
+"2017-12",DPR,Department of Parks and Recreation,3048
+"2017-12",TLC,Taxi and Limousine Commission,2312
+"2017-12",DHS,Operations Unit - Department of Homeless Services,1261
+"2017-11",HPD,Department of Housing Preservation and Development,67373
+"2017-11",NYPD,New York City Police Department,54760
+"2017-11",DSNY,Department of Sanitation,29184
+"2017-11",DOT,Department of Transportation,19119
+"2017-11",DEP,Department of Environmental Protection,12800
+"2017-11",DOB,Department of Buildings,10824
+"2017-11",DPR,Department of Parks and Recreation,6258
+"2017-11",DOHMH,Department of Health and Mental Hygiene,4439
+"2017-11",TLC,Taxi and Limousine Commission,2580
+"2017-11",DHS,Operations Unit - Department of Homeless Services,1479
+"2017-10",NYPD,New York City Police Department,68541
+"2017-10",HPD,Department of Housing Preservation and Development,40731
+"2017-10",DSNY,Department of Sanitation,31958
+"2017-10",DOT,Department of Transportation,22336
+"2017-10",DEP,Department of Environmental Protection,15247
+"2017-10",DOB,Department of Buildings,12354
+"2017-10",DPR,Department of Parks and Recreation,9981
+"2017-10",DOHMH,Department of Health and Mental Hygiene,5690
+"2017-10",TLC,Taxi and Limousine Commission,2661
+"2017-10",DHS,Operations Unit - Department of Homeless Services,2311
+"2017-09",NYPD,New York City Police Department,72252
+"2017-09",DSNY,Department of Sanitation,30245
+"2017-09",HPD,Department of Housing Preservation and Development,29791
+"2017-09",DOT,Department of Transportation,21471
+"2017-09",DEP,Department of Environmental Protection,14280
+"2017-09",DOB,Department of Buildings,11804
+"2017-09",DPR,Department of Parks and Recreation,9788
+"2017-09",DOHMH,Department of Health and Mental Hygiene,5780
+"2017-09",TLC,Taxi and Limousine Commission,2483
+"2017-09",DHS,Operations Unit - Department of Homeless Services,2127
+"2017-08",NYPD,New York City Police Department,67057
+"2017-08",HPD,Department of Housing Preservation and Development,34469
+"2017-08",DOT,Department of Transportation,23457
+"2017-08",DSNY,Department of Sanitation,21729
+"2017-08",DEP,Department of Environmental Protection,15248
+"2017-08",DOB,Department of Buildings,12838
+"2017-08",DPR,Department of Parks and Recreation,11612
+"2017-08",DOHMH,Department of Health and Mental Hygiene,7099
+"2017-08",DHS,Operations Unit - Department of Homeless Services,2243
+"2017-08",TLC,Taxi and Limousine Commission,1923
+"2017-07",NYPD,New York City Police Department,72096
+"2017-07",HPD,Department of Housing Preservation and Development,32442
+"2017-07",DSNY,Department of Sanitation,23628
+"2017-07",DOT,Department of Transportation,21728
+"2017-07",DEP,Department of Environmental Protection,17918
+"2017-07",DPR,Department of Parks and Recreation,13698
+"2017-07",DOB,Department of Buildings,11932
+"2017-07",DOHMH,Department of Health and Mental Hygiene,7020
+"2017-07",DHS,Operations Unit - Department of Homeless Services,2220
+"2017-07",TLC,Taxi and Limousine Commission,1903
+"2017-06",NYPD,New York City Police Department,76030
+"2017-06",HPD,Department of Housing Preservation and Development,31109
+"2017-06",DOT,Department of Transportation,25668
+"2017-06",DSNY,Department of Sanitation,19986
+"2017-06",DEP,Department of Environmental Protection,19185
+"2017-06",DPR,Department of Parks and Recreation,13542
+"2017-06",DOB,Department of Buildings,12392
+"2017-06",DOHMH,Department of Health and Mental Hygiene,6652
+"2017-06",TLC,Taxi and Limousine Commission,2559
+"2017-06",DOF,Personal Exemption Unit,2158
+"2017-05",NYPD,New York City Police Department,68233
+"2017-05",HPD,Department of Housing Preservation and Development,36955
+"2017-05",DOT,Department of Transportation,27603
+"2017-05",DEP,Department of Environmental Protection,18468
+"2017-05",DSNY,Department of Sanitation,17440
+"2017-05",DOB,Department of Buildings,12090
+"2017-05",DPR,Department of Parks and Recreation,11300
+"2017-05",DOHMH,Department of Health and Mental Hygiene,6228
+"2017-05",TLC,Taxi and Limousine Commission,2566
+"2017-05",DHS,Operations Unit - Department of Homeless Services,2069
+"2017-04",NYPD,New York City Police Department,61419
+"2017-04",HPD,Department of Housing Preservation and Development,37549
+"2017-04",DOT,Department of Transportation,28942
+"2017-04",DEP,Department of Environmental Protection,17049
+"2017-04",DSNY,Department of Sanitation,16738
+"2017-04",DOB,Department of Buildings,10362
+"2017-04",DPR,Department of Parks and Recreation,7158
+"2017-04",DOHMH,Department of Health and Mental Hygiene,5400
+"2017-04",DHS,Operations Unit - Department of Homeless Services,2979
+"2017-04",TLC,Taxi and Limousine Commission,2136
+"2017-03",HPD,Department of Housing Preservation and Development,61110
+"2017-03",NYPD,New York City Police Department,51999
+"2017-03",DOT,Department of Transportation,27098
+"2017-03",DSNY,Department of Sanitation,20664
+"2017-03",DEP,Department of Environmental Protection,13322
+"2017-03",DOB,Department of Buildings,10420
+"2017-03",DPR,Department of Parks and Recreation,4915
+"2017-03",DOHMH,Department of Health and Mental Hygiene,4559
+"2017-03",HRA,HRA Benefit Card Replacement,2146
+"2017-03",TLC,Taxi and Limousine Commission,1863
+"2017-02",HPD,Department of Housing Preservation and Development,52145
+"2017-02",NYPD,New York City Police Department,46015
+"2017-02",DOT,Department of Transportation,22650
+"2017-02",DSNY,Department of Sanitation,15770
+"2017-02",DEP,Department of Environmental Protection,13934
+"2017-02",DOB,Department of Buildings,9506
+"2017-02",DOHMH,Department of Health and Mental Hygiene,4736
+"2017-02",DPR,Department of Parks and Recreation,4389
+"2017-02",HRA,HRA Benefit Card Replacement,1956
+"2017-02",DHS,Operations Unit - Department of Homeless Services,1561
+"2017-01",HPD,Department of Housing Preservation and Development,68197
+"2017-01",NYPD,New York City Police Department,51830
+"2017-01",DOT,Department of Transportation,24476
+"2017-01",DSNY,Department of Sanitation,17662
+"2017-01",DEP,Department of Environmental Protection,14687
+"2017-01",DOB,Department of Buildings,9599
+"2017-01",DOHMH,Department of Health and Mental Hygiene,4543
+"2017-01",DPR,Department of Parks and Recreation,4006
+"2017-01",HRA,HRA Benefit Card Replacement,2558
+"2017-01",DHS,Operations Unit - Department of Homeless Services,1845
+"2016-12",HPD,Department of Housing Preservation and Development,74794
+"2016-12",NYPD,New York City Police Department,52088
+"2016-12",DOT,Department of Transportation,21528
+"2016-12",DSNY,Department of Sanitation,14498
+"2016-12",DEP,Department of Environmental Protection,12061
+"2016-12",DOB,Department of Buildings,9599
+"2016-12",DOHMH,Department of Health and Mental Hygiene,4075
+"2016-12",DPR,Department of Parks and Recreation,3585
+"2016-12",DHS,Operations Unit - Department of Homeless Services,2720
+"2016-12",HRA,HRA Benefit Card Replacement,2012
+"2016-11",HPD,Department of Housing Preservation and Development,59449
+"2016-11",NYPD,New York City Police Department,51641
+"2016-11",DOT,Department of Transportation,19989
+"2016-11",DSNY,Department of Sanitation,14203
+"2016-11",DEP,Department of Environmental Protection,13956
+"2016-11",DOB,Department of Buildings,9666
+"2016-11",DPR,Department of Parks and Recreation,4945
+"2016-11",DOHMH,Department of Health and Mental Hygiene,4098
+"2016-11",DHS,Operations Unit - Department of Homeless Services,2679
+"2016-11",HRA,HRA Benefit Card Replacement,2231
+"2016-10",NYPD,New York City Police Department,58791
+"2016-10",HPD,Department of Housing Preservation and Development,54764
+"2016-10",DOT,Department of Transportation,21630
+"2016-10",DEP,Department of Environmental Protection,14578
+"2016-10",DSNY,Department of Sanitation,14565
+"2016-10",DOB,Department of Buildings,11006
+"2016-10",DPR,Department of Parks and Recreation,7085
+"2016-10",DOHMH,Department of Health and Mental Hygiene,5046
+"2016-10",DHS,Operations Unit - Department of Homeless Services,3593
+"2016-10",HRA,HRA Benefit Card Replacement,2170
+"2016-09",NYPD,New York City Police Department,65094
+"2016-09",HPD,Department of Housing Preservation and Development,31465
+"2016-09",DOT,Department of Transportation,21273
+"2016-09",DSNY,Department of Sanitation,15858
+"2016-09",DEP,Department of Environmental Protection,14953
+"2016-09",DOB,Department of Buildings,10838
+"2016-09",DPR,Department of Parks and Recreation,9398
+"2016-09",DOHMH,Department of Health and Mental Hygiene,5778
+"2016-09",DHS,Operations Unit - Department of Homeless Services,5065
+"2016-09",HRA,HRA Benefit Card Replacement,2206
+"2016-08",NYPD,New York City Police Department,57038
+"2016-08",HPD,Department of Housing Preservation and Development,37802
+"2016-08",DOT,Department of Transportation,23448
+"2016-08",DEP,Department of Environmental Protection,20544
+"2016-08",DSNY,Department of Sanitation,17582
+"2016-08",DOB,Department of Buildings,12156
+"2016-08",DPR,Department of Parks and Recreation,11338
+"2016-08",DOHMH,Department of Health and Mental Hygiene,7169
+"2016-08",DHS,Operations Unit - Department of Homeless Services,6146
+"2016-08",HRA,HRA Benefit Card Replacement,2364
+"2016-07",NYPD,New York City Police Department,62330
+"2016-07",HPD,Department of Housing Preservation and Development,33762
+"2016-07",DOT,Department of Transportation,22727
+"2016-07",DEP,Department of Environmental Protection,21201
+"2016-07",DSNY,Department of Sanitation,16981
+"2016-07",DPR,Department of Parks and Recreation,13962
+"2016-07",DOB,Department of Buildings,11354
+"2016-07",DOHMH,Department of Health and Mental Hygiene,6635
+"2016-07",DHS,Operations Unit - Department of Homeless Services,5323
+"2016-07",TLC,Taxi and Limousine Commission,2091
+"2016-06",NYPD,New York City Police Department,67947
+"2016-06",HPD,Department of Housing Preservation and Development,31864
+"2016-06",DOT,Department of Transportation,26194
+"2016-06",DSNY,Department of Sanitation,17454
+"2016-06",DEP,Department of Environmental Protection,16178
+"2016-06",DPR,Department of Parks and Recreation,13646
+"2016-06",DOB,Department of Buildings,11572
+"2016-06",DOHMH,Department of Health and Mental Hygiene,7179
+"2016-06",DHS,Operations Unit - Department of Homeless Services,5488
+"2016-06",TLC,Taxi and Limousine Commission,2216
+"2016-05",NYPD,New York City Police Department,65382
+"2016-05",HPD,Department of Housing Preservation and Development,34759
+"2016-05",DOT,Department of Transportation,30070
+"2016-05",DEP,Department of Environmental Protection,16706
+"2016-05",DSNY,Department of Sanitation,15143
+"2016-05",DOB,Department of Buildings,11098
+"2016-05",DPR,Department of Parks and Recreation,9674
+"2016-05",DOHMH,Department of Health and Mental Hygiene,6477
+"2016-05",DHS,Operations Unit - Department of Homeless Services,4626
+"2016-05",TLC,Taxi and Limousine Commission,2426
+"2016-04",NYPD,New York City Police Department,55068
+"2016-04",HPD,Department of Housing Preservation and Development,38330
+"2016-04",DOT,Department of Transportation,27045
+"2016-04",DEP,Department of Environmental Protection,15898
+"2016-04",DSNY,Department of Sanitation,13713
+"2016-04",DOB,Department of Buildings,10570
+"2016-04",DPR,Department of Parks and Recreation,8394
+"2016-04",DOHMH,Department of Health and Mental Hygiene,5127
+"2016-04",DHS,Operations Unit - Department of Homeless Services,4057
+"2016-04",TLC,Taxi and Limousine Commission,2303
+"2016-03",NYPD,New York City Police Department,49246
+"2016-03",HPD,Department of Housing Preservation and Development,47953
+"2016-03",DOT,Department of Transportation,31313
+"2016-03",DEP,Department of Environmental Protection,18963
+"2016-03",DSNY,Department of Sanitation,14322
+"2016-03",DOB,Department of Buildings,11056
+"2016-03",DPR,Department of Parks and Recreation,5841
+"2016-03",DOHMH,Department of Health and Mental Hygiene,4898
+"2016-03",DHS,Operations Unit - Department of Homeless Services,3620
+"2016-03",TLC,Taxi and Limousine Commission,2250
+"2016-02",HPD,Department of Housing Preservation and Development,70595
+"2016-02",NYPD,New York City Police Department,40896
+"2016-02",DOT,Department of Transportation,28801
+"2016-02",DEP,Department of Environmental Protection,16767
+"2016-02",DSNY,Department of Sanitation,13125
+"2016-02",DOB,Department of Buildings,9231
+"2016-02",DPR,Department of Parks and Recreation,4597
+"2016-02",DOHMH,Department of Health and Mental Hygiene,4301
+"2016-02",HRA,HRA Benefit Card Replacement,2061
+"2016-02",TLC,Taxi and Limousine Commission,1974
+"2016-01",HPD,Department of Housing Preservation and Development,83198
+"2016-01",NYPD,New York City Police Department,45491
+"2016-01",DOT,Department of Transportation,24069
+"2016-01",DSNY,Department of Sanitation,16092
+"2016-01",DEP,Department of Environmental Protection,14911
+"2016-01",DOB,Department of Buildings,8999
+"2016-01",DPR,Department of Parks and Recreation,4330
+"2016-01",DOHMH,Department of Health and Mental Hygiene,4232
+"2016-01",HRA,HRA Benefit Card Replacement,2157
+"2016-01",TLC,Taxi and Limousine Commission,1859
+"2015-12",HPD,Department of Housing Preservation and Development,52962
+"2015-12",NYPD,New York City Police Department,48464
+"2015-12",DOT,Department of Transportation,23294
+"2015-12",DEP,Department of Environmental Protection,12757
+"2015-12",DSNY,Department of Sanitation,12442
+"2015-12",DOB,Department of Buildings,9379
+"2015-12",DOHMH,Department of Health and Mental Hygiene,4016
+"2015-12",DPR,Department of Parks and Recreation,3800
+"2015-12",TLC,Taxi and Limousine Commission,2255
+"2015-12",HRA,HRA Benefit Card Replacement,1807
+"2015-11",HPD,Department of Housing Preservation and Development,61367
+"2015-11",NYPD,New York City Police Department,47502
+"2015-11",DOT,Department of Transportation,20626
+"2015-11",DEP,Department of Environmental Protection,13520
+"2015-11",DSNY,Department of Sanitation,13256
+"2015-11",DOB,Department of Buildings,9364
+"2015-11",DPR,Department of Parks and Recreation,5706
+"2015-11",DOHMH,Department of Health and Mental Hygiene,4246
+"2015-11",TLC,Taxi and Limousine Commission,2294
+"2015-11",HRA,HRA Benefit Card Replacement,1764
+"2015-10",HPD,Department of Housing Preservation and Development,63601
+"2015-10",NYPD,New York City Police Department,50012
+"2015-10",DOT,Department of Transportation,24453
+"2015-10",DEP,Department of Environmental Protection,15280
+"2015-10",DSNY,Department of Sanitation,13445
+"2015-10",DOB,Department of Buildings,10620
+"2015-10",DPR,Department of Parks and Recreation,8531
+"2015-10",DOHMH,Department of Health and Mental Hygiene,5010
+"2015-10",TLC,Taxi and Limousine Commission,2697
+"2015-10",HRA,HRA Benefit Card Replacement,1789
+"2015-09",NYPD,New York City Police Department,55157
+"2015-09",HPD,Department of Housing Preservation and Development,37367
+"2015-09",DOT,Department of Transportation,25460
+"2015-09",DEP,Department of Environmental Protection,15035
+"2015-09",DSNY,Department of Sanitation,14891
+"2015-09",DOB,Department of Buildings,10251
+"2015-09",DPR,Department of Parks and Recreation,9442
+"2015-09",DOHMH,Department of Health and Mental Hygiene,5563
+"2015-09",TLC,Taxi and Limousine Commission,2572
+"2015-09",HRA,HRA Benefit Card Replacement,1853
+"2015-08",NYPD,New York City Police Department,55299
+"2015-08",HPD,Department of Housing Preservation and Development,37438
+"2015-08",DOT,Department of Transportation,26153
+"2015-08",DEP,Department of Environmental Protection,15959
+"2015-08",DSNY,Department of Sanitation,15430
+"2015-08",DPR,Department of Parks and Recreation,11035
+"2015-08",DOB,Department of Buildings,10379
+"2015-08",DOHMH,Department of Health and Mental Hygiene,5811
+"2015-08",TLC,Taxi and Limousine Commission,2380
+"2015-08",HRA,HRA Benefit Card Replacement,1864
+"2015-07",NYPD,New York City Police Department,53664
+"2015-07",HPD,Department of Housing Preservation and Development,38054
+"2015-07",DOT,Department of Transportation,26659
+"2015-07",DEP,Department of Environmental Protection,19717
+"2015-07",DSNY,Department of Sanitation,16736
+"2015-07",DPR,Department of Parks and Recreation,12636
+"2015-07",DOB,Department of Buildings,11205
+"2015-07",DOHMH,Department of Health and Mental Hygiene,6718
+"2015-07",TLC,Taxi and Limousine Commission,2463
+"2015-07",HRA,HRA Benefit Card Replacement,1958
+"2015-06",NYPD,New York City Police Department,54621
+"2015-06",HPD,Department of Housing Preservation and Development,37278
+"2015-06",DOT,Department of Transportation,32227
+"2015-06",DEP,Department of Environmental Protection,18123
+"2015-06",DSNY,Department of Sanitation,14826
+"2015-06",DPR,Department of Parks and Recreation,12040
+"2015-06",DOB,Department of Buildings,11144
+"2015-06",DOHMH,Department of Health and Mental Hygiene,5792
+"2015-06",TLC,Taxi and Limousine Commission,2528
+"2015-06",HRA,HRA Benefit Card Replacement,2016
+"2015-05",NYPD,New York City Police Department,60098
+"2015-05",HPD,Department of Housing Preservation and Development,34303
+"2015-05",DOT,Department of Transportation,29796
+"2015-05",DEP,Department of Environmental Protection,15915
+"2015-05",DSNY,Department of Sanitation,13485
+"2015-05",DOB,Department of Buildings,10567
+"2015-05",DPR,Department of Parks and Recreation,10370
+"2015-05",DOHMH,Department of Health and Mental Hygiene,5388
+"2015-05",TLC,Taxi and Limousine Commission,2098
+"2015-05",HRA,HRA Benefit Card Replacement,1935
+"2015-04",HPD,Department of Housing Preservation and Development,45758
+"2015-04",NYPD,New York City Police Department,44004
+"2015-04",DOT,Department of Transportation,36319
+"2015-04",DEP,Department of Environmental Protection,15226
+"2015-04",DSNY,Department of Sanitation,13196
+"2015-04",DOB,Department of Buildings,9450
+"2015-04",DPR,Department of Parks and Recreation,6228
+"2015-04",DOHMH,Department of Health and Mental Hygiene,4717
+"2015-04",HRA,HRA Benefit Card Replacement,1947
+"2015-04",TLC,Taxi and Limousine Commission,1819
+"2015-03",HPD,Department of Housing Preservation and Development,57130
+"2015-03",DOT,Department of Transportation,48242
+"2015-03",NYPD,New York City Police Department,41024
+"2015-03",DSNY,Department of Sanitation,16922
+"2015-03",DEP,Department of Environmental Protection,15420
+"2015-03",DOB,Department of Buildings,8465
+"2015-03",DOHMH,Department of Health and Mental Hygiene,4142
+"2015-03",DPR,Department of Parks and Recreation,3376
+"2015-03",HRA,HRA Benefit Card Replacement,1887
+"2015-03",TLC,Taxi and Limousine Commission,1833
+"2015-02",HPD,Department of Housing Preservation and Development,83647
+"2015-02",NYPD,New York City Police Department,34420
+"2015-02",DOT,Department of Transportation,27095
+"2015-02",DSNY,Department of Sanitation,16475
+"2015-02",DEP,Department of Environmental Protection,15197
+"2015-02",DOB,Department of Buildings,6627
+"2015-02",DOHMH,Department of Health and Mental Hygiene,3594
+"2015-02",DPR,Department of Parks and Recreation,1886
+"2015-02",HRA,HRA Benefit Card Replacement,1672
+"2015-02",TLC,Taxi and Limousine Commission,1600
+"2015-01",HPD,Department of Housing Preservation and Development,82231
+"2015-01",NYPD,New York City Police Department,35818
+"2015-01",DOT,Department of Transportation,23524
+"2015-01",DSNY,Department of Sanitation,15400
+"2015-01",DEP,Department of Environmental Protection,13034
+"2015-01",DOB,Department of Buildings,7104
+"2015-01",DOHMH,Department of Health and Mental Hygiene,3597
+"2015-01",DPR,Department of Parks and Recreation,3153
+"2015-01",HRA,HRA Benefit Card Replacement,1971
+"2015-01",TLC,Taxi and Limousine Commission,1331
+"2014-12",HPD,Department of Housing Preservation and Development,63700
+"2014-12",NYPD,New York City Police Department,37907
+"2014-12",DOT,Department of Transportation,24096
+"2014-12",DSNY,Department of Sanitation,13714
+"2014-12",DEP,Department of Environmental Protection,11770
+"2014-12",DOB,Department of Buildings,7691
+"2014-12",DPR,Department of Parks and Recreation,4102
+"2014-12",DOHMH,Department of Health and Mental Hygiene,3380
+"2014-12",HRA,HRA Benefit Card Replacement,1713
+"2014-12",TLC,Taxi and Limousine Commission,1679
+"2014-11",HPD,Department of Housing Preservation and Development,72779
+"2014-11",NYPD,New York City Police Department,38251
+"2014-11",DOT,Department of Transportation,21216
+"2014-11",DSNY,Department of Sanitation,11831
+"2014-11",DEP,Department of Environmental Protection,11558
+"2014-11",DOB,Department of Buildings,7720
+"2014-11",DPR,Department of Parks and Recreation,5341
+"2014-11",DOHMH,Department of Health and Mental Hygiene,3693
+"2014-11",TLC,Taxi and Limousine Commission,1661
+"2014-11",HRA,HRA Benefit Card Replacement,1607
+"2014-10",HPD,Department of Housing Preservation and Development,49225
+"2014-10",NYPD,New York City Police Department,42808
+"2014-10",DOT,Department of Transportation,23614
+"2014-10",DSNY,Department of Sanitation,14822
+"2014-10",DEP,Department of Environmental Protection,13409
+"2014-10",DOB,Department of Buildings,8900
+"2014-10",DPR,Department of Parks and Recreation,7566
+"2014-10",DOHMH,Department of Health and Mental Hygiene,4728
+"2014-10",TLC,Taxi and Limousine Commission,1775
+"2014-10",HRA,HRA Benefit Card Replacement,1745
+"2014-09",NYPD,New York City Police Department,44527
+"2014-09",HPD,Department of Housing Preservation and Development,32901
+"2014-09",DOT,Department of Transportation,23318
+"2014-09",DSNY,Department of Sanitation,15390
+"2014-09",DEP,Department of Environmental Protection,12613
+"2014-09",DOB,Department of Buildings,9331
+"2014-09",DPR,Department of Parks and Recreation,8349
+"2014-09",DOHMH,Department of Health and Mental Hygiene,4862
+"2014-09",TLC,Taxi and Limousine Commission,1662
+"2014-09",DCWP,Department of Consumer and Worker Protection,1649
+"2014-08",NYPD,New York City Police Department,47752
+"2014-08",HPD,Department of Housing Preservation and Development,32477
+"2014-08",DOT,Department of Transportation,23309
+"2014-08",DSNY,Department of Sanitation,15164
+"2014-08",DEP,Department of Environmental Protection,12791
+"2014-08",DPR,Department of Parks and Recreation,10697
+"2014-08",DOB,Department of Buildings,9033
+"2014-08",DOHMH,Department of Health and Mental Hygiene,5141
+"2014-08",DCWP,Department of Consumer and Worker Protection,1734
+"2014-08",TLC,Taxi and Limousine Commission,1585
+"2014-07",NYPD,New York City Police Department,43439
+"2014-07",HPD,Department of Housing Preservation and Development,36497
+"2014-07",DOT,Department of Transportation,26897
+"2014-07",DEP,Department of Environmental Protection,17846
+"2014-07",DSNY,Department of Sanitation,16620
+"2014-07",DPR,Department of Parks and Recreation,14409
+"2014-07",DOB,Department of Buildings,10450
+"2014-07",DOHMH,Department of Health and Mental Hygiene,5584
+"2014-07",DCWP,Department of Consumer and Worker Protection,1933
+"2014-07",TLC,Taxi and Limousine Commission,1686
+"2014-06",NYPD,New York City Police Department,48637
+"2014-06",HPD,Department of Housing Preservation and Development,31336
+"2014-06",DOT,Department of Transportation,30247
+"2014-06",DSNY,Department of Sanitation,16371
+"2014-06",DEP,Department of Environmental Protection,16139
+"2014-06",DPR,Department of Parks and Recreation,12072
+"2014-06",DOB,Department of Buildings,10125
+"2014-06",DOHMH,Department of Health and Mental Hygiene,5570
+"2014-06",TLC,Taxi and Limousine Commission,2077
+"2014-06",DCWP,Department of Consumer and Worker Protection,1853
+"2014-05",NYPD,New York City Police Department,45045
+"2014-05",HPD,Department of Housing Preservation and Development,35174
+"2014-05",DOT,Department of Transportation,33071
+"2014-05",DEP,Department of Environmental Protection,16314
+"2014-05",DSNY,Department of Sanitation,14840
+"2014-05",DPR,Department of Parks and Recreation,10911
+"2014-05",DOB,Department of Buildings,9569
+"2014-05",DOHMH,Department of Health and Mental Hygiene,5141
+"2014-05",TLC,Taxi and Limousine Commission,2099
+"2014-05",DCWP,Department of Consumer and Worker Protection,1849
+"2014-04",HPD,Department of Housing Preservation and Development,42044
+"2014-04",NYPD,New York City Police Department,33146
+"2014-04",DOT,Department of Transportation,30716
+"2014-04",DEP,Department of Environmental Protection,13743
+"2014-04",DSNY,Department of Sanitation,13526
+"2014-04",DOB,Department of Buildings,9525
+"2014-04",DPR,Department of Parks and Recreation,6835
+"2014-04",DOHMH,Department of Health and Mental Hygiene,4222
+"2014-04",DCWP,Department of Consumer and Worker Protection,1775
+"2014-04",TLC,Taxi and Limousine Commission,1629
+"2014-03",HPD,Department of Housing Preservation and Development,54758
+"2014-03",DOT,Department of Transportation,33404
+"2014-03",NYPD,New York City Police Department,32661
+"2014-03",DSNY,Department of Sanitation,14757
+"2014-03",DEP,Department of Environmental Protection,12914
+"2014-03",DOB,Department of Buildings,11381
+"2014-03",DPR,Department of Parks and Recreation,4686
+"2014-03",DOHMH,Department of Health and Mental Hygiene,3789
+"2014-03",TLC,Taxi and Limousine Commission,1764
+"2014-03",DCWP,Department of Consumer and Worker Protection,1656
+"2014-02",HPD,Department of Housing Preservation and Development,62302
+"2014-02",DOT,Department of Transportation,35493
+"2014-02",NYPD,New York City Police Department,30313
+"2014-02",DSNY,Department of Sanitation,18713
+"2014-02",DEP,Department of Environmental Protection,11428
+"2014-02",DOB,Department of Buildings,8513
+"2014-02",DOHMH,Department of Health and Mental Hygiene,3126
+"2014-02",DPR,Department of Parks and Recreation,2639
+"2014-02",DCWP,Department of Consumer and Worker Protection,1465
+"2014-02",TLC,Taxi and Limousine Commission,1433
+"2014-01",HPD,Department of Housing Preservation and Development,100051
+"2014-01",DOT,Department of Transportation,28287
+"2014-01",NYPD,New York City Police Department,27737
+"2014-01",DSNY,Department of Sanitation,18259
+"2014-01",DEP,Department of Environmental Protection,13952
+"2014-01",DOB,Department of Buildings,9978
+"2014-01",DOHMH,Department of Health and Mental Hygiene,3662
+"2014-01",DPR,Department of Parks and Recreation,2671
+"2014-01",DCWP,Department of Consumer and Worker Protection,1588
+"2014-01",TLC,Taxi and Limousine Commission,1440
+"2013-12",HPD,Department of Housing Preservation and Development,64409
+"2013-12",NYPD,New York City Police Department,27599
+"2013-12",DOT,Department of Transportation,22892
+"2013-12",DSNY,Department of Sanitation,11116
+"2013-12",DEP,Department of Environmental Protection,8943
+"2013-12",DOB,Department of Buildings,8640
+"2013-12",DPR,Department of Parks and Recreation,2994
+"2013-12",DOHMH,Department of Health and Mental Hygiene,2911
+"2013-12",DCWP,Department of Consumer and Worker Protection,1708
+"2013-12",TLC,Taxi and Limousine Commission,1574
+"2013-11",HPD,Department of Housing Preservation and Development,64589
+"2013-11",NYPD,New York City Police Department,27819
+"2013-11",DOT,Department of Transportation,22015
+"2013-11",DSNY,Department of Sanitation,11147
+"2013-11",DEP,Department of Environmental Protection,8993
+"2013-11",DOB,Department of Buildings,8409
+"2013-11",DPR,Department of Parks and Recreation,4772
+"2013-11",DOHMH,Department of Health and Mental Hygiene,3261
+"2013-11",TLC,Taxi and Limousine Commission,1500
+"2013-11",DCWP,Department of Consumer and Worker Protection,1451
+"2013-10",HPD,Department of Housing Preservation and Development,45836
+"2013-10",NYPD,New York City Police Department,30838
+"2013-10",DOT,Department of Transportation,22744
+"2013-10",DSNY,Department of Sanitation,13533
+"2013-10",DEP,Department of Environmental Protection,11850
+"2013-10",DOB,Department of Buildings,9277
+"2013-10",DPR,Department of Parks and Recreation,7353
+"2013-10",DOHMH,Department of Health and Mental Hygiene,3852
+"2013-10",DCWP,Department of Consumer and Worker Protection,1615
+"2013-10",TLC,Taxi and Limousine Commission,1613
+"2013-09",NYPD,New York City Police Department,33535
+"2013-09",HPD,Department of Housing Preservation and Development,30627
+"2013-09",DOT,Department of Transportation,21841
+"2013-09",DSNY,Department of Sanitation,12998
+"2013-09",DEP,Department of Environmental Protection,9992
+"2013-09",DOB,Department of Buildings,8604
+"2013-09",DPR,Department of Parks and Recreation,7693
+"2013-09",DOHMH,Department of Health and Mental Hygiene,4087
+"2013-09",TLC,Taxi and Limousine Commission,1659
+"2013-09",DCWP,Department of Consumer and Worker Protection,1511
+"2013-08",NYPD,New York City Police Department,34575
+"2013-08",HPD,Department of Housing Preservation and Development,33611
+"2013-08",DOT,Department of Transportation,21765
+"2013-08",DSNY,Department of Sanitation,14118
+"2013-08",DEP,Department of Environmental Protection,10528
+"2013-08",DPR,Department of Parks and Recreation,9588
+"2013-08",DOB,Department of Buildings,8729
+"2013-08",DOHMH,Department of Health and Mental Hygiene,4902
+"2013-08",DCWP,Department of Consumer and Worker Protection,1794
+"2013-08",TLC,Taxi and Limousine Commission,1669
+"2013-07",HPD,Department of Housing Preservation and Development,38069
+"2013-07",NYPD,New York City Police Department,28651
+"2013-07",DOT,Department of Transportation,23135
+"2013-07",DEP,Department of Environmental Protection,20341
+"2013-07",DSNY,Department of Sanitation,18549
+"2013-07",DPR,Department of Parks and Recreation,10239
+"2013-07",DOB,Department of Buildings,9264
+"2013-07",DOHMH,Department of Health and Mental Hygiene,5285
+"2013-07",DCWP,Department of Consumer and Worker Protection,1861
+"2013-07",TLC,Taxi and Limousine Commission,1710
+"2013-06",NYPD,New York City Police Department,34413
+"2013-06",HPD,Department of Housing Preservation and Development,33353
+"2013-06",DOT,Department of Transportation,24431
+"2013-06",DSNY,Department of Sanitation,17648
+"2013-06",DEP,Department of Environmental Protection,14774
+"2013-06",DPR,Department of Parks and Recreation,10809
+"2013-06",DOB,Department of Buildings,8478
+"2013-06",DOHMH,Department of Health and Mental Hygiene,4955
+"2013-06",TLC,Taxi and Limousine Commission,1857
+"2013-06",DCWP,Department of Consumer and Worker Protection,1807
+"2013-05",HPD,Department of Housing Preservation and Development,36856
+"2013-05",NYPD,New York City Police Department,33672
+"2013-05",DOT,Department of Transportation,25169
+"2013-05",DEP,Department of Environmental Protection,13546
+"2013-05",DSNY,Department of Sanitation,12807
+"2013-05",DPR,Department of Parks and Recreation,9937
+"2013-05",DOB,Department of Buildings,8982
+"2013-05",DOHMH,Department of Health and Mental Hygiene,4465
+"2013-05",TLC,Taxi and Limousine Commission,1969
+"2013-05",DCWP,Department of Consumer and Worker Protection,1840
+"2013-04",HPD,Department of Housing Preservation and Development,42403
+"2013-04",NYPD,New York City Police Department,27460
+"2013-04",DOT,Department of Transportation,25929
+"2013-04",DSNY,Department of Sanitation,13574
+"2013-04",DEP,Department of Environmental Protection,11600
+"2013-04",DOB,Department of Buildings,8948
+"2013-04",DPR,Department of Parks and Recreation,7250
+"2013-04",DOHMH,Department of Health and Mental Hygiene,3964
+"2013-04",TLC,Taxi and Limousine Commission,1890
+"2013-04",DCWP,Department of Consumer and Worker Protection,1765
+"2013-03",HPD,Department of Housing Preservation and Development,51376
+"2013-03",DOT,Department of Transportation,27929
+"2013-03",NYPD,New York City Police Department,25964
+"2013-03",DSNY,Department of Sanitation,13955
+"2013-03",DEP,Department of Environmental Protection,10298
+"2013-03",DOB,Department of Buildings,7424
+"2013-03",DPR,Department of Parks and Recreation,4588
+"2013-03",DOHMH,Department of Health and Mental Hygiene,3536
+"2013-03",TLC,Taxi and Limousine Commission,1694
+"2013-03",DCWP,Department of Consumer and Worker Protection,1595
+"2013-02",HPD,Department of Housing Preservation and Development,60139
+"2013-02",DOT,Department of Transportation,26286
+"2013-02",NYPD,New York City Police Department,22102
+"2013-02",DSNY,Department of Sanitation,12031
+"2013-02",DEP,Department of Environmental Protection,10322
+"2013-02",DOB,Department of Buildings,6856
+"2013-02",DPR,Department of Parks and Recreation,3507
+"2013-02",DOHMH,Department of Health and Mental Hygiene,3112
+"2013-02",DCWP,Department of Consumer and Worker Protection,1502
+"2013-02",TLC,Taxi and Limousine Commission,1336
+"2013-01",HPD,Department of Housing Preservation and Development,80085
+"2013-01",DOT,Department of Transportation,26544
+"2013-01",NYPD,New York City Police Department,23480
+"2013-01",DSNY,Department of Sanitation,13175
+"2013-01",DEP,Department of Environmental Protection,12883
+"2013-01",DOB,Department of Buildings,7900
+"2013-01",DPR,Department of Parks and Recreation,3740
+"2013-01",DOHMH,Department of Health and Mental Hygiene,3571
+"2013-01",DCWP,Department of Consumer and Worker Protection,1480
+"2013-01",TLC,Taxi and Limousine Commission,1377
+"2012-12",HPD,Department of Housing Preservation and Development,62570
+"2012-12",NYPD,New York City Police Department,25084
+"2012-12",DOT,Department of Transportation,24595
+"2012-12",DSNY,Department of Sanitation,10060
+"2012-12",DEP,Department of Environmental Protection,9692
+"2012-12",DOB,Department of Buildings,7303
+"2012-12",DPR,Department of Parks and Recreation,4413
+"2012-12",DOHMH,Department of Health and Mental Hygiene,3170
+"2012-12",TLC,Taxi and Limousine Commission,1939
+"2012-12",DCWP,Department of Consumer and Worker Protection,1501
+"2012-11",HPD,Department of Housing Preservation and Development,72111
+"2012-11",DOT,Department of Transportation,23498
+"2012-11",DPR,Department of Parks and Recreation,20187
+"2012-11",NYPD,New York City Police Department,19762
+"2012-11",DEP,Department of Environmental Protection,8987
+"2012-11",DOB,Department of Buildings,8421
+"2012-11",DSNY,Department of Sanitation,7730
+"2012-11",DOHMH,Department of Health and Mental Hygiene,2974
+"2012-11",DCWP,Department of Consumer and Worker Protection,2421
+"2012-11",TLC,Taxi and Limousine Commission,1727
+"2012-10",HPD,Department of Housing Preservation and Development,44653
+"2012-10",NYPD,New York City Police Department,24815
+"2012-10",DOT,Department of Transportation,24047
+"2012-10",DPR,Department of Parks and Recreation,17464
+"2012-10",DSNY,Department of Sanitation,12343
+"2012-10",DEP,Department of Environmental Protection,11378
+"2012-10",DOB,Department of Buildings,8358
+"2012-10",DOHMH,Department of Health and Mental Hygiene,3582
+"2012-10",TLC,Taxi and Limousine Commission,2088
+"2012-10",DCWP,Department of Consumer and Worker Protection,1508
+"2012-09",HPD,Department of Housing Preservation and Development,33503
+"2012-09",NYPD,New York City Police Department,30592
+"2012-09",DOT,Department of Transportation,21854
+"2012-09",DSNY,Department of Sanitation,13625
+"2012-09",DEP,Department of Environmental Protection,11824
+"2012-09",DPR,Department of Parks and Recreation,9119
+"2012-09",DOB,Department of Buildings,8136
+"2012-09",DOHMH,Department of Health and Mental Hygiene,4045
+"2012-09",TLC,Taxi and Limousine Commission,1823
+"2012-09",DCWP,Department of Consumer and Worker Protection,1699
+"2012-08",HPD,Department of Housing Preservation and Development,36855
+"2012-08",NYPD,New York City Police Department,27035
+"2012-08",DOT,Department of Transportation,22470
+"2012-08",DSNY,Department of Sanitation,16003
+"2012-08",DEP,Department of Environmental Protection,13710
+"2012-08",DPR,Department of Parks and Recreation,9669
+"2012-08",DOB,Department of Buildings,9372
+"2012-08",DOHMH,Department of Health and Mental Hygiene,5480
+"2012-08",TLC,Taxi and Limousine Commission,2003
+"2012-08",DCWP,Department of Consumer and Worker Protection,1868
+"2012-07",HPD,Department of Housing Preservation and Development,35183
+"2012-07",NYPD,New York City Police Department,25873
+"2012-07",DOT,Department of Transportation,21594
+"2012-07",DEP,Department of Environmental Protection,20570
+"2012-07",DSNY,Department of Sanitation,16325
+"2012-07",DPR,Department of Parks and Recreation,10739
+"2012-07",DOB,Department of Buildings,9098
+"2012-07",DOHMH,Department of Health and Mental Hygiene,5155
+"2012-07",DCWP,Department of Consumer and Worker Protection,1924
+"2012-07",TLC,Taxi and Limousine Commission,1784
+"2012-06",HPD,Department of Housing Preservation and Development,32164
+"2012-06",NYPD,New York City Police Department,27285
+"2012-06",DOT,Department of Transportation,23640
+"2012-06",DEP,Department of Environmental Protection,18329
+"2012-06",DSNY,Department of Sanitation,14232
+"2012-06",DPR,Department of Parks and Recreation,9785
+"2012-06",DOB,Department of Buildings,8942
+"2012-06",DOHMH,Department of Health and Mental Hygiene,4749
+"2012-06",DCWP,Department of Consumer and Worker Protection,2047
+"2012-06",TLC,Taxi and Limousine Commission,1896
+"2012-05",HPD,Department of Housing Preservation and Development,33642
+"2012-05",NYPD,New York City Police Department,27569
+"2012-05",DOT,Department of Transportation,23249
+"2012-05",DEP,Department of Environmental Protection,13862
+"2012-05",DSNY,Department of Sanitation,13249
+"2012-05",DOB,Department of Buildings,10165
+"2012-05",DPR,Department of Parks and Recreation,8890
+"2012-05",DOHMH,Department of Health and Mental Hygiene,4585
+"2012-05",TLC,Taxi and Limousine Commission,1989
+"2012-05",DCWP,Department of Consumer and Worker Protection,1916
+"2012-04",HPD,Department of Housing Preservation and Development,38920
+"2012-04",NYPD,New York City Police Department,23684
+"2012-04",DOT,Department of Transportation,21150
+"2012-04",DSNY,Department of Sanitation,13665
+"2012-04",DEP,Department of Environmental Protection,10145
+"2012-04",DOB,Department of Buildings,8333
+"2012-04",DPR,Department of Parks and Recreation,6538
+"2012-04",DOHMH,Department of Health and Mental Hygiene,3541
+"2012-04",TLC,Taxi and Limousine Commission,1872
+"2012-04",DCWP,Department of Consumer and Worker Protection,1769
+"2012-03",HPD,Department of Housing Preservation and Development,47222
+"2012-03",DOT,Department of Transportation,24055
+"2012-03",NYPD,New York City Police Department,23470
+"2012-03",DSNY,Department of Sanitation,12761
+"2012-03",DEP,Department of Environmental Protection,10801
+"2012-03",DOB,Department of Buildings,9095
+"2012-03",DPR,Department of Parks and Recreation,4412
+"2012-03",DOHMH,Department of Health and Mental Hygiene,3607
+"2012-03",TLC,Taxi and Limousine Commission,2026
+"2012-03",DOF,Senior Citizen Rent Increase Exemption Unit,1971
+"2012-02",HPD,Department of Housing Preservation and Development,53200
+"2012-02",DOT,Department of Transportation,21269
+"2012-02",NYPD,New York City Police Department,19223
+"2012-02",DSNY,Department of Sanitation,10549
+"2012-02",DEP,Department of Environmental Protection,8849
+"2012-02",DOB,Department of Buildings,7401
+"2012-02",DOHMH,Department of Health and Mental Hygiene,3214
+"2012-02",DPR,Department of Parks and Recreation,2256
+"2012-02",DOF,Senior Citizen Rent Increase Exemption Unit,1853
+"2012-02",TLC,Taxi and Limousine Commission,1637
+"2012-01",HPD,Department of Housing Preservation and Development,78173
+"2012-01",DOT,Department of Transportation,23376
+"2012-01",NYPD,New York City Police Department,20502
+"2012-01",DSNY,Department of Sanitation,12358
+"2012-01",DEP,Department of Environmental Protection,9211
+"2012-01",DOB,Department of Buildings,8072
+"2012-01",DOHMH,Department of Health and Mental Hygiene,3423
+"2012-01",DPR,Department of Parks and Recreation,2602
+"2012-01",DOF,Senior Citizen Rent Increase Exemption Unit,2125
+"2012-01",DHS,DHS Advantage Programs,1655
+"2011-12",HPD,Department of Housing Preservation and Development,71592
+"2011-12",DOT,Department of Transportation,22097
+"2011-12",NYPD,New York City Police Department,22059
+"2011-12",DSNY,Department of Sanitation,11362
+"2011-12",DEP,Department of Environmental Protection,8985
+"2011-12",DOB,Department of Buildings,8021
+"2011-12",DPR,Department of Parks and Recreation,3207
+"2011-12",DOHMH,Department of Health and Mental Hygiene,2997
+"2011-12",DOF,Senior Citizen Rent Increase Exemption Unit,2198
+"2011-12",TLC,Taxi and Limousine Commission,1913
+"2011-11",HPD,Department of Housing Preservation and Development,67096
+"2011-11",DOT,Department of Transportation,21904
+"2011-11",NYPD,New York City Police Department,21660
+"2011-11",DSNY,Department of Sanitation,12387
+"2011-11",DEP,Department of Environmental Protection,10806
+"2011-11",DOB,Department of Buildings,7863
+"2011-11",DPR,Department of Parks and Recreation,5421
+"2011-11",DOHMH,Department of Health and Mental Hygiene,2997
+"2011-11",DOF,Senior Citizen Rent Increase Exemption Unit,2037
+"2011-11",TLC,Taxi and Limousine Commission,1919
+"2011-10",HPD,Department of Housing Preservation and Development,69225
+"2011-10",DOT,Department of Transportation,24682
+"2011-10",NYPD,New York City Police Department,23434
+"2011-10",DSNY,Department of Sanitation,13163
+"2011-10",DEP,Department of Environmental Protection,10942
+"2011-10",DOB,Department of Buildings,8381
+"2011-10",DPR,Department of Parks and Recreation,8250
+"2011-10",DOHMH,Department of Health and Mental Hygiene,3498
+"2011-10",DHS,DHS Advantage Programs,2132
+"2011-10",TLC,Taxi and Limousine Commission,2047
+"2011-09",HPD,Department of Housing Preservation and Development,50300
+"2011-09",NYPD,New York City Police Department,25507
+"2011-09",DOT,Department of Transportation,24654
+"2011-09",DSNY,Department of Sanitation,15396
+"2011-09",DEP,Department of Environmental Protection,13127
+"2011-09",DPR,Department of Parks and Recreation,10145
+"2011-09",DOB,Department of Buildings,8459
+"2011-09",DOHMH,Department of Health and Mental Hygiene,3979
+"2011-09",DHS,DHS Advantage Programs,2237
+"2011-09",TLC,Taxi and Limousine Commission,1898
+"2011-08",HPD,Department of Housing Preservation and Development,44923
+"2011-08",DOT,Department of Transportation,25637
+"2011-08",NYPD,New York City Police Department,21850
+"2011-08",DPR,Department of Parks and Recreation,18073
+"2011-08",DEP,Department of Environmental Protection,17891
+"2011-08",DSNY,Department of Sanitation,14357
+"2011-08",DOB,Department of Buildings,9993
+"2011-08",DOHMH,Department of Health and Mental Hygiene,4111
+"2011-08",DHS,DHS Advantage Programs,2467
+"2011-08",DCWP,Department of Consumer and Worker Protection,1922
+"2011-07",HPD,Department of Housing Preservation and Development,38560
+"2011-07",NYPD,New York City Police Department,23447
+"2011-07",DEP,Department of Environmental Protection,22668
+"2011-07",DOT,Department of Transportation,21976
+"2011-07",DSNY,Department of Sanitation,15788
+"2011-07",DOB,Department of Buildings,9329
+"2011-07",DPR,Department of Parks and Recreation,8978
+"2011-07",DOHMH,Department of Health and Mental Hygiene,4252
+"2011-07",DHS,DHS Advantage Programs,2524
+"2011-07",DCWP,Department of Consumer and Worker Protection,1977
+"2011-06",HPD,Department of Housing Preservation and Development,37746
+"2011-06",NYPD,New York City Police Department,25608
+"2011-06",DOT,Department of Transportation,24248
+"2011-06",DSNY,Department of Sanitation,19894
+"2011-06",DEP,Department of Environmental Protection,16244
+"2011-06",DOB,Department of Buildings,10286
+"2011-06",DPR,Department of Parks and Recreation,9539
+"2011-06",DOHMH,Department of Health and Mental Hygiene,4676
+"2011-06",DHS,DHS Advantage Programs,3039
+"2011-06",DCWP,Department of Consumer and Worker Protection,2038
+"2011-05",HPD,Department of Housing Preservation and Development,37842
+"2011-05",DOT,Department of Transportation,27701
+"2011-05",NYPD,New York City Police Department,26359
+"2011-05",DSNY,Department of Sanitation,15840
+"2011-05",DEP,Department of Environmental Protection,13563
+"2011-05",DOB,Department of Buildings,9441
+"2011-05",DPR,Department of Parks and Recreation,7911
+"2011-05",DOHMH,Department of Health and Mental Hygiene,4387
+"2011-05",DHS,DHS Advantage Programs,2884
+"2011-05",DCWP,Department of Consumer and Worker Protection,1997
+"2011-04",HPD,Department of Housing Preservation and Development,45841
+"2011-04",DOT,Department of Transportation,29345
+"2011-04",NYPD,New York City Police Department,22213
+"2011-04",DSNY,Department of Sanitation,14821
+"2011-04",DEP,Department of Environmental Protection,11794
+"2011-04",DOB,Department of Buildings,9738
+"2011-04",DPR,Department of Parks and Recreation,5380
+"2011-04",DOHMH,Department of Health and Mental Hygiene,3642
+"2011-04",DHS,DHS Advantage Programs,2628
+"2011-04",DCWP,Department of Consumer and Worker Protection,1874
+"2011-03",HPD,Department of Housing Preservation and Development,63075
+"2011-03",DOT,Department of Transportation,36806
+"2011-03",NYPD,New York City Police Department,22198
+"2011-03",DSNY,Department of Sanitation,15155
+"2011-03",DEP,Department of Environmental Protection,12514
+"2011-03",DOB,Department of Buildings,9153
+"2011-03",DPR,Department of Parks and Recreation,3974
+"2011-03",DOHMH,Department of Health and Mental Hygiene,3869
+"2011-03",DHS,DHS Advantage Programs,3531
+"2011-03",DCWP,Department of Consumer and Worker Protection,2054
+"2011-02",HPD,Department of Housing Preservation and Development,58851
+"2011-02",DOT,Department of Transportation,34446
+"2011-02",NYPD,New York City Police Department,21792
+"2011-02",DSNY,Department of Sanitation,17354
+"2011-02",DEP,Department of Environmental Protection,10810
+"2011-02",DOB,Department of Buildings,6778
+"2011-02",DOHMH,Department of Health and Mental Hygiene,3289
+"2011-02",DPR,Department of Parks and Recreation,3000
+"2011-02",DHS,DHS Advantage Programs,2654
+"2011-02",DCWP,Department of Consumer and Worker Protection,1541
+"2011-01",HPD,Department of Housing Preservation and Development,80700
+"2011-01",DOT,Department of Transportation,25041
+"2011-01",NYPD,New York City Police Department,23611
+"2011-01",DSNY,Department of Sanitation,17015
+"2011-01",DEP,Department of Environmental Protection,10635
+"2011-01",DOB,Department of Buildings,7374
+"2011-01",DOHMH,Department of Health and Mental Hygiene,3220
+"2011-01",DHS,DHS Advantage Programs,2860
+"2011-01",DPR,Department of Parks and Recreation,1827
+"2011-01",DCWP,Department of Consumer and Worker Protection,1618
+"2010-12",HPD,Department of Housing Preservation and Development,91199
+"2010-12",DOT,Department of Transportation,23746
+"2010-12",NYPD,New York City Police Department,20944
+"2010-12",DSNY,Department of Sanitation,12186
+"2010-12",DEP,Department of Environmental Protection,11437
+"2010-12",DOB,Department of Buildings,7186
+"2010-12",DOHMH,Department of Health and Mental Hygiene,3331
+"2010-12",DPR,Department of Parks and Recreation,3234
+"2010-12",DHS,DHS Advantage Programs,2794
+"2010-12",TLC,Taxi and Limousine Commission,1868
+"2010-11",HPD,Department of Housing Preservation and Development,76746
+"2010-11",DOT,Department of Transportation,22814
+"2010-11",NYPD,New York City Police Department,22139
+"2010-11",DEP,Department of Environmental Protection,18424
+"2010-11",DSNY,Department of Sanitation,12681
+"2010-11",DOB,Department of Buildings,8985
+"2010-11",DPR,Department of Parks and Recreation,4062
+"2010-11",DOHMH,Department of Health and Mental Hygiene,3406
+"2010-11",DHS,DHS Advantage Programs,3057
+"2010-11",TLC,Taxi and Limousine Commission,2096
+"2010-10",HPD,Department of Housing Preservation and Development,61736
+"2010-10",NYPD,New York City Police Department,26585
+"2010-10",DOT,Department of Transportation,26230
+"2010-10",DSNY,Department of Sanitation,13593
+"2010-10",DEP,Department of Environmental Protection,12288
+"2010-10",DOB,Department of Buildings,9258
+"2010-10",DPR,Department of Parks and Recreation,8208
+"2010-10",DOHMH,Department of Health and Mental Hygiene,3728
+"2010-10",DHS,DHS Advantage Programs,3413
+"2010-10",TLC,Taxi and Limousine Commission,2262
+"2010-09",HPD,Department of Housing Preservation and Development,39785
+"2010-09",NYPD,New York City Police Department,26517
+"2010-09",DOT,Department of Transportation,24911
+"2010-09",DPR,Department of Parks and Recreation,17756
+"2010-09",DSNY,Department of Sanitation,14850
+"2010-09",DEP,Department of Environmental Protection,12928
+"2010-09",DOB,Department of Buildings,9839
+"2010-09",DHS,DHS Advantage Programs,4211
+"2010-09",DOHMH,Department of Health and Mental Hygiene,3993
+"2010-09",TLC,Taxi and Limousine Commission,2188
+"2010-08",HPD,Department of Housing Preservation and Development,41124
+"2010-08",NYPD,New York City Police Department,26035
+"2010-08",DOT,Department of Transportation,24094
+"2010-08",DSNY,Department of Sanitation,16177
+"2010-08",DEP,Department of Environmental Protection,14593
+"2010-08",DOB,Department of Buildings,10418
+"2010-08",DPR,Department of Parks and Recreation,8733
+"2010-08",DOHMH,Department of Health and Mental Hygiene,4727
+"2010-08",DHS,DHS Advantage Programs,4199
+"2010-08",DCWP,Department of Consumer and Worker Protection,2234
+"2010-07",HPD,Department of Housing Preservation and Development,39895
+"2010-07",DEP,Department of Environmental Protection,24680
+"2010-07",DOT,Department of Transportation,23897
+"2010-07",NYPD,New York City Police Department,23599
+"2010-07",DSNY,Department of Sanitation,16648
+"2010-07",DPR,Department of Parks and Recreation,10694
+"2010-07",DOB,Department of Buildings,9691
+"2010-07",DOHMH,Department of Health and Mental Hygiene,4881
+"2010-07",DHS,DHS Advantage Programs,2858
+"2010-07",DCWP,Department of Consumer and Worker Protection,2313
+"2010-06",HPD,Department of Housing Preservation and Development,37775
+"2010-06",DOT,Department of Transportation,26481
+"2010-06",NYPD,New York City Police Department,24779
+"2010-06",DEP,Department of Environmental Protection,17789
+"2010-06",DSNY,Department of Sanitation,17347
+"2010-06",DPR,Department of Parks and Recreation,10140
+"2010-06",DOB,Department of Buildings,9691
+"2010-06",DOHMH,Department of Health and Mental Hygiene,4702
+"2010-06",DHS,DHS Advantage Programs,2867
+"2010-06",TLC,Taxi and Limousine Commission,2258
+"2010-05",HPD,Department of Housing Preservation and Development,38460
+"2010-05",NYPD,New York City Police Department,28593
+"2010-05",DOT,Department of Transportation,27462
+"2010-05",DSNY,Department of Sanitation,17635
+"2010-05",DEP,Department of Environmental Protection,13136
+"2010-05",DPR,Department of Parks and Recreation,11751
+"2010-05",DOB,Department of Buildings,9939
+"2010-05",DOHMH,Department of Health and Mental Hygiene,4166
+"2010-05",DHS,DHS Advantage Programs,2695
+"2010-05",TLC,Taxi and Limousine Commission,2605
+"2010-04",HPD,Department of Housing Preservation and Development,45943
+"2010-04",DOT,Department of Transportation,33226
+"2010-04",NYPD,New York City Police Department,24493
+"2010-04",DSNY,Department of Sanitation,17477
+"2010-04",DEP,Department of Environmental Protection,12427
+"2010-04",DOB,Department of Buildings,10435
+"2010-04",DPR,Department of Parks and Recreation,7661
+"2010-04",DOHMH,Department of Health and Mental Hygiene,3897
+"2010-04",DHS,DHS Advantage Programs,2838
+"2010-04",TLC,Taxi and Limousine Commission,2380
+"2010-03",HPD,Department of Housing Preservation and Development,64533
+"2010-03",DOT,Department of Transportation,45135
+"2010-03",NYPD,New York City Police Department,21645
+"2010-03",DSNY,Department of Sanitation,17954
+"2010-03",DEP,Department of Environmental Protection,13622
+"2010-03",DPR,Department of Parks and Recreation,10704
+"2010-03",DOB,Department of Buildings,10670
+"2010-03",DOHMH,Department of Health and Mental Hygiene,3843
+"2010-03",DHS,DHS Advantage Programs,3123
+"2010-03",TLC,Taxi and Limousine Commission,2397
+"2010-02",HPD,Department of Housing Preservation and Development,59830
+"2010-02",DOT,Department of Transportation,26793
+"2010-02",DSNY,Department of Sanitation,20999
+"2010-02",NYPD,New York City Police Department,20001
+"2010-02",DEP,Department of Environmental Protection,8954
+"2010-02",DOB,Department of Buildings,8028
+"2010-02",DPR,Department of Parks and Recreation,3286
+"2010-02",DHS,DHS Advantage Programs,2983
+"2010-02",DOHMH,Department of Health and Mental Hygiene,2820
+"2010-02",DOF,Senior Citizen Rent Increase Exemption Unit,1677
+"2010-01",HPD,Department of Housing Preservation and Development,81763
+"2010-01",DOT,Department of Transportation,27575
+"2010-01",NYPD,New York City Police Department,20784
+"2010-01",DSNY,Department of Sanitation,17007
+"2010-01",DEP,Department of Environmental Protection,11271
+"2010-01",DOB,Department of Buildings,8938
+"2010-01",DOHMH,Department of Health and Mental Hygiene,3438
+"2010-01",DHS,DHS Advantage Programs,2935
+"2010-01",DPR,Department of Parks and Recreation,2680
+"2010-01",DOF,Senior Citizen Rent Increase Exemption Unit,1718

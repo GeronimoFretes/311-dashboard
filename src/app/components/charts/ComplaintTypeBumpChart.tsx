@@ -1,0 +1,199 @@
+'use client';
+
+import { useState, useEffect, useMemo } from 'react';
+import Papa from 'papaparse';
+import ReactECharts from 'echarts-for-react';
+import { title } from 'process';
+
+interface Props {
+  selected: string | null;
+  selectedYear?: string | null;
+  onYearSelect: (year: string | null) => void;
+}
+interface RawRowGeneral {
+  month_year: string; // "YYYY-MM"
+  complaint_type: string;
+  rank: number;
+  cantidad_reclamos: number;
+}
+interface RawRowBorough extends RawRowGeneral {
+  borough: string;
+  complaint_count: number;
+}
+type RawRow = RawRowGeneral & Partial<RawRowBorough>;
+
+export default function ComplaintTypeBumpChart({ selected, selectedYear = null, onYearSelect }: Props) {
+  const [rawRows, setRawRows] = useState<RawRow[]>([]);
+  const [drilledYear, setDrilledYear] = useState<string | null>(null);
+
+  // Load CSV and reset drill state
+  useEffect(() => {
+    const path = selected
+      ? '/data/top_10_complaint_types.csv'
+      : '/data/top_10_complaint_types_general.csv';
+    fetch(path)
+      .then(res => res.text())
+      .then(csv => {
+        const parsed = Papa.parse<RawRow>(csv, {
+          header: true,
+          dynamicTyping: true,
+          skipEmptyLines: true,
+        }).data;
+        // filter by selected borough
+        const rowsToUse = selected
+          ? parsed.filter(r => (r.borough || '').toLowerCase() === selected.toLowerCase())
+          : parsed;
+        setRawRows(rowsToUse);
+        setDrilledYear(selectedYear);
+        // if(onYearSelect) onYearSelect(null);
+      })
+      .catch(console.error);
+  }, [selected]);
+
+  // Compute chart option
+  const option = useMemo(() => {
+    if (rawRows.length === 0) return null;
+
+    // Determine periods (years or months)
+    const periods = drilledYear
+      ? Array.from(
+          new Set(
+            rawRows.filter(r => r.month_year.startsWith(drilledYear)).map(r => r.month_year)
+          )
+        ).sort()
+      : Array.from(
+          new Set(rawRows.map(r => r.month_year.slice(0, 4)))
+        ).sort();
+
+    // Build ranking and count maps per period
+    const top10ByPeriod: Record<string, Record<string, number>> = {};
+    const countMap: Record<string, Record<string, number>> = {};
+    periods.forEach(period => {
+      const subset = drilledYear
+        ? rawRows.filter(r => r.month_year === period)
+        : rawRows.filter(r => r.month_year.slice(0, 4) === period);
+      const counts: Record<string, number> = {};
+      subset.forEach(r => {
+        const cnt = (r as RawRowBorough).complaint_count ?? r.cantidad_reclamos;
+        counts[r.complaint_type] = (counts[r.complaint_type] || 0) + cnt;
+      });
+      const ranked = Object.entries(counts).sort((a, b) => b[1] - a[1]).slice(0, 6);
+      top10ByPeriod[period] = {};
+      countMap[period] = {};
+      ranked.forEach(([type, value], idx) => {
+        top10ByPeriod[period][type] = idx + 1;
+        countMap[period][type] = value;
+      });
+    });
+
+    // Compute start/end label maps
+    const firstPeriod = periods[0];
+    const lastPeriod = periods[periods.length - 1];
+    const startNames: Record<number, string> = {};
+    const endNames: Record<number, string> = {};
+    Object.entries(top10ByPeriod[firstPeriod]).forEach(([type, rank]) => {
+      startNames[rank] = type;
+    });
+    Object.entries(top10ByPeriod[lastPeriod]).forEach(([type, rank]) => {
+      endNames[rank] = type;
+    });
+
+    // Series data
+    const types = Array.from(
+      new Set(Object.values(top10ByPeriod).flatMap(m => Object.keys(m)))
+    );
+    const series = types.map(type => {
+      const data = periods.map(period => {
+        const rank = top10ByPeriod[period][type];
+        return rank !== undefined ? rank : null;
+      });
+      return {
+        name: type,
+        type: 'line',
+        data,
+        connectNulls: false,
+        smooth: true,
+        symbol: 'circle',
+        symbolSize: 12,
+        lineStyle: { width: 5 },
+        emphasis: { focus: 'series' },
+        markPoint: {
+          symbol: 'none',
+          data: [
+            { coord: [firstPeriod, top10ByPeriod[firstPeriod][type]], label: { show: true, position: 'insideLeft', formatter: type } },
+            { coord: [lastPeriod, top10ByPeriod[lastPeriod][type]], label: { show: true, position: 'insideRight', formatter: type } }
+          ]
+        }
+      };
+    });
+
+    return {
+      tooltip: {
+        trigger: 'item',
+        formatter: (params: any) => {
+          const period = params.name;
+          const type = params.seriesName;
+          const cnt = countMap[period]?.[type] || 0;
+          return `<strong>${type}</strong><br/>${period}: ${cnt} complaints`;
+        },
+      },
+      legend: { show: false },
+      xAxis: { type: 'category', data: periods, boundaryGap: false, axisLabel: { rotate: 0, fontSize: 10 } },
+      yAxis: [
+        {
+          type: 'value',
+          min: 1,
+          max: 6,
+          inverse: true,
+          position: 'left',
+          axisLine: { show: false },
+          axisTick: { show: false },
+          axisLabel: {
+            interval: 0,
+            formatter: (v: number) => {
+              let label = startNames[v] || '';
+              // remove hyphens
+              label = label.replace(/- /g, '');
+              return label.split(' ').join('\n');
+            }
+          }
+        },
+        {
+          type: 'value',
+          min: 1,
+          max: 6,
+          inverse: true,
+          position: 'right',
+          axisLine: { show: false },
+          axisTick: { show: false },
+          axisLabel: {
+            interval: 0,
+            formatter: (v: number) => {
+              let label = endNames[v] || '';
+              // remove hyphens
+              label = label.replace(/- /g, '');
+              return label.split(' ').join('\n');
+            }
+          }
+        }
+      ],
+      grid: { left: '12%', right: '12%', top: 50, bottom: '15%' },
+      series
+    };
+  }, [rawRows, drilledYear]);
+
+  if (!option) return <div>Loading chart...</div>;
+
+  const onEvents = { click: (params: any) => { if (!drilledYear) { setDrilledYear(params.name); if(onYearSelect) onYearSelect(params.name); } } };
+
+  return (
+    <div style={{ height: 450 }}>
+      {drilledYear && (
+        <button onClick={() => { setDrilledYear(null); if(onYearSelect) onYearSelect(null); }} className="mb-2 px-3 py-1 bg-gray-200 rounded">
+          Show yearly overview
+        </button>
+      )}
+      <ReactECharts option={option} onEvents={onEvents} style={{ height: '100%', width: '100%' }} />
+    </div>
+  );
+}

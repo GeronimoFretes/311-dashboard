@@ -9,19 +9,43 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nivo/bump": "^0.99.0",
+    "@nivo/core": "^0.99.0",
+    "@nivo/legends": "^0.99.0",
+    "d3-array": "^3.2.4",
+    "d3-axis": "^3.0.0",
+    "d3-fetch": "^3.0.1",
+    "d3-scale": "^4.0.2",
+    "d3-selection": "^3.0.0",
+    "d3-transition": "^3.0.1",
+    "echarts": "^5.6.0",
+    "echarts-for-react": "^3.0.2",
+    "maplibre-gl": "^5.6.0",
+    "next": "15.3.3",
+    "papaparse": "^5.5.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.3"
+    "react-sparklines": "^1.7.0",
+    "recharts": "^2.15.3",
+    "vega": "^6.1.2",
+    "vega-embed": "^7.0.2",
+    "vega-lite": "^6.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/d3": "^7.4.3",
+    "@types/d3-fetch": "^3.0.7",
+    "@types/d3-selection": "^3.0.11",
+    "@types/d3-transition": "^3.0.9",
     "@types/node": "^20",
+    "@types/papaparse": "^5.3.16",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
+    "@types/react-sparklines": "^1.7.5",
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
-    "@eslint/eslintrc": "^3"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
