@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo } from 'react';
 import Papa from 'papaparse';
 import ReactECharts from 'echarts-for-react';
+import { translateComplaintType } from '@/utils/complaintTypeTranslator';
 import { title } from 'process';
 
 interface Props {
@@ -21,6 +22,15 @@ interface RawRowBorough extends RawRowGeneral {
   complaint_count: number;
 }
 type RawRow = RawRowGeneral & Partial<RawRowBorough>;
+
+// Convierte cualquier texto a Title Case
+function titleCase(str: string) {
+  return str
+    .toLowerCase()
+    .split(' ')
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
+}
 
 export default function ComplaintTypeBumpChart({ selected, selectedYear = null, onYearSelect }: Props) {
   const [rawRows, setRawRows] = useState<RawRow[]>([]);
@@ -134,7 +144,7 @@ export default function ComplaintTypeBumpChart({ selected, selectedYear = null, 
           const period = params.name;
           const type = params.seriesName;
           const cnt = countMap[period]?.[type] || 0;
-          return `<strong>${type}</strong><br/>${period}: ${cnt} complaints`;
+          return `<strong>${titleCase(translateComplaintType(type))}</strong><br/>${period}: ${cnt} reclamos`;
         },
       },
       legend: { show: false },
@@ -151,10 +161,34 @@ export default function ComplaintTypeBumpChart({ selected, selectedYear = null, 
           axisLabel: {
             interval: 0,
             formatter: (v: number) => {
-              let label = startNames[v] || '';
-              // remove hyphens
-              label = label.replace(/- /g, '');
-              return label.split(' ').join('\n');
+              // 1. Texto base
+              let label = endNames[v] || '';
+              label = translateComplaintType(label).replace(/-\s*/g, '');                      // quita “- ” o “-”
+              const words = titleCase(label).split(' ');
+
+              // 2. Casos cortos: 1-2 palabras
+              if (words.length <= 2) {
+                return words.join('\n');                               // 1 o 2 líneas como estén
+              }
+
+              // 3. Balancear en 2 líneas basadas en longitud total de caracteres
+              const totalChars = words.reduce((sum, w) => sum + w.length, 0);
+              const target = totalChars / 2;
+
+              let acc = 0;
+              let split = 0;                                           // índice de corte
+              for (let i = 0; i < words.length; i++) {
+                acc += words[i].length;
+                if (acc >= target) {
+                  split = i + 1;                                       // primera palabra de la 2ª línea
+                  break;
+                }
+              }
+
+              const line1 = words.slice(0, split).join(' ');
+              const line2 = words.slice(split).join(' ');
+
+              return `${line1}\n${line2}`.trim();                      // siempre ≤ 2 líneas
             }
           }
         },
@@ -169,10 +203,34 @@ export default function ComplaintTypeBumpChart({ selected, selectedYear = null, 
           axisLabel: {
             interval: 0,
             formatter: (v: number) => {
+              // 1. Texto base
               let label = endNames[v] || '';
-              // remove hyphens
-              label = label.replace(/- /g, '');
-              return label.split(' ').join('\n');
+              label = translateComplaintType(label).replace(/-\s*/g, '');                      // quita “- ” o “-”
+              const words = titleCase(label).split(' ');
+
+              // 2. Casos cortos: 1-2 palabras
+              if (words.length <= 2) {
+                return words.join('\n');                               // 1 o 2 líneas como estén
+              }
+
+              // 3. Balancear en 2 líneas basadas en longitud total de caracteres
+              const totalChars = words.reduce((sum, w) => sum + w.length, 0);
+              const target = totalChars / 2;
+
+              let acc = 0;
+              let split = 0;                                           // índice de corte
+              for (let i = 0; i < words.length; i++) {
+                acc += words[i].length;
+                if (acc >= target) {
+                  split = i + 1;                                       // primera palabra de la 2ª línea
+                  break;
+                }
+              }
+
+              const line1 = words.slice(0, split).join(' ');
+              const line2 = words.slice(split).join(' ');
+
+              return `${line1}\n${line2}`.trim();                      // siempre ≤ 2 líneas
             }
           }
         }
@@ -189,8 +247,11 @@ export default function ComplaintTypeBumpChart({ selected, selectedYear = null, 
   return (
     <div style={{ height: 450 }}>
       {drilledYear && (
-        <button onClick={() => { setDrilledYear(null); if(onYearSelect) onYearSelect(null); }} className="mb-2 px-3 py-1 bg-gray-200 rounded">
-          Show yearly overview
+        <button
+          onClick={() => { setDrilledYear(null); if(onYearSelect) onYearSelect(null); }}
+          className={`px-3 py-1 rounded-full border bg-[#49A67A] text-white border-[#49A67A] transition`}
+        >
+          Vista anual
         </button>
       )}
       <ReactECharts option={option} onEvents={onEvents} style={{ height: '100%', width: '100%' }} />

@@ -10,7 +10,7 @@ Literature Request,Literature Request
 NONCONST,NONCONST
 Traffic Signal Condition,Estado del Semáforo
 Snow,Snow
-Damaged Tree,Damaged Tree
+Damaged Tree,Árbol Dañado
 General Construction/Plumbing,General Construction/Plumbing
 Water System,Sistema de Agua
 Blocked Driveway,Entrada de Auto Obstruida
@@ -24,10 +24,10 @@ Broken Muni Meter,Broken Muni Meter
 HEAT/HOT WATER,CALEFACCIÓN/AGUA CALIENTE
 PAINT/PLASTER,PINTURA/YESO
 UNSANITARY CONDITION,CONDICIÓN INSALUBRE
-Noise - Commercial,Noise - Commercial
+Noise - Commercial,Ruido - Comercial
 Homeless Person Assistance,Homeless Person Assistance
-Request Large Bulky Item Collection,Request Large Bulky Item Collection
-Noise - Vehicle,Noise - Vehicle
+Request Large Bulky Item Collection,Solicitar la recogida de un artículo grande y voluminoso
+Noise - Vehicle,Ruido - Vehículo
 Sanitation Condition,Condición de Saneamiento
 Sidewalk Condition,Sidewalk Condition
 Electronics Waste Appointment,Electronics Waste Appointment
@@ -35,11 +35,11 @@ Missed Collection (All Materials),Missed Collection (All Materials)
 Graffiti,Graffiti
 Abandoned Vehicle,Abandoned Vehicle
 Consumer Complaint,Consumer Complaint
-Non-Emergency Police Matter,Non-Emergency Police Matter
+Non-Emergency Police Matter,Asunto Policial No Urgente
 Illegal Fireworks,Illegal Fireworks
 NonCompliance with Phased Reopening,NonCompliance with Phased Reopening
-Missed Collection,Missed Collection
-Noise - Helicopter,Noise - Helicopter
+Missed Collection,No Recogieron la Basura
+Noise - Helicopter,Ruido - Helicóptero
 Dirty Condition,Dirty Condition
 WATER LEAK,WATER LEAK
 Encampment,Encampment

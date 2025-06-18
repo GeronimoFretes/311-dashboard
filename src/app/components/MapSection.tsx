@@ -36,7 +36,7 @@ function canonical(raw: any): string | null {
 
 function shadeValue(value: number, min: number, max: number): string {
   const tLinear = max === min ? 0.5 : (value - min) / (max - min);
-  const t = Math.sqrt(tLinear);
+  const t = 0.2 + 0.8 * Math.sqrt(tLinear);
   const L = 90 - t * 50;
   const l = L / 100;
   const a = 40 * Math.min(l, 1 - l) / 100;
@@ -156,7 +156,7 @@ function MapSection() {
       const boroName = canonical(feat.properties?.[BORO_PROP]); if (!boroName) return;
       if (selectedRef.current && boroName !== selectedRef.current) return;
       const tip = document.createElement('div');
-      tip.className = 'map-tooltip fixed bg-white p-2 rounded shadow text-xs text-gray-800 font-bold pointer-events-none';
+      tip.className = 'map-tooltip fixed bg-white p-2 rounded  text-xs text-gray-800 font-bold pointer-events-none';
       const med = medianRef.current[boroName] ?? 0;
       const sentence = selectedYearRef.current
         ? `Durante ${selectedYearRef.current}, el mes típico en <strong>${boroName}</strong> tuvo<br/>${Math.round(med)} reclamos por cada 10 000 habitantes`
@@ -234,11 +234,28 @@ function MapSection() {
   }, [selectedYear]);
 
   return (
-    <section className="w-full bg-white py-12 px-6 md:px-12">
-      <h2 className="text-2xl font-semibold text-gray-800 mb-6">¿Dónde se concentran los reclamos? {selectedYear? selectedYear : '2010-2024'}</h2>
-      <div className="flex flex-col gap-6 items-start">
-        <div ref={mapDiv} className="w-full max-w-[390px] h-[380px] mx-auto lg:mx-0 flex-shrink-0 rounded-lg" />
-        <div className="lg:col-start-2 lg:row-start-2 lg:w-2/3 lg:ml-auto -mt-60">
+    <section className="w-screen h-screen bg-white snap-start">
+      {/* Section title */}
+      <div className="w-screen lg:h-1/7 flex items-center justify-center ">
+        <h2 className="text-3xl font-bold text-gray-900">
+          Tendencia en los Reclamos {selectedYear? selectedYear : '2010-2024'}
+        </h2>
+      </div>
+      <div className="w-screen flex flex-col lg:flex-row lg:h-6/7 p-[1%] ">
+        <div className="flex flex-col lg:w-1/3 h-full items-center  ">
+          <div ref={mapDiv} className="w-full h-full max-w-[390px] h-[380px] rounded-lg" />
+          <div className='p-[2%] '>
+            <p className="text-gray-700 text-base font-bold md:text-md text-end text-justify">
+              <i>"Los neoyorquinos se comunican cada vez más con el 311 para reportar la falta de calefacción y agua caliente, el ruido excesivo en las calles y los autos estacionados ilegalmente"</i>, dijo el Contralor Estatal Thomas P. DiNapoli.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col lg:w-2/3 pl-[2%] pr-[2%] h-full justify-center ">
+          <div className='p-[2%] '>
+            <p className="text-gray-700 text-base font-bold md:text-md text-start text-justify">
+              El distrito del Bronx concentra la mayor cantidad de quejas registradas por residentes, evidenciado por la intensidad del color en el mapa. En cuanto a los tipos de reclamos, el gráfico de evolución (bump chart) muestra que en el año 2024 las tres categorías más reportadas fueron: estacionamiento ilegal, ruido residencial y problemas de calefacción o agua caliente. Esta clasificación refleja tanto problemáticas estructurales persistentes en los barrios como tensiones derivadas de la vida urbana post-pandemia, en especial en zonas de alta densidad poblacional como el Bronx. La evolución temporal de las quejas también permite observar cómo ciertas molestias, como el estacionamiento, han ganado relevancia en los últimos años.
+            </p>
+          </div>
           <ComplaintTypeBumpChart selected={selected} selectedYear={selectedYear} onYearSelect={setSelectedYear} />
         </div>
       </div>

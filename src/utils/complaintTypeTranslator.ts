@@ -1,5 +1,5 @@
 import Papa from 'papaparse';
-import csvText from '../../data/complaint_type_translation.csv?raw';
+import csvText from '../../public/data/complaint_type_translation.csv?raw';
 
 let translationMap: Map<string, string> | null = null;
 

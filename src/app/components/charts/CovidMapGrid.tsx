@@ -35,6 +35,7 @@ function canonical(raw: any): string | null {
 // Linear interpolate between white and a target color
 function shadeValue(value: number, min: number, max: number, hex: string) {
   const tLinear = max === min ? 0.5 : (value - min) / (max - min);
+  // const t = 0.2 + 0.8 * Math.sqrt(tLinear);
   const t = Math.sqrt(tLinear);
   const [r2, g2, b2] = hex.replace('#', '').match(/.{2}/g)!.map(h => parseInt(h, 16));
   const lerp = (a: number, b: number) => Math.round(a + (b - a) * t);
@@ -129,8 +130,9 @@ const CovidMapGrid: React.FC = () => {
           name,
           value: pop > 0 ? (sum / pop) * 10000 : 0
         }));
-        const vals = rates.map(r => r.value);
-        const min = Math.min(...vals), max = Math.max(...vals);
+        // Global scale across all periods
+        const min = globalMin;
+        const max = globalMax;
         const matchExpr: any[] = ['match', ['get', 'BoroName']];
         rates.forEach(r => matchExpr.push(
           r.name,
@@ -181,7 +183,7 @@ const CovidMapGrid: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex space-x-4">
+    <div className="flex space-x-3  items-center justify-center gap-[5%]">
       <div ref={containerRefs.pre} className="w-full max-w-[205px] h-[200px] mx-auto lg:mx-0 flex-shrink-0 rounded-lg" />
       <div ref={containerRefs.covid} className="w-full max-w-[205px] h-[200px] mx-auto lg:mx-0 flex-shrink-0 rounded-lg" />
       <div ref={containerRefs.post} className="w-full max-w-[205px] h-[200px] mx-auto lg:mx-0 flex-shrink-0 rounded-lg" />

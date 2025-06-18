@@ -11,12 +11,22 @@ import {
   ResponsiveContainer,
   LabelList,
 } from 'recharts';
+import { translateComplaintType } from '@/utils/complaintTypeTranslator';
 
 interface CsvRow {
   borough: string;
   year_month: string; // YYYY-MM
   total_complaints: number;
   complaints_per_10000: number;
+}
+
+// Convierte cualquier texto a Title Case
+function titleCase(str: string) {
+  return str
+    .toLowerCase()
+    .split(' ')
+    .map(w => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(' ');
 }
 
 export default function CoverSection() {
@@ -88,7 +98,7 @@ export default function CoverSection() {
   }, [rows]);
 
   return (
-    <section className="w-screen h-screen bg-white">
+    <section className="w-screen h-screen bg-white snap-start">
       {/* Header */}
       <div className="w-screen pt-[2%] flex items-center justify-center gap-1 lg:h-1/7">
         <img src="/favicon.ico" alt="Logo" className="w-10 h-10 md:w-20 md:h-20" />
@@ -141,8 +151,8 @@ export default function CoverSection() {
                       dataKey="complaint_type"
                       axisLine={false}
                       tickLine={false}
-                      style={{ fontFamily: 'Inter, sans-serif', fontWeight: 'bold' }}
-                      tickFormatter={(val: string) => val.replace('- ', '')}
+                      style={{ fontFamily: 'Inter, sans-serif', fontWeight: 'bold', fontSize: 10 }}
+                      tickFormatter={(val: string) => titleCase(translateComplaintType(val)).replace('- ', '')}
                     />
                     <Bar dataKey="total_complaints" radius={10} fill="#49A67A">
                       <LabelList

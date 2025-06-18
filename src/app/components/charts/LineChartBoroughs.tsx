@@ -28,7 +28,7 @@ interface RawRow {
 
 /* 🎨 Colours */
 const BOROUGH_COLORS: Record<string, string> = {
-  Brooklyn: '#84BF69',
+  Brooklyn: '#49A67A',
   Manhattan: '#6AA5E8',
   Bronx: '#F2A65A',
   Queens: '#C177E4',
@@ -95,19 +95,19 @@ export default function BoroughLineChart({ viewMode }: Props) {
         data={chartData}
         margin={{ top: 10, right: 20, left: 20, bottom: 40 }} // extra bottom space for legend
       >
-        <CartesianGrid stroke="#f3f3f3" strokeDasharray="3 3" />
+        {/* <CartesianGrid stroke="#f3f3f3" strokeDasharray="3 3" /> */}
         <XAxis dataKey="month" tick={{ fontSize: 11 }} />
         <YAxis
           tick={{ fontSize: 11 }}
-          label={{
-            value:
-              viewMode === 'absolute'
-                ? 'Reclamos / mes'
-                : 'Reclamos por 10 000 hab.',
-            angle: -90,
-            position: 'insideLeft',
-            style: { textAnchor: 'middle', fontSize: 12, fill: '#555' },
-          }}
+          // label={{
+          //   value:
+          //     viewMode === 'absolute'
+          //       ? 'Reclamos / mes'
+          //       : 'Reclamos por 10 000 hab.',
+          //   angle: -90,
+          //   position: 'insideLeft',
+          //   style: { textAnchor: 'middle', fontSize: 12, fill: '#555' },
+          // }}
         />
         <Tooltip
           formatter={(v: any) =>

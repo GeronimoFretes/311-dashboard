@@ -55,6 +55,7 @@ const CovidTimeSeriesMini: React.FC = () => {
   }, []);
 
   const option = {
+    grid: { top: 10, right: 10, bottom: 10, left: 10, containLabel: true },
     tooltip: {
       trigger: 'axis',
       formatter: (params: any[]) => {
@@ -66,8 +67,9 @@ const CovidTimeSeriesMini: React.FC = () => {
     xAxis: {
       type: 'category',
       data: records.map(r => r.yearMonth),
-      axisLabel: { rotate: 0, interval: 'auto' },
-      axisTick: { alignWithLabel: true }
+      axisLine:  { show: false },
+      axisLabel: { show: false },
+      axisTick: { show: false }
     },
     yAxis: { type: 'value'},
     series: [
@@ -102,9 +104,9 @@ const CovidTimeSeriesMini: React.FC = () => {
   };
 
   return (
-    <div className="bg-gray-50 p-4 rounded">
-      <h4 className="text-lg font-medium mb-4">Evolución mensual de quejas por 10 000 hab.</h4>
-      <ReactECharts option={option} style={{ height: '300px', width: '60%' }} />
+    <div className="h-full w-full">
+      {/* <h4 className="text-lg font-medium mb-4">Evolución mensual de quejas por 10 000 hab.</h4> */}
+      <ReactECharts option={option} style={{ height: '100%', width: '100%' }} />
     </div>
   );
 };
