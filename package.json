@@ -29,7 +29,6 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-sparklines": "^1.7.0",
-    "react-wordcloud": "^1.2.7",
     "recharts": "^2.15.3",
     "vega": "^6.1.2",
     "vega-embed": "^7.0.2",
