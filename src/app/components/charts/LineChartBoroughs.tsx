@@ -1,24 +1,16 @@
 'use client';
 
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 import { useState, useEffect, useMemo } from 'react';
 import Papa from 'papaparse';
-import {
-  ResponsiveContainer,
-  LineChart,
-  Line,
-  XAxis,
-  YAxis,
-  Tooltip,
-  CartesianGrid,
-  Legend,
-} from 'recharts';
+import ReactECharts from 'echarts-for-react';
 
+/* ---------- Types ---------- */
 type ViewMode = 'absolute' | 'perCapita';
-
 interface Props {
   viewMode: ViewMode;
 }
-
 interface RawRow {
   borough: string;
   year_month: string;
@@ -26,7 +18,7 @@ interface RawRow {
   complaints_per_10000: number;
 }
 
-/* 🎨 Colours */
+/* ---------- Style ---------- */
 const BOROUGH_COLORS: Record<string, string> = {
   Brooklyn: '#49A67A',
   Manhattan: '#6AA5E8',
@@ -36,7 +28,7 @@ const BOROUGH_COLORS: Record<string, string> = {
 };
 const BOROUGHS = Object.keys(BOROUGH_COLORS);
 
-/* 🔤 Canonical labels */
+/* Canonical labels from CSV (uppercase) → display */
 const CANONICAL: Record<string, string> = {
   BROOKLYN: 'Brooklyn',
   MANHATTAN: 'Manhattan',
@@ -48,8 +40,9 @@ const CANONICAL: Record<string, string> = {
 export default function BoroughLineChart({ viewMode }: Props) {
   const [rows, setRows] = useState<RawRow[]>([]);
   const [selected, setSelected] = useState<string | null>(null);
+  const [hovered, setHovered] = useState<string | null>(null);
 
-  /* Load CSV */
+  /* ---------- Load CSV once ---------- */
   useEffect(() => {
     fetch('/data/complaints_time_series.csv')
       .then((res) => {
@@ -67,8 +60,8 @@ export default function BoroughLineChart({ viewMode }: Props) {
       .catch((err) => console.error('CSV load error:', err));
   }, []);
 
-  /* Wide format for Recharts */
-  const chartData = useMemo(() => {
+  /* ---------- Transform rows → wide format + xAxis ---------- */
+  const { chartData, months } = useMemo(() => {
     const byMonth: Record<string, any> = {};
     rows.forEach((r) => {
       const canon = CANONICAL[r.borough.trim().toUpperCase()];
@@ -76,71 +69,128 @@ export default function BoroughLineChart({ viewMode }: Props) {
       const key = r.year_month;
       if (!byMonth[key]) byMonth[key] = { month: key };
       byMonth[key][canon] =
-        viewMode === 'absolute'
-          ? r.total_complaints
-          : r.complaints_per_10000;
+        viewMode === 'absolute' ? r.total_complaints : r.complaints_per_10000;
     });
-    return Object.values(byMonth).sort((a: any, b: any) =>
-      a.month > b.month ? 1 : -1
+    const ordered = Object.values(byMonth).sort((a: any, b: any) =>
+      a.month > b.month ? 1 : -1,
     );
+    const months = ordered.map((d: any) => d.month);
+    return { chartData: ordered, months };
   }, [rows, viewMode]);
 
-  /* Highlight */
-  const handleLineClick = (borough: string) =>
-    setSelected((prev) => (prev === borough ? null : borough));
+  /* ---------- Build ECharts series ---------- */
+  const series = useMemo(() => {
+    return BOROUGHS.map((borough) => {
+      const data = chartData.map((row: any) => row[borough] ?? null);
+      const isSelected = selected ? selected === borough : false;
+      const isHovered = hovered ? hovered === borough : false;
+      const width = hovered
+        ? isHovered
+          ? 3
+          : 1
+        : selected
+        ? isSelected
+          ? 3
+          : 1
+        : 2;
+      const opacity = hovered
+        ? isHovered
+          ? 1
+          : 0.2
+        : selected
+        ? isSelected
+          ? 1
+          : 0.2
+        : 1;
+      return {
+        name: borough,
+        type: 'line',
+        data,
+        smooth: true,
+        showSymbol: false,
+        emphasis: {
+          focus: 'series',
+        },
+        lineStyle: {
+          width,
+          opacity,
+        },
+        itemStyle: {
+          color: BOROUGH_COLORS[borough],
+        },
+      };
+    });
+  }, [chartData, selected, hovered]);
 
+  /* ---------- ECharts option ---------- */
+  const option = useMemo(() => {
+    return {
+      color: BOROUGHS.map((b) => BOROUGH_COLORS[b]),
+      tooltip: {
+        trigger: 'axis',
+        valueFormatter: (value: any) =>
+          Number(Math.round(value)).toLocaleString('es-AR'),
+      },
+      grid: { top: 20, left: 50, right: 20, bottom: 60, containLabel: true },
+      legend: {
+        bottom: 10,
+        type: 'plain',
+        textStyle: {
+          fontSize: 12,
+        },
+      },
+      xAxis: {
+        type: 'category',
+        data: months,
+        axisLabel: {
+          rotate: 0,
+          fontSize: 11,
+        },
+      },
+      yAxis: {
+        type: 'value',
+        axisLabel: {
+          fontSize: 11,
+        },
+      },
+      series,
+      animation: false,
+    } as echarts.EChartsOption;
+  }, [months, series, viewMode]);
+
+  /* ---------- Event handlers for hover, leave & click ---------- */
+  const onEvents = useMemo(() => {
+    return {
+      mouseover: (params: any) => {
+        if (params.seriesName) {
+          setHovered(params.seriesName);
+        }
+      },
+      mouseout: (params: any) => {
+        if (params.seriesName) {
+          setHovered(null);
+        }
+      },
+      globalout: () => {
+        // Mouse left the entire chart area — reset hover
+        setHovered(null);
+      },
+      click: (params: any) => {
+        if (params.seriesName) {
+          setSelected((prev) => (prev === params.seriesName ? null : params.seriesName));
+        }
+      },
+    } as const;
+  }, []);
+
+  /* ---------- Render ---------- */
   return (
-    <ResponsiveContainer width="100%" height={440}>
-      <LineChart
-        data={chartData}
-        margin={{ top: 10, right: 20, left: 20, bottom: 40 }} // extra bottom space for legend
-      >
-        {/* <CartesianGrid stroke="#f3f3f3" strokeDasharray="3 3" /> */}
-        <XAxis dataKey="month" tick={{ fontSize: 11 }} />
-        <YAxis
-          tick={{ fontSize: 11 }}
-          // label={{
-          //   value:
-          //     viewMode === 'absolute'
-          //       ? 'Reclamos / mes'
-          //       : 'Reclamos por 10 000 hab.',
-          //   angle: -90,
-          //   position: 'insideLeft',
-          //   style: { textAnchor: 'middle', fontSize: 12, fill: '#555' },
-          // }}
-        />
-        <Tooltip
-          formatter={(v: any) =>
-            viewMode === 'absolute'
-              ? v.toLocaleString('es-AR')
-              : v.toFixed(2)
-          }
-          labelFormatter={(l) => `Mes: ${l}`}
-        />
-
-        {/* 📋 Bigger, centered legend beneath chart */}
-        <Legend
-          verticalAlign="bottom"
-          align="center"
-          iconSize={18}
-          wrapperStyle={{ fontSize: 14 }}
-        />
-
-        {BOROUGHS.map((borough) => (
-          <Line
-            key={borough}
-            type="monotone"
-            dataKey={borough}
-            dot={false}
-            stroke={BOROUGH_COLORS[borough]}
-            strokeWidth={selected ? (selected === borough ? 3 : 1) : 2}
-            strokeOpacity={selected ? (selected === borough ? 1 : 0.2) : 1}
-            isAnimationActive={false}
-            onClick={() => handleLineClick(borough)}
-            style={{ cursor: 'pointer' }}
-          />
-        ))}
-      </LineChart>
-    </ResponsiveContainer>
+    <div className="w-full h-full">
+      <ReactECharts
+        option={option}
+        onEvents={onEvents}
+        style={{ width: '100%', height: '100%' }}
+      />
+    </div>
   );
 }

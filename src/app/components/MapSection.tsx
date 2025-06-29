@@ -156,7 +156,7 @@ function MapSection() {
       const boroName = canonical(feat.properties?.[BORO_PROP]); if (!boroName) return;
       if (selectedRef.current && boroName !== selectedRef.current) return;
       const tip = document.createElement('div');
-      tip.className = 'map-tooltip fixed bg-white p-2 rounded  text-xs text-gray-800 font-bold pointer-events-none';
+      tip.className = 'map-tooltip fixed bg-white p-2 rounded opacity-80 text-xs text-gray-800 font-bold pointer-events-none';
       const med = medianRef.current[boroName] ?? 0;
       const sentence = selectedYearRef.current
         ? `Durante ${selectedYearRef.current}, el mes típico en <strong>${boroName}</strong> tuvo<br/>${Math.round(med)} reclamos por cada 10 000 habitantes`
@@ -243,20 +243,36 @@ function MapSection() {
       </div>
       <div className="w-screen flex flex-col lg:flex-row lg:h-6/7 p-[1%] ">
         <div className="flex flex-col lg:w-1/3 h-full items-center  ">
-          <div ref={mapDiv} className="w-full h-full max-w-[390px] h-[380px] rounded-lg" />
+          <div className="relative w-full h-full max-w-[390px] h-[380px]">
+            <div ref={mapDiv} className="w-full h-full rounded-lg" />
+            <div className="absolute text-center whitespace-nowrap left-1/2 -translate-x-1/2 top-2 bg-transparent text-[16px] text-gray-700 font-bold pointer-events-none">
+              Densidad de Reclamos{selectedYear? ` Durante ${selectedYear}` : ""}
+            </div>
+            <div className="absolute bottom-2 right-2 bg-white/90 backdrop-blur-sm text-[12px] text-gray-700 px-2 py-1 rounded pointer-events-none">
+              <i>* Hacé click en un distrito para filtrar</i>
+            </div>
+          </div>
           <div className='p-[2%] '>
-            <p className="text-gray-700 text-base font-bold md:text-md text-end text-justify">
+            <p className="text-gray-700 text-base font-semibold md:text-md text-end text-justify">
               <i>"Los neoyorquinos se comunican cada vez más con el 311 para reportar la falta de calefacción y agua caliente, el ruido excesivo en las calles y los autos estacionados ilegalmente"</i>, dijo el Contralor Estatal Thomas P. DiNapoli.
             </p>
           </div>
         </div>
         <div className="flex flex-col lg:w-2/3 pl-[2%] pr-[2%] h-full justify-center ">
           <div className='p-[2%] '>
-            <p className="text-gray-700 text-base font-bold md:text-md text-start text-justify">
+            <p className="text-gray-700 text-base font-semibold md:text-md text-start text-justify">
               El distrito del Bronx concentra la mayor cantidad de quejas registradas por residentes, evidenciado por la intensidad del color en el mapa. En cuanto a los tipos de reclamos, el gráfico de evolución (bump chart) muestra que en el año 2024 las tres categorías más reportadas fueron: estacionamiento ilegal, ruido residencial y problemas de calefacción o agua caliente. Esta clasificación refleja tanto problemáticas estructurales persistentes en los barrios como tensiones derivadas de la vida urbana post-pandemia, en especial en zonas de alta densidad poblacional como el Bronx. La evolución temporal de las quejas también permite observar cómo ciertas molestias, como el estacionamiento, han ganado relevancia en los últimos años.
             </p>
           </div>
-          <ComplaintTypeBumpChart selected={selected} selectedYear={selectedYear} onYearSelect={setSelectedYear} />
+          <div className="relative">
+            <ComplaintTypeBumpChart selected={selected} selectedYear={selectedYear} onYearSelect={setSelectedYear} />
+            <div className="absolute text-center font-bold whitespace-nowrap left-1/2 -translate-x-1/2 top-2 bg-transparent text-[14px] text-gray-700 pointer-events-none">
+              Evolución del Ranking: Top 6 Tipos de Quejas Más Frecuentes{selected? ` en ${selected}` : ""}{selectedYear? ` Durante ${selectedYear}` : ""}
+            </div>
+            <div className={ selectedYear? "hidden" : "absolute bottom-2 right-2 bg-white/90 backdrop-blur-sm text-[12px] text-gray-700 px-2 py-1 rounded pointer-events-none"}>
+              <i>* Hacé click en un punto para ver la evolución de ese año</i>
+            </div>
+          </div>
         </div>
       </div>
     </section>

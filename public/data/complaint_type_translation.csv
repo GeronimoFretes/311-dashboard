@@ -5,41 +5,41 @@ PLUMBING,FONTANERÍA
 Noise - Residential,Ruido - Residencial
 Street Condition,Estado de la Calle
 Street Light Condition,Estado de las Luces de la Calle
-PAINT - PLASTER,PAINT - PLASTER
+PAINT - PLASTER,Pintura - Yeso
 Literature Request,Literature Request
 NONCONST,NONCONST
 Traffic Signal Condition,Estado del Semáforo
-Snow,Snow
+Snow,Nieve
 Damaged Tree,Árbol Dañado
-General Construction/Plumbing,General Construction/Plumbing
+General Construction/Plumbing,Construcción/Fontanería
 Water System,Sistema de Agua
 Blocked Driveway,Entrada de Auto Obstruida
 Lead,Lead
-Sewer,Sewer
-Dirty Conditions,Dirty Conditions
+Sewer,Alcantarilla
+Dirty Conditions,Condiciones Sucias
 Noise - Street/Sidewalk,Ruido - Calle/Vereda
 Illegal Parking,Estacionamiento Ilegal
 Noise,Ruido
-Broken Muni Meter,Broken Muni Meter
+Broken Muni Meter,Parquímetro Roto
 HEAT/HOT WATER,CALEFACCIÓN/AGUA CALIENTE
 PAINT/PLASTER,PINTURA/YESO
 UNSANITARY CONDITION,CONDICIÓN INSALUBRE
 Noise - Commercial,Ruido - Comercial
-Homeless Person Assistance,Homeless Person Assistance
+Homeless Person Assistance,Asistencia a Personas Sin Hogar
 Request Large Bulky Item Collection,Solicitar la recogida de un artículo grande y voluminoso
 Noise - Vehicle,Ruido - Vehículo
 Sanitation Condition,Condición de Saneamiento
-Sidewalk Condition,Sidewalk Condition
-Electronics Waste Appointment,Electronics Waste Appointment
-Missed Collection (All Materials),Missed Collection (All Materials)
+Sidewalk Condition,Estado de la Vereda
+Electronics Waste Appointment,Residuos Electrónicos
+Missed Collection (All Materials),No Recogieron la Basura
 Graffiti,Graffiti
-Abandoned Vehicle,Abandoned Vehicle
+Abandoned Vehicle,Vehículo Abandonado
 Consumer Complaint,Consumer Complaint
 Non-Emergency Police Matter,Asunto Policial No Urgente
-Illegal Fireworks,Illegal Fireworks
-NonCompliance with Phased Reopening,NonCompliance with Phased Reopening
+Illegal Fireworks,Fuegos Artificiales Ilegales
+NonCompliance with Phased Reopening,Incumplimiento de la Reapertura por Fases
 Missed Collection,No Recogieron la Basura
 Noise - Helicopter,Ruido - Helicóptero
-Dirty Condition,Dirty Condition
-WATER LEAK,WATER LEAK
-Encampment,Encampment
+Dirty Condition,Condiciones Sucias
+WATER LEAK,Fuga de Agua
+Encampment,Campamento

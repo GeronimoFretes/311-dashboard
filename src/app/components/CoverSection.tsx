@@ -109,7 +109,7 @@ export default function CoverSection() {
       
       <div className="w-screen flex items-center justify-center">
       <p className="w-screen text-gray-700 pt-2 text-base md:text-lg pb-[1%] text-center w-full lg:h-1/10">
-        Herramienta interactiva diseñada para explorar los reclamos al servicio 311 de la ciudad de Nueva York entre 2010 y 2024, con foco en el impacto del COVID-19.
+        Herramienta interactiva diseñada para explorar los reclamos al servicio 311 de la ciudad de Nueva York entre 2010 y 2024.
       </p>
       </div>
 
@@ -134,7 +134,7 @@ export default function CoverSection() {
         <div className="flex flex-col gap-6 lg:w-4/5 pl-[2%] pr-[2%] pt-[1%] pb-[2%] h-full">
           <div className="flex flex-col lg:flex-row gap-6 w-full lg:h-1/2">
             <div className="w-full lg:w-1/2 ">
-              <p className='text-gray-700 text-base font-bold md:text-md text-start text-justify leading-loose '>
+              <p className='text-gray-700 text-base font-semibold md:text-md text-start text-justify leading-loose '>
                 Para empezar, se muestran algunos indicadores clave: el total acumulado de reclamos desde 2010, 
                 el promedio mensual, el mes de mayor actividad y la variación interanual de los últimos 12 meses. 
                 A la derecha, se destacan los cinco tipos de reclamo con mayor volumen, y justo debajo, 

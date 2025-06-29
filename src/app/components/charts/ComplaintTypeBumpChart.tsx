@@ -162,7 +162,7 @@ export default function ComplaintTypeBumpChart({ selected, selectedYear = null, 
             interval: 0,
             formatter: (v: number) => {
               // 1. Texto base
-              let label = endNames[v] || '';
+              let label = startNames[v] || '';
               label = translateComplaintType(label).replace(/-\s*/g, '');                      // quita “- ” o “-”
               const words = titleCase(label).split(' ');
 
