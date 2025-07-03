@@ -248,8 +248,8 @@ function MapSection() {
             <div className="absolute text-center whitespace-nowrap left-1/2 -translate-x-1/2 top-2 bg-transparent text-[16px] text-gray-700 font-bold pointer-events-none">
               Densidad de Reclamos{selectedYear? ` Durante ${selectedYear}` : ""}
             </div>
-            <div className="absolute bottom-2 right-2 bg-white/90 backdrop-blur-sm text-[12px] text-gray-700 px-2 py-1 rounded pointer-events-none">
-              <i>* Hacé click en un distrito para filtrar</i>
+            <div className="absolute bottom-2 right-2 bg-transparent text-[12px] text-gray-700 px-2 py-1 rounded pointer-events-none">
+              <i>{selected ? '* Hacé click devuelta para volver al mapa completo' : '* Hacé click en un distrito para filtrar'}</i>
             </div>
           </div>
           <div className='p-[2%] '>
