@@ -44,7 +44,7 @@ const CovidImpactSection: React.FC<SectionProps> = ({ id }) => (
         <br /><br />
         El segundo eje tiene que ver con una categoría que no se movió del podio en ningún momento: el ruido. Ya sea en forma de fiestas, parlantes, bocinas o fuegos artificiales, el ruido —especialmente el residencial y callejero— estuvo presente en las tres etapas. Antes de 2020, ya era uno de los reclamos más frecuentes; durante el confinamiento se volvió más insoportable que nunca; y en la reapertura, explotó en forma de celebraciones callejeras, autos tuneados y vida nocturna al aire libre. 
         <br /><br />
-        Por último, hay un cambio territorial que no pasa desapercibido: el Bronx. Antes de la pandemia, era uno de los distritos con menor volumen de reclamos ajustado por población. Pero durante la crisis sanitaria y, sobre todo, en los meses posteriores, se convirtió en el más activo del mapa. El gráfico lo muestra con claridad: la intensidad del color en el mapa se concentra en la zona centro-norte del barrio, justo donde se cruzan las mayores tasas de hacinamiento y pobreza estructural.
+        Por último, hay un cambio territorial que no pasa desapercibido: el Bronx. Antes de la pandemia, su volumen de reclamos ajustado por población no sobresalía con respecto al resto de los distritos. Pero durante la crisis sanitaria y, sobre todo, en los meses posteriores, se convirtió en el más activo del mapa. El gráfico lo muestra con claridad: la intensidad del color en el mapa se concentra fuertemente en este distrito, justo donde se cruzan las mayores tasas de hacinamiento y pobreza estructural.
       </p>
     </div>
   </section>

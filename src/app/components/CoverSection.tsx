@@ -175,7 +175,7 @@ export default function CoverSection({ id }: SectionProps) {
         <p className='paragraph'>
           Entre 2010 y 2024, el sistema 311 de Nueva York registró más de 37 millones de reclamos. Cada llamado representa un problema concreto, una molestia cotidiana, una demanda ciudadana sobre algo que no está funcionando como debería. Vistos en conjunto, estos datos permiten identificar patrones que se repiten, problemas que persisten en el tiempo, y también otros que, con el tiempo, empiezan a resolverse o pierden relevancia.
           <br /><br />
-          Los datos muestran un promedio de más de 200.000 reclamos por mes, con picos notables como el de agosto de 2020, en plena pandemia. El contexto lo explica: mayor presión sobre los servicios, convivencia forzada, aislamiento, y una ciudad funcionando al límite. Desde entonces, el volumen bajó, pero nunca volvió a los niveles previos.
+          Los datos muestran un promedio de más de 200.000 reclamos por mes, con picos notables como el de 2020, en plena pandemia. El contexto lo explica: mayor presión sobre los servicios, convivencia forzada, aislamiento, y una ciudad funcionando al límite. Desde entonces, el volumen bajó, pero nunca volvió a los niveles previos.
         </p>
         <div className="flex flex-col my-[2%] lg:flex-row items-start lg:items-center w-full">
           <div className="flex flex-col space-y-2 lg:w-1/4 items-end">
@@ -235,11 +235,7 @@ export default function CoverSection({ id }: SectionProps) {
         <p className='paragraph'>
           Al desglosar los reclamos, se nota un patrón que habla mucho sobre la vida cotidiana en Nueva York. El ruido residencial lidera ampliamente, seguido por estacionamiento ilegal, falta de calefacción o agua caliente, entradas de autos bloqueadas y ruido en la vía pública. Estos problemas aparecen una y otra vez, sobre todo en barrios densamente poblados, donde la convivencia entre lo privado y lo público deja poco margen para el descanso o el orden.
           <br /><br />
-          El tema del ruido no es nuevo, pero sí creciente. Entre 2010 y 2015 se registraron más de 1,6 millones de reclamos vinculados a ruidos molestos: música fuerte, fiestas, bocinazos, maquinaria. Lo más llamativo es que, según un <a 
-            href='https://www.osc.ny.gov/files/reports/pdf/report-3-2026.pdf' 
-            target="_blank" rel="noopener noreferrer" 
-            className="text-blue-600 underline hover:text-blue-800">informe del Contralor del Estado de Nueva York
-          </a>, solo el 29 % de esos casos fueron confirmados por el NYPD y menos del 1 % terminó en una multa. En 2024, los reclamos por ruido superaron los 738.000 —unos 2.000 por día, según <a
+          El tema del ruido no es nuevo, pero sí creciente. Entre 2010 y 2015 se registraron más de 1,6 millones de reclamos vinculados a ruidos molestos: música fuerte, fiestas, bocinazos, maquinaria. En 2024, los reclamos por ruido superaron los 738.000 —unos 2.000 por día, según <a
             href='https://nypost.com/2025/01/07/lifestyle/the-number-one-reason-new-yorkers-called-311-last-year/' 
             target="_blank" rel="noopener noreferrer" 
             className="text-blue-600 underline hover:text-blue-800">
@@ -251,11 +247,7 @@ export default function CoverSection({ id }: SectionProps) {
           <br /><br />
           El estacionamiento ilegal se convirtió en una de las quejas más frecuentes en los últimos años. De acuerdo al reporte del Contralor estatal, esta es la infracción no urgente más denunciada en el sistema 311, con más de 229.000 reclamos acumulados solo desde 2023. La falta de control en calles residenciales, sumada al aumento de vehículos privados tras la pandemia, generó una ola de reclamos por autos mal estacionados, muchos de ellos bloqueando entradas o hidrantes, dificultando incluso el paso de bomberos.
           <br /><br />
-          Otro tema crítico es el de la calefacción. Entre 2017 y 2021, más de 800.000 reclamos al 311 denunciaron la falta de calor en viviendas. Sin embargo, <a
-            href='https://www.6sqft.com/tenants-in-1000-nyc-buildings-experienced-chronic-heat-problems-between-2017-and-2021' 
-            target="_blank" rel="noopener noreferrer" 
-            className="text-blue-600 underline hover:text-blue-800">
-          solo el 3 % de esos casos terminó en multas</a>, incluso en edificios con infracciones repetidas. El problema no solo persiste, sino que se intensifica: durante la temporada 2022‑2024, los reclamos por calefacción aumentaron un 17 % y superaron los 200.000 anuales. Un estudio reciente del <a
+          Otro tema crítico es el de la calefacción. Entre 2017 y 2021, más de 800.000 reclamos al 311 denunciaron la falta de calor en viviendas. El problema no solo persiste, sino que se intensifica: durante la temporada 2022‑2024, los reclamos por calefacción aumentaron un 17 % y superaron los 200.000 anuales. Un estudio reciente del <a
             href='https://www.publichealth.columbia.edu/news/public-housing-service-outages-are-frequent-prolonged-endangering-residents-health' 
             target="_blank" rel="noopener noreferrer" 
             className="text-blue-600 underline hover:text-blue-800">

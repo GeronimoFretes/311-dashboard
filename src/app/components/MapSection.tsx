@@ -237,7 +237,7 @@ function MapSection({ id }: SectionProps) {
   return (
     <section id={id} className="section">
       <h2 className="section-title">
-          Tendencia en los Reclamos
+          Tendencia en los Tipos de Reclamo
       </h2>
       <div className="section-body">
         <p className='paragraph'>
@@ -252,7 +252,7 @@ function MapSection({ id }: SectionProps) {
               Densidad de Reclamos{selectedYear? ` Durante ${selectedYear}` : ""}
             </div>
             <div className="absolute bottom-2 right-2 bg-transparent text-[12px] text-gray-700 px-2 py-1 rounded pointer-events-none">
-              <i>{selected ? '* Hacé click devuelta para volver al mapa completo' : '* Hacé click en un distrito para filtrar'}</i>
+              <i>{selected ? '* Hacé clic devuelta para volver al mapa completo' : '* Hacé clic en un distrito para filtrar'}</i>
             </div>
           </div>
           <div className="relative flex flex-col w-full lg:w-2/3 lg:flex-grow h-[50vh]">
@@ -261,15 +261,15 @@ function MapSection({ id }: SectionProps) {
               Evolución del Ranking: Top 6 Tipos de Quejas Más Frecuentes{selected? ` en ${selected}` : ""}{selectedYear? ` Durante ${selectedYear}` : ""}
             </div>
             <div className={ selectedYear? "hidden" : "absolute bottom-2 right-2 bg-white/90 backdrop-blur-sm text-[12px] text-gray-700 px-2 py-1 rounded pointer-events-none"}>
-              <i>* Hacé click en un punto para ver la evolución de ese año</i>
+              <i>* Hacé clic en un punto para ver la evolución de ese año</i>
             </div>
           </div>
         </div>
     
         <p className='paragraph'>
-          Si seguís la historia desde la sección anterior, vale la pena hacer el ejercicio: clic en 2022, clic en Bronx. Lo que aparece en pantalla confirma lo que ya vimos, pero con más nitidez. En julio de ese año —el primer verano sin restricciones desde el inicio de la pandemia— los tres reclamos más frecuentes en el Bronx estuvieron directamente vinculados al ruido: residencial, en la vía pública y vehicular. 
+          Si seguís la historia desde la sección anterior, vale la pena hacer el ejercicio: clic en 2022, clic en Bronx. Lo que aparece en pantalla confirma lo que ya vimos, pero con más nitidez. En julio y agosto de ese año —el primer verano sin restricciones desde el inicio de la pandemia— tres de los seis tipos de reclamo más frecuentes en el Bronx estuvieron directamente vinculados al ruido: residencial, en la vía pública y vehicular. 
           <br /><br />
-          Más allá de esto, hay patrones más profundos que vale la pena destacar. El ruido residencial se mantuvo en el ranking de reclamos durante todos los años analizados, sin excepción. Es la única categoría que no soltó nunca el top 3, reflejando que —a diferencia de otras molestias más puntuales— el ruido es una incomodidad estructural en la vida urbana neoyorquina. Le sigue el estacionamiento ilegal, que empieza a escalar posiciones con fuerza a partir de 2015 y se consolida como reclamo masivo en la pospandemia, cuando la cantidad de autos particulares creció y el espacio público empezó a tensarse más que nunca. Como señala un informe del <a
+          Más allá de esto, hay patrones más profundos que vale la pena destacar. El ruido residencial se mantuvo en el ranking de reclamos durante todos los años analizados, sin excepción. Es la única categoría que desde 2012 no soltó nunca el top 2, reflejando que —a diferencia de otras molestias más puntuales— el ruido es una incomodidad estructural en la vida urbana neoyorquina. Le sigue el estacionamiento ilegal, que empieza a escalar posiciones con fuerza a partir de 2015 y se consolida como reclamo masivo en la pospandemia, cuando la cantidad de autos particulares creció y el espacio público empezó a tensarse más que nunca. Como señala un informe del <a
             href='https://www.osc.ny.gov/files/reports/pdf/report-3-2026.pdf' 
             target="_blank" rel="noopener noreferrer" 
             className="text-blue-600 underline hover:text-blue-800">

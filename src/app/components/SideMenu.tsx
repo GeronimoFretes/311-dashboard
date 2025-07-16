@@ -69,7 +69,7 @@ export default function SideMenu() {
           <ul className="space-y-1 px-2">
             <Item href="#cover">Panorama General</Item>
             <Item href="#time-series">Evolución por Distrito</Item>
-            <Item href="#map">Mapa de Tendencias</Item>
+            <Item href="#map">Tipos de Reclamo</Item>
             <Item href="#agency-race">Reclamos por Agencia</Item>
             <Item href="#covid-impact">Impacto COVID-19</Item>
           </ul>
