@@ -1,6 +1,7 @@
 'use client';
 
 import { useRef, useEffect, useState, memo } from 'react';
+import { SectionProps } from '@/types/SectionProps';
 import Papa from 'papaparse';
 import maplibregl, { Map, MapMouseEvent, MapLayerMouseEvent } from 'maplibre-gl';
 import ComplaintTypeBumpChart from './charts/ComplaintTypeBumpChart';
@@ -49,7 +50,7 @@ function shadeValue(value: number, min: number, max: number): string {
   return `#${f(0)}${f(8)}${f(4)}`;
 }
 
-function MapSection() {
+function MapSection({ id }: SectionProps) {
   const mapDiv = useRef<HTMLDivElement>(null);
   const map = useRef<Map | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
@@ -75,7 +76,7 @@ function MapSection() {
         ],
       },
       center: [-73.98, 40.71],
-      zoom: 8.8,
+      zoom: 8.6,
       minZoom: 0,
       attributionControl: false,
     });
@@ -132,7 +133,7 @@ function MapSection() {
         setSelected(null);
         selectedRef.current = null;
         // Reset view
-        m.easeTo({ center: [-73.98, 40.71], zoom: 8.8, duration: 600 });
+        m.easeTo({ center: [-73.98, 40.71], zoom: 8.6, duration: 600 });
         m.once('moveend', () => {
           // Fade fill back
           m.setPaintProperty('fill', 'fill-opacity', 0.85);
@@ -234,37 +235,27 @@ function MapSection() {
   }, [selectedYear]);
 
   return (
-    <section className="w-screen h-screen bg-white snap-start">
-      {/* Section title */}
-      <div className="w-screen lg:h-1/7 flex items-center justify-center ">
-        <h2 className="text-3xl font-bold text-gray-900">
-          Tendencia en los Reclamos {selectedYear? selectedYear : '2010-2024'}
-        </h2>
-      </div>
-      <div className="w-screen flex flex-col lg:flex-row lg:h-6/7 p-[1%] ">
-        <div className="flex flex-col lg:w-1/3 h-full items-center  ">
-          <div className="relative w-full h-full max-w-[390px] h-[380px]">
+    <section id={id} className="section">
+      <h2 className="section-title">
+          Tendencia en los Reclamos
+      </h2>
+      <div className="section-body">
+        <p className='paragraph'>
+          ¿Qué temas se repiten todos los años en las quejas al 311? ¿Qué cosas dejan de molestar con el tiempo y cuáles parecen estar cada vez más presentes en la vida urbana? Para explorar esas preguntas, creamos dos visualizaciones. El gráfico principal —un bump chart— no muestra cantidades, sino posiciones. Cada línea representa un tipo de reclamo y su lugar dentro del top 6 de los más reportados, año por año. 
+          <br /><br />
+          Además, el gráfico es interactivo. Si hacés clic sobre un año, podés ver cómo cambió el ranking mes a mes dentro de ese período. Y si tocás en el mapa —que muestra la densidad de reclamos por barrio—, podés ver esa misma evolución, pero recortada para un distrito puntual. Cuanto más oscuro el color en el mapa, más quejas hubo ese año en esa zona. La idea es cruzar tiempo y territorio para entender qué le molesta a cada parte de la ciudad, y cuándo.
+        </p>
+        <div className="flex flex-col lg:flex-row items-start w-full  my-[2%]">
+          <div className="relative flex flex-col w-full lg:w-1/3 h-[50vh] flex-none my-0">
             <div ref={mapDiv} className="w-full h-full rounded-lg" />
-            <div className="absolute text-center whitespace-nowrap left-1/2 -translate-x-1/2 top-2 bg-transparent text-[16px] text-gray-700 font-bold pointer-events-none">
+            <div className="absolute text-center whitespace-nowrap left-1/2 -translate-x-1/2 top-2 bg-transparent text-[14px] text-gray-700 font-bold pointer-events-none">
               Densidad de Reclamos{selectedYear? ` Durante ${selectedYear}` : ""}
             </div>
             <div className="absolute bottom-2 right-2 bg-transparent text-[12px] text-gray-700 px-2 py-1 rounded pointer-events-none">
               <i>{selected ? '* Hacé click devuelta para volver al mapa completo' : '* Hacé click en un distrito para filtrar'}</i>
             </div>
           </div>
-          <div className='p-[2%] '>
-            <p className="text-gray-700 text-base font-semibold md:text-md text-end text-justify">
-              <i>"Los neoyorquinos se comunican cada vez más con el 311 para reportar la falta de calefacción y agua caliente, el ruido excesivo en las calles y los autos estacionados ilegalmente"</i>, dijo el Contralor Estatal Thomas P. DiNapoli.
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-col lg:w-2/3 pl-[2%] pr-[2%] h-full justify-center ">
-          <div className='p-[2%] '>
-            <p className="text-gray-700 text-base font-semibold md:text-md text-start text-justify">
-              El distrito del Bronx concentra la mayor cantidad de quejas registradas por residentes, evidenciado por la intensidad del color en el mapa. En cuanto a los tipos de reclamos, el gráfico de evolución (bump chart) muestra que en el año 2024 las tres categorías más reportadas fueron: estacionamiento ilegal, ruido residencial y problemas de calefacción o agua caliente. Esta clasificación refleja tanto problemáticas estructurales persistentes en los barrios como tensiones derivadas de la vida urbana post-pandemia, en especial en zonas de alta densidad poblacional como el Bronx. La evolución temporal de las quejas también permite observar cómo ciertas molestias, como el estacionamiento, han ganado relevancia en los últimos años.
-            </p>
-          </div>
-          <div className="relative">
+          <div className="relative flex flex-col w-full lg:w-2/3 lg:flex-grow h-[50vh]">
             <ComplaintTypeBumpChart selected={selected} selectedYear={selectedYear} onYearSelect={setSelectedYear} />
             <div className="absolute text-center font-bold whitespace-nowrap left-1/2 -translate-x-1/2 top-2 bg-transparent text-[14px] text-gray-700 pointer-events-none">
               Evolución del Ranking: Top 6 Tipos de Quejas Más Frecuentes{selected? ` en ${selected}` : ""}{selectedYear? ` Durante ${selectedYear}` : ""}
@@ -274,7 +265,25 @@ function MapSection() {
             </div>
           </div>
         </div>
+    
+        <p className='paragraph'>
+          Si seguís la historia desde la sección anterior, vale la pena hacer el ejercicio: clic en 2022, clic en Bronx. Lo que aparece en pantalla confirma lo que ya vimos, pero con más nitidez. En julio de ese año —el primer verano sin restricciones desde el inicio de la pandemia— los tres reclamos más frecuentes en el Bronx estuvieron directamente vinculados al ruido: residencial, en la vía pública y vehicular. 
+          <br /><br />
+          Más allá de esto, hay patrones más profundos que vale la pena destacar. El ruido residencial se mantuvo en el ranking de reclamos durante todos los años analizados, sin excepción. Es la única categoría que no soltó nunca el top 3, reflejando que —a diferencia de otras molestias más puntuales— el ruido es una incomodidad estructural en la vida urbana neoyorquina. Le sigue el estacionamiento ilegal, que empieza a escalar posiciones con fuerza a partir de 2015 y se consolida como reclamo masivo en la pospandemia, cuando la cantidad de autos particulares creció y el espacio público empezó a tensarse más que nunca. Como señala un informe del <a
+            href='https://www.osc.ny.gov/files/reports/pdf/report-3-2026.pdf' 
+            target="_blank" rel="noopener noreferrer" 
+            className="text-blue-600 underline hover:text-blue-800">
+          Comptroller del Estado</a>, esta es hoy la infracción no urgente más denunciada del sistema. Algo similar ocurre con la calefacción y el agua caliente, que entran en escena desde 2014. Un estudio del <a
+            href='https://www.publichealth.columbia.edu/news/survey-reveals-extent-energy-insecurity-new-york-city' 
+            target="_blank" rel="noopener noreferrer" 
+            className="text-blue-600 underline hover:text-blue-800">
+          Departamento de Salud de Columbia</a> advierte que la persistencia de este reclamo en ciertas zonas revela no solo problemas de infraestructura, sino también efectos directos en la salud de la población.
+          <br /><br />
+          El bump chart también permite ver qué tipos de reclamos fueron perdiendo fuerza o desapareciendo del radar. Problemas como la fontanería, el estado del alumbrado público o los baches —que solían estar presentes en los primeros años de la serie— fueron desplazados por demandas que reflejan tensiones más ligadas a la convivencia urbana. No necesariamente significa que esos problemas fueron resueltos, pero sí que dejaron de estar en el centro de la conversación ciudadana.
+        </p>
       </div>
+      
+
     </section>
   );
 }

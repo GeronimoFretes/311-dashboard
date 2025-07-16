@@ -1,57 +1,51 @@
 'use client';
 
 import React from 'react';
+import { SectionProps } from '@/types/SectionProps';
 import AgencyBarRace from './charts/AgenciesBarChart';
 import LineChartAgency from './charts/SmallMultiplesAgencies';
 
-const AgencyRaceSection: React.FC = () => (
-  <section className="w-screen h-screen bg-white snap-start">
-    {/* Section title */}
-    <div className="w-screen lg:h-1/7 flex items-center justify-center">
-      <h2 className="text-3xl font-bold text-gray-900">
-        Evolución de Reclamos y Respuesta por Agencia
-      </h2>
-    </div>
-
-    <div className="w-screen flex flex-col lg:flex-row lg:h-6/7">
-      {/* Horizontal scroll container */}
-      <div className="overflow-x-auto  h-full snap-x snap-mandatory scroll-smooth">
-        <div className="inline-flex w-max h-full items-start">
-          {/* Bar Chart Block */}
-          <div className="w-screen shrink-0 snap-start flex flex-col lg:flex-row p-[1%] justify-center items-center">
-            <div className="flex flex-col lg:w-5/7 pl-[2%] pr-[2%] h-full justify-center">
-              <h3 className="text-xl font-semibold text-gray-900 mb-[1%]">
-                Evolución Mensual: Top 10 Agencias por Volumen de Reclamos
-              </h3>
-              <div className="flex-1">
-                <AgencyBarRace />
-              </div>
-            </div>
-            <div className="flex flex-col lg:w-2/7 h-full justify-center bg-[#CAE8DA] mr-[1%] rounded-lg p-6 text-gray-800">
-              <p className="mb-4 text-sm leading-relaxed font-semibold">
-                El gráfico animado tipo race bar chart muestra la evolución mensual del volumen de reclamos al 311 por agencia en Nueva York entre 2010 y 2024. El Departamento de Policía (NYPD) se destaca como la agencia con más quejas de forma sostenida, principalmente por temas relacionados con calidad de vida como ruido, estacionamiento o aglomeraciones. En 2024 se observa un nuevo repunte en las quejas dirigidas al NYPD, lo que sugiere un aumento reciente en preocupaciones de seguridad vecinal. Un caso particular se dio en 2020, cuando el Departamento de Saneamiento (DSNY) ocupó de forma excepcional el segundo lugar en volumen de reclamos, reflejando cómo la pandemia priorizó temas de limpieza, residuos y salud pública. Superado ese contexto, la distribución volvió a sus patrones históricos, con el NYPD, DSNY, el Departamento de Vivienda (HPD), Transporte (DOT) y Protección Ambiental (DEP) como las agencias más solicitadas a lo largo del período.
-              </p>
-            </div>
-          </div>
-
-          {/* Line Chart Block */}
-          <div className="w-screen shrink-0 snap-start flex flex-col lg:flex-row p-[1%] justify-center items-center">
-            <div className="flex flex-col lg:w-5/7 pl-[2%] pr-[2%] h-full justify-center">
-              <h3 className="text-xl font-semibold text-gray-900 mb-[1%]">
-                Evolución mensual del tiempo promedio de resolución (Top 5 agencias)
-              </h3>
-              <div className="flex-1">
-                <LineChartAgency />
-              </div>
-            </div>
-            <div className="flex flex-col lg:w-2/7 h-full justify-center bg-[#CAE8DA] mr-[1%] rounded-lg p-6 text-gray-800">
-              <p className="mb-4 text-sm leading-relaxed font-semibold">
-                El dashboard incluye cinco gráficos de líneas que muestran cómo evolucionó el tiempo promedio de resolución de reclamos en las agencias más demandadas. Esta métrica indica cuán eficiente fue cada organismo a lo largo del tiempo: Vivienda (HPD): Mejora sostenida en su eficiencia, especialmente después de 2020, con tiempos de resolución más cortos en los últimos años. Policía (NYPD): Tiempos relativamente estables, con leves demoras durante 2020 pero una recuperación posterior. Saneamiento (DSNY): Fuerte aumento en los tiempos durante la pandemia, seguido de una clara mejora y normalización desde 2021. Transporte (DOT): Curva estable, con eficiencia sostenida y solo algunos picos puntuales de demora. Protección Ambiental (DEP): Respuesta constante y eficiente, con ligeras mejoras recientes. Destaca la atención continua a temas medioambientales.
-              </p>
-            </div>
-          </div>
+const AgencyRaceSection: React.FC<SectionProps> = ({ id }) => (
+  <section id={id} className="section">
+    <h2 className="section-title">
+      Evolución de Reclamos y Respuesta por Agencia
+    </h2>
+    <div className='section-body'>
+      <p className='paragraph'>
+        Además de analizar qué se reclama, es clave entender a quién se dirigen esas quejas. ¿Qué instituciones cargan con más reclamos? ¿Cómo cambia esa distribución con el tiempo? Para responder a estas preguntas, armamos un gráfico “race bar chart” que muestra mes a mes, entre 2010 y 2024, el top 10 de agencias responsables de gestionar los reclamos. Cada barra representa una agencia de la ciudad y se mueve con el tiempo en función del volumen de llamados que recibió. La animación permite ver con claridad cómo algunas suben, bajan, desaparecen o se consolidan como protagonistas del sistema. 
+      </p>
+      <div className="flex flex-col w-full h-full justify-center my-[2%]">
+        <h3 className="text-xl text-[16px] font-semibold text-gray-900">
+          Evolución Mensual: Top 10 Agencias por Volumen de Reclamos
+        </h3>
+        <div className="flex-1">
+          <AgencyBarRace />
         </div>
       </div>
+      <p className='paragraph'>
+        Desde 2010 en adelante, el Departamento de Policía de Nueva York (NYPD) y el Departamento de Preservación y Desarrollo de Vivienda (HPD) han intercambiado el primer y segundo puesto mes a mes. Esta situación refleja una tensión constante entre cuestiones de seguridad, ruido y convivencia (NYPD) y problemas habitacionales, como filtraciones, falta de calefacción y agua caliente (HPD). Datos del NYC Council Data Team muestran que el NYPD maneja cerca del 29 % de todos los reclamos no emergentes, con HPD cerca del 23 % <a
+          href='https://council.nyc.gov/data/311-agency/?utm_source=chatgpt.com' 
+          target="_blank" rel="noopener noreferrer" 
+          className="text-blue-600 underline hover:text-blue-800">
+        New York City Council</a>, lo que explica por qué estos dos organismos dominan la demanda ciudadana.
+        <br /><br />
+        En 2020, justo cuando aparece el pico de reclamos por basura y limpieza tras los recortes presupuestarios durante la pandemia, el Departamento de Saneamiento (DSNY) comienza a escalar y se mantiene casi ininterrumpidamente en el top 3. Un análisis de The New Yorker cuenta cómo ese verano de 2020, calles llenas de basura y quejas al 311 motivaron la designación de Jessica Tisch como comisionada, con la promesa de modernizar el sistema de recolección. Desde entonces, DSNY ha continuado recibiendo una presión sostenida a través de reclamos por desperdicios, ratas y limpieza urbana, manteniéndose firme entre los primeros tres puestos.
+        <br /><br />
+        Saber quién recibe más quejas dice mucho. Pero saber cuánto tarda en responder, dice más todavía. No es lo mismo gestionar miles de reclamos en pocos días que dejarlos acumular por semanas. Por eso, antes de cerrar esta sección, sumamos una última mirada: la del tiempo. ¿Qué agencias son más eficientes? ¿Cuáles mejoraron? ¿Y en cuáles las demoras siguen siendo parte del problema?
+        <br /><br />
+        Para seguirle el ritmo al 311 no alcanza con contar cuántas veces suena el teléfono. También hay que mirar qué tan rápido se atiende cada reclamo. En esta visualización vemos cómo evolucionó, mes a mes, el tiempo promedio de resolución en las cinco agencias más demandadas. Cada línea es una historia distinta: hay mejoras sostenidas, retrocesos en pandemia, curvas estables y picos de crisis. 
+      </p>
+      <div className="flex flex-col w-full h-full justify-center my-[2%]">
+        <h3 className="text-xl text-[16px] font-semibold text-gray-900 mb-[1%]">
+          Evolución mensual del tiempo promedio de resolución (Top 5 agencias)
+        </h3>
+        <div className="flex-1">
+          <LineChartAgency />
+        </div>
+      </div>
+      <p className='paragraph'>
+        Con el paso del tiempo, los tiempos de respuesta de las principales agencias del 311 dejan ver sus propias dinámicas. El departamento de policía se muestra bastante parejo, aunque con dos subidas claras: una en enero de 2019 y otra en enero de 2022. En vivienda, el departamento de Preservación y Desarrollo de Vivienda tiene sus altibajos, pero sin desbordes: los tiempos varían, pero dentro de un margen razonable. Saneamiento, en cambio, arranca con demoras muy altas —no es fácil lidiar con ratas y basura acumulada— pero mejora mucho con los años. Transporte se mantiene tranquilo, con una línea bastante estable salvo algún que otro pico, como en agosto de 2017. Y Protección Ambiental, que empezó lento, fue afinando su ritmo hasta mostrar hoy una respuesta mucho más ágil. En conjunto, estas curvas muestran algo que no siempre se ve a simple vista: reclamar es solo la mitad del camino, la otra mitad es cuánto tarda el Estado en responder.
+      </p>
     </div>
   </section>
 );

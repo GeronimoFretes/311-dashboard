@@ -245,16 +245,16 @@ export default function ComplaintTypeBumpChart({ selected, selectedYear = null, 
   const onEvents = { click: (params: any) => { if (!drilledYear) { setDrilledYear(params.name); if(onYearSelect) onYearSelect(params.name); } } };
 
   return (
-    <div style={{ height: 450 }}>
+    <div className='relative h-full w-full' >
+      <ReactECharts option={option} onEvents={onEvents} style={{ height: '100%', width: '100%' }} />
       {drilledYear && (
         <button
           onClick={() => { setDrilledYear(null); if(onYearSelect) onYearSelect(null); }}
-          className={`px-3 py-1 rounded-full border bg-[#49A67A] text-white border-[#49A67A] transition`}
+          className={`absolute bottom-1 left-1/2 -translate-x-1/2 px-3 py-7/10 rounded-full border bg-[#49A67A] text-white border-[#49A67A] transition shadow`}
         >
           Vista anual
         </button>
       )}
-      <ReactECharts option={option} onEvents={onEvents} style={{ height: '100%', width: '100%' }} />
     </div>
   );
 }

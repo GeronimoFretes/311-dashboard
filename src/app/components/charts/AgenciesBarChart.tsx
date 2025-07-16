@@ -177,8 +177,10 @@ const AgencyBarRace: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-col items-start gap-4 ">
-      <div className="flex flex-row items-center gap-2 mt-0">
+    <div className="flex flex-col justify-center  ">
+      
+      <svg ref={svgRef} className="flex flex-row w-full h-full" />
+      <div className="flex flex-row justify-center items-center gap-2 mt-0">
         <button
           onClick={handlePauseToggle}
           className={`px-4 py-1 rounded-full border text-sm ${
@@ -207,8 +209,7 @@ const AgencyBarRace: React.FC = () => {
           </span>
         </div>
       </div>
-
-      <svg ref={svgRef} className="flex-1 w-full h-auto min-h-[500px]" />
+      
     </div>
   );
 };

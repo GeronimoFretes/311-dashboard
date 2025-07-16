@@ -131,7 +131,7 @@ export default function BoroughLineChart({ viewMode }: Props) {
         valueFormatter: (value: any) =>
           Number(Math.round(value)).toLocaleString('es-AR'),
       },
-      grid: { top: 20, left: 50, right: 20, bottom: 60, containLabel: true },
+      grid: { top: 20, left: 20, right: 20, bottom: 60, containLabel: true },
       legend: {
         bottom: 10,
         type: 'plain',

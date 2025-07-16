@@ -25,3 +25,15 @@ body {
   background: var(--background);
   color: var(--foreground);
 }
+
+/* === Reusable section helpers === */
+.section        { @apply w-full bg-white overflow-hidden justify-center items-center text-center pt-[2%]; }
+.title          { @apply text-center 
+                       text-3xl md:text-4xl font-bold text-[#49A67A]; }
+.section-title  { @apply text-start px-4 lg:px-6 max-w-screen-lg mx-auto
+                       text-3xl font-bold text-gray-900; }
+.section-body   { @apply max-w-screen-lg mx-auto py-[2%] px-4 lg:px-6 min-w-0; }
+.paragraph      { @apply text-lg text-justify items-center text-gray-700 leading-relaxed; }
+
+/* === Prevent any accidental overflow === */
+html, body { @apply overflow-x-hidden; }

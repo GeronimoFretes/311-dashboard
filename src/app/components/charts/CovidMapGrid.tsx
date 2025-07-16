@@ -183,7 +183,7 @@ const CovidMapGrid: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex space-x-3  items-center justify-center gap-[5%]">
+    <div className="flex space-x-3  items-center justify-center gap-[12%]">
       <div ref={containerRefs.pre} className="w-full max-w-[205px] h-[200px] mx-auto lg:mx-0 flex-shrink-0 rounded-lg" />
       <div ref={containerRefs.covid} className="w-full max-w-[205px] h-[200px] mx-auto lg:mx-0 flex-shrink-0 rounded-lg" />
       <div ref={containerRefs.post} className="w-full max-w-[205px] h-[200px] mx-auto lg:mx-0 flex-shrink-0 rounded-lg" />

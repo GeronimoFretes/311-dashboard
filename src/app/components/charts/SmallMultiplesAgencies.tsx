@@ -47,16 +47,21 @@ export default function SmallMultiplesAgencies() {
       {agencies.map((agency, index) => (
         <div key={agency} className="mt-0 mb-0 relative">
           {/* Etiqueta de la agencia */}
-          <h4 className="font-semibold text-gray-700 text-ml absolute top-0 left-18 z-10 opacity-40 pointer-events-none">
+          <h4 className="font-semibold text-gray-700 text-ml absolute top-0 z-10 opacity-40 pointer-events-none">
             {translateAgencyName(agency)}
           </h4>
 
           <ResponsiveContainer width="100%" height={100}>
-            <LineChart data={groupedData[agency] || []}>
+            <LineChart data={groupedData[agency] || []} margin={{ top: 20, right: 0, left: 0, bottom: 0 }} >
               {/* Eje X oculto para todos los gráficos */}
               <XAxis dataKey="month_year" hide tickFormatter={(v) => d3.timeFormat('%Y-%m')(v as Date)} />
               {/* Eje Y sin ticks */}
-              <YAxis dataKey="avg_resolution_hours" tick={false} />
+              <YAxis 
+                dataKey="avg_resolution_hours" 
+                width={1}           
+                tick={false}        
+                tickLine={false} 
+                axisLine={true} />
 
               {/* Tooltip mejorado */}
               <Tooltip
