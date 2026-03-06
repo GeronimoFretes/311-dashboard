@@ -12,7 +12,7 @@ const AboutUsSection: React.FC<SectionProps> = ({ id }) => {
       </h2>
       <div className="section-body">
         <p className="paragraph">
-            Somos Ramón Eppens y Gerónimo Fretes, estudiantes de tercer año de la carrera de Analítica (Ciencia de Datos) en el Instituto Tecnológico de Buenos Aires (ITBA), Argentina.
+            Somos Ramón Eppens y Gerónimo Fretes, estudiantes de la carrera de Analítica (Ciencia de Datos) en el Instituto Tecnológico de Buenos Aires (ITBA), Argentina.
             <br /><br />
             Este trabajo nació como una exploración académica, pero rápidamente se transformó en algo más: una forma de usar los datos para contar historias relevantes, entender mejor la vida urbana y mostrar cómo las herramientas del análisis pueden iluminar los rincones menos visibles de una ciudad.
             <br /><br />
