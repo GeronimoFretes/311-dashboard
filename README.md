@@ -2,8 +2,8 @@
 
 Dashboard interactivo de análisis y storytelling sobre los reclamos al 311 de la ciudad de Nueva York entre 2010 y 2024, con foco en cómo cambiaron las tensiones urbanas antes, durante y después del COVID-19.
 
-[Ver dashboard][1]
-[Ver código][2]
+#### [Ver dashboard][1] 
+#### [Ver código][2]
 
 ---
 
