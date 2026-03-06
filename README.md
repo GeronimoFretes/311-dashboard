@@ -2,8 +2,8 @@
 
 Dashboard interactivo de análisis y storytelling sobre los reclamos al 311 de la ciudad de Nueva York entre 2010 y 2024, con foco en cómo cambiaron las tensiones urbanas antes, durante y después del COVID-19.
 
-**Ver dashboard:** `https://311-covid-dashboard.vercel.app`  
-**Ver código:** `https://github.com/GeronimoFretes/311-dashboard`
+[Ver dashboard][1]
+[Ver código][2]
 
 ---
 
@@ -94,6 +94,5 @@ Proyecto desarrollado por **Ramón Eppens** y **Gerónimo Fretes**.
 
 Si te interesa conversar sobre el proyecto, visualización de datos, storytelling o productos de analytics, podés escribirme a través de GitHub o LinkedIn.
 
-
-[1]: https://github.com/GeronimoFretes/311-dashboard/blob/main/README.md "311-dashboard/README.md at main · GeronimoFretes/311-dashboard · GitHub"
-[2]: https://311-covid-dashboard.vercel.app/ "Reclamos al 311 - NYC"
+[1]: https://311-covid-dashboard.vercel.app/ "Reclamos al 311 - NYC"
+[2]: https://github.com/GeronimoFretes/311-dashboard
