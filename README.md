@@ -106,7 +106,6 @@ Si te interesa conversar sobre el proyecto, visualización de datos, storytellin
 
 - **Email:** [gfretes@itba.edu.ar](mailto:gfretes@itba.edu.ar)
 - **LinkedIn:** [Gerónimo Fretes](https://www.linkedin.com/in/geronimo-fretes-18017b245)
-- **GitHub:** [GeronimoFretes](https://github.com/GeronimoFretes)
 
 [1]: https://311-covid-dashboard.vercel.app/ "Reclamos al 311 - NYC"
 [2]: https://github.com/GeronimoFretes/311-dashboard
