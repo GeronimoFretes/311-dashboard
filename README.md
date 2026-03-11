@@ -1,3 +1,13 @@
+# NYC 311 Dashboard
+
+Interactive analytics dashboard exploring NYC 311 complaint patterns over time, with a focus on how reporting behavior changed before, during, and after COVID-19.
+
+#### [Live dashboard][1] 
+
+**Note:** The current dashboard interface and narrative are in Spanish. The analytical structure, codebase, and visualizations are easy to follow, and an English version can be provided if needed.
+
+---
+
 # 311 NYC: Historia y Tendencias
 
 Dashboard interactivo de análisis y storytelling sobre los reclamos al 311 de la ciudad de Nueva York entre 2010 y 2024, con foco en cómo cambiaron las tensiones urbanas antes, durante y después del COVID-19.
