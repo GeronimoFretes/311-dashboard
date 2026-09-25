@@ -231,7 +231,6 @@ export default function CoverSection({ id }: SectionProps) {
             )}
           </div>
         </div>
-        <a href="URL">Link Text</a>
         <p className='paragraph'>
           Al desglosar los reclamos, se nota un patrón que habla mucho sobre la vida cotidiana en Nueva York. El ruido residencial lidera ampliamente, seguido por estacionamiento ilegal, falta de calefacción o agua caliente, entradas de autos bloqueadas y ruido en la vía pública. Estos problemas aparecen una y otra vez, sobre todo en barrios densamente poblados, donde la convivencia entre lo privado y lo público deja poco margen para el descanso o el orden.
           <br /><br />
