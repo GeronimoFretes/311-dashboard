@@ -1,19 +1,10 @@
-# NYC 311 Dashboard
-
-Interactive analytics dashboard exploring NYC 311 complaint patterns over time, with a focus on how reporting behavior changed before, during, and after COVID-19.
-
-#### [Live dashboard][1] 
-
-**Note:** The current dashboard interface and narrative are in Spanish. The analytical structure, codebase, and visualizations are easy to follow, and an English version can be provided if needed.
-
----
-
 # 311 NYC: Historia y Tendencias
 
-Dashboard interactivo de análisis y storytelling sobre los reclamos al 311 de la ciudad de Nueva York entre 2010 y 2024, con foco en cómo cambiaron las tensiones urbanas antes, durante y después del COVID-19.
+Dashboard interactivo de análisis y storytelling sobre los reclamos al sistema 311 de la ciudad de Nueva York entre 2010 y 2024, con foco en los patrones de demanda ciudadana, las diferencias territoriales y los cambios observados antes, durante y después de la pandemia.
 
-#### [Ver dashboard][1] 
-#### [Ver código][2]
+**[Explorar dashboard interactivo](https://311-covid-dashboard.vercel.app/)**
+
+> La interfaz y la narrativa del proyecto están disponibles en español.
 
 ---
 
@@ -24,6 +15,42 @@ Este proyecto transforma datos del sistema 311 de Nueva York en una experiencia 
 Más que mostrar gráficos aislados, la página está construida como una narrativa: arranca con un panorama general, profundiza en las diferencias territoriales entre boroughs, analiza qué agencias reciben más presión y cómo responden, y finalmente estudia el quiebre que produjo la pandemia en la dinámica de reclamos.
 
 El resultado es una pieza de **data storytelling** que combina análisis exploratorio, visualización interactiva y diseño de producto para convertir una base masiva de reclamos ciudadanos en una historia legible, navegable y visualmente clara.
+
+---
+
+## Datos y metodología
+
+El análisis cubre el período 2010–2024 y utiliza conjuntos de datos históricos preparados para explorar los reclamos ciudadanos registrados por el sistema 311 de Nueva York.
+
+### Fuentes de referencia
+
+Los datos públicos oficiales del sistema 311 pueden consultarse en NYC Open Data:
+
+- [311 Service Requests - 2010 to 2019](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-2019/76ig-c548)
+- [311 Service Requests - 2020 to Present](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2020-to-Present/erm2-nwe9)
+
+### Datos utilizados por la aplicación
+
+El repositorio incluye archivos CSV procesados y datos geográficos en `public/data/`, que alimentan las visualizaciones interactivas.
+
+Entre las dimensiones e indicadores utilizados se encuentran:
+
+- Evolución mensual de reclamos.
+- Volumen y tasas de reclamos por borough.
+- Tipos de reclamo.
+- Volumen de solicitudes por agencia.
+- Tiempo promedio de cierre registrado.
+- Distribución territorial de la demanda.
+
+Las visualizaciones se construyen sobre estos conjuntos de datos preparados. El repositorio no incluye el proceso completo de extracción y transformación de los registros originales.
+
+### Alcance del análisis
+
+El dashboard presenta un análisis histórico del período 2010–2024. No representa un sistema de monitoreo en tiempo real.
+
+Los indicadores permiten describir patrones de demanda ciudadana y explorar diferencias territoriales y temporales. Estas asociaciones no deben interpretarse por sí solas como evidencia causal sobre las condiciones urbanas o el desempeño de las agencias.
+
+En particular, el tiempo transcurrido hasta el cierre registrado de una solicitud no necesariamente equivale al tiempo efectivo de resolución del problema reportado.
 
 ---
 
@@ -67,6 +94,23 @@ El resultado es una pieza de **data storytelling** que combina análisis explora
 
 ---
 
+## Tecnologías y arquitectura
+
+El dashboard fue desarrollado como una aplicación web interactiva utilizando:
+
+- **Next.js, React y TypeScript:** estructura y desarrollo de la aplicación.
+- **D3, ECharts y Recharts:** visualizaciones y componentes gráficos interactivos.
+- **MapLibre GL:** visualización geográfica.
+- **Papa Parse:** lectura de los archivos CSV utilizados por la aplicación.
+
+La aplicación está organizada en secciones temáticas y componentes de visualización independientes.
+
+Los conjuntos de datos procesados se encuentran en `public/data/` y son utilizados por los distintos componentes para construir gráficos, mapas e indicadores.
+
+Esta estructura permite separar la presentación visual de los datos utilizados y facilita el mantenimiento y la evolución de las visualizaciones.
+
+---
+
 ## Por qué este proyecto es interesante
 
 Este trabajo nos interesó especialmente porque mezcla tres cosas que disfrutamos mucho:
@@ -106,6 +150,3 @@ Si te interesa conversar sobre el proyecto, visualización de datos, storytellin
 
 - **Email:** [gfretes@itba.edu.ar](mailto:gfretes@itba.edu.ar)
 - **LinkedIn:** [Gerónimo Fretes](https://www.linkedin.com/in/geronimo-fretes-18017b245)
-
-[1]: https://311-covid-dashboard.vercel.app/ "Reclamos al 311 - NYC"
-[2]: https://github.com/GeronimoFretes/311-dashboard
